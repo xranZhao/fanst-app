@@ -275,13 +275,17 @@ async function openBook(book) {
 
 function showBookMenu() {
   const b = state.currentBook;
+  const prog = state.progress[b.title];
+  const statusBadge = prog === 'recommended' ? '<span style="color:var(--sky);font-size:12px;">（已推荐）</span>'
+    : prog === 'passed' ? '<span style="color:var(--muted);font-size:12px;">（已过）</span>'
+    : '';
   $('#main').innerHTML = `
     <div class="screen">
       <div class="card">
-        <div class="card-title">${escapeHtml(b.title)}</div>
+        <div class="card-title">${escapeHtml(b.title)} ${statusBadge}</div>
         <div class="card-meta">${escapeHtml(b.cp || cpFromFile(b.file))} · ${(b.chars/10000).toFixed(1)}万字</div>
       </div>
-      <button class="btn btn-primary btn-block" style="margin-bottom:12px;" id="btn-read">📖 AI 阅读并判定</button>
+      <button class="btn btn-primary btn-block" style="margin-bottom:12px;" id="btn-read">AI 阅读并判定</button>
       <button class="btn btn-ghost btn-block" onclick="navTo('library')">返回书库</button>
     </div>`;
   $('#btn-read').onclick = () => runReading();
@@ -383,7 +387,8 @@ function showReadingReport() {
         <button class="btn btn-primary btn-block" id="btn-title-options" style="margin-bottom:12px;">生成标题候选</button>
         <button class="btn btn-ghost btn-block" id="btn-pass">这书不推，标记“已过”</button>
       `}
-      <button class="btn btn-ghost btn-block" style="margin-top:12px;" onclick="showBookMenu()">返回</button>
+      <button class="btn btn-ghost btn-block" style="margin-top:12px;" onclick="showBookMenu()">返回上书详情</button>
+      <button class="btn btn-ghost btn-block" style="margin-top:4px;" onclick="navTo('library')">返回书库</button>
     </div>`;
   $('#btn-pass').onclick = () => { state.progress[b.title] = 'passed'; saveProgress(); showToast('已标记“已过”'); navTo('library'); };
   const tbtn = $('#btn-title-options');
