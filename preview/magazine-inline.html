@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杂志风排版 · 微信安全版（可复制）</title>
+<style>
+  body { margin: 0; background: #ededed; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .toolbar { position: sticky; top: 0; background: #fff; padding: 10px 16px; border-bottom: 1px solid #eee; display: flex; gap: 10px; z-index: 10; align-items: center; }
+  .toolbar button { background: #3B82C5; color: #fff; border: none; padding: 8px 18px; border-radius: 6px; font-size: 14px; }
+  .toolbar .hint { font-size: 12px; color: #999; }
+  #toast { position: fixed; top: 60px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 8px 20px; border-radius: 20px; font-size: 13px; display: none; z-index: 99; }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <button onclick="copyArticle()">一键复制（去订阅号助手粘贴）</button>
+  <span class="hint">微信安全版：全部内联样式</span>
+</div>
+<div id="toast">已复制</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     微信安全版杂志模版 —— 全部内联样式，复制即所得
+     色板：天蓝 #3B82C5 / 浅蓝 #dcecf8 / 粉 #E8739A / 浅粉 #fdf2f5
+     展示衬线: "Noto Serif SC","Songti SC","SimSun",serif
+     正文无衬线: -apple-system,"PingFang SC","Microsoft YaHei",sans-serif
+═══════════════════════════════════════════════════════════════ -->
+<article id="article" style="max-width:680px;margin:0 auto;background:#fafcfd;">
+
+  <!-- ① CP 角色图占位（发布时在订阅号助手替换为真实图片） -->
+  <div style="width:100%;height:180px;background:linear-gradient(135deg,#c8ddf5 0%,#a8cdf0 30%,#f5d8e2 60%,#fad2e0 100%);text-align:center;">
+    <p style="margin:0;padding-top:80px;font-size:14px;color:rgba(59,130,197,0.6);letter-spacing:1px;">📷 在此插入 CP 角色图</p>
+  </div>
+  <div style="height:3px;background:#3B82C5;opacity:0.7;font-size:0;line-height:0;">&nbsp;</div>
+
+  <!-- ② 信息卡 -->
+  <section style="background:#ffffff;padding:20px 16px 20px;">
+    <h1 style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:26px;font-weight:700;line-height:1.35;color:#1a1a1a;margin:0 0 20px;">
+      马尔福：住进<span style="color:#3B82C5;">死对头家</span>是什么体验？
+    </h1>
+    <p style="margin:0 0 8px;font-size:14px;line-height:1.7;color:#3a3a3a;"><span style="font-size:12px;color:#888888;letter-spacing:1px;margin-right:8px;">作者</span><span style="font-weight:500;color:#1a1a1a;">爱丽丝梦游症候群</span></p>
+    <p style="margin:0 0 8px;font-size:14px;line-height:1.7;color:#3a3a3a;"><span style="font-size:12px;color:#888888;letter-spacing:1px;margin-right:8px;">分级</span><span style="font-weight:500;color:#3B82C5;">NC-17</span></p>
+    <p style="margin:0 0 8px;font-size:14px;line-height:1.7;color:#3a3a3a;"><span style="font-size:12px;color:#888888;letter-spacing:1px;margin-right:8px;">属性</span><span style="font-weight:500;color:#1a1a1a;">铁腕政治家救世主哈利 × 落魄斯莱特林王子德拉科</span></p>
+    <p style="margin:0;font-size:14px;line-height:1.7;color:#3a3a3a;"><span style="font-size:12px;color:#888888;letter-spacing:1px;margin-right:8px;">CP</span><span style="font-weight:500;color:#3B82C5;">德哈 · Drarry</span></p>
+    <p style="margin:14px 0 0;padding-top:14px;border-top:1px solid #e0e0e0;font-size:0;line-height:1.8;">
+      <span style="display:inline-block;padding:4px 12px;background:#dcecf8;color:#2d72ad;border-radius:9999px;font-size:12px;font-weight:500;margin:0 8px 6px 0;">战后</span><span style="display:inline-block;padding:4px 12px;background:#dcecf8;color:#2d72ad;border-radius:9999px;font-size:12px;font-weight:500;margin:0 8px 6px 0;">正剧向</span><span style="display:inline-block;padding:4px 12px;background:#dcecf8;color:#2d72ad;border-radius:9999px;font-size:12px;font-weight:500;margin:0 8px 6px 0;">相互救赎</span><span style="display:inline-block;padding:4px 12px;background:#dcecf8;color:#2d72ad;border-radius:9999px;font-size:12px;font-weight:500;margin:0 8px 6px 0;">宿敌变同居</span><span style="display:inline-block;padding:4px 12px;background:#dcecf8;color:#2d72ad;border-radius:9999px;font-size:12px;font-weight:500;margin:0 8px 6px 0;">权力博弈</span>
+    </p>
+  </section>
+
+  <!-- 00 · 小说哪里看 -->
+  <section style="padding:20px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">00</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">小说哪里看</span>
+    </p>
+    <div style="padding:12px 14px;background:#ffffff;border:1.5px solid #3B82C5;border-radius:8px;margin-bottom:12px;">
+      <span style="display:inline-block;padding:5px 12px;background:#3B82C5;color:#ffffff;border-radius:4px;font-size:12px;font-weight:600;margin-right:10px;">小说在哪看</span>
+      <span style="font-size:14px;font-weight:500;color:#1a1a1a;line-height:1.6;">请看这篇：<span style="color:#3B82C5;font-weight:700;">小说阅读途径 →</span></span>
+    </div>
+    <div style="padding:12px 14px;background:#ffffff;border:1.5px solid #3B82C5;border-radius:8px;">
+      <span style="display:inline-block;padding:5px 12px;background:#3B82C5;color:#ffffff;border-radius:4px;font-size:12px;font-weight:600;margin-right:10px;">已推小说合集</span>
+      <span style="font-size:14px;font-weight:500;color:#1a1a1a;line-height:1.6;">请看这篇：<span style="color:#3B82C5;font-weight:700;">麻瓜请看这！我这有3000+哈利波特同人文 →</span></span>
+    </div>
+  </section>
+
+  <!-- 01 · 文案推荐 -->
+  <section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">01</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">文案推荐</span>
+    </p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">哈利·波特站在魔法即是力量纪念碑前，他嘴角是淡淡的温和笑意，带着恰到好处的疏离以及让人觉得敬畏和莫测的自信。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">哈利·波特，他拥有无数头衔：大难不死的男孩，格兰芬多的黄金男孩，救世主，凤凰社的领导者，战争英雄，以及现在——<strong style="color:#1a1a1a;">新一任的魔法部长</strong>。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">人们带着敬畏，甚至是恐惧的眼神看着他。在公众的眼中，他是一个伟大而独裁的领导者；在下属的面前，是如同伏地魔一般强大而可怕的巫师；在政治家眼中，是一个以铁腕政策玩弄权力的野心家；在他曾经的朋友们眼中，是一个完完全全的陌生人。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">哈利·波特走在幽深黑暗的走廊里，脚步声一声一声空荡地回响。他知道自己走在一条黑暗的、漫长的道路上。他曾经所爱的人们，都永远地留在了这条黑暗的道路上……</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0;">而他，只能继续永远地留下他们，不回头，不驻足，继续向前走。</p>
+  </section>
+
+  <!-- 02 · Fanst 碎碎念 -->
+  <section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">02</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">Fanst 碎碎念</span>
+    </p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">好，先让我深呼吸一下。这篇文，怎么说呢，就是那种看完会让你在被窝里翻来覆去睡不着的类型。战后文看过不少，但这篇的质感真的很不一样。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">作者笔下的哈利，已经不是我们记忆中那个懵懵懂懂的绿眼小男孩了。<strong style="color:#1a1a1a;">23岁，最年轻的魔法部长</strong>，制定颁布了 347 条法令，恢复纯血家族的部分特权，削弱魔法保密条款，引进麻瓜科技——听起来是不是很厉害？</p>
+    <p style="text-align:center;color:#e5dfe2;font-size:10px;letter-spacing:4px;margin:20px 0;">· · ·</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">但代价是什么？金妮死了，死在 17 岁的平安夜。罗恩失去了一只眼睛。韦斯莱家恨他入骨。赫敏看他的眼神全是陌生。他变成了一个用幻身咒掩盖黑眼圈和苍白脸色的政治家，对着镜头露出温和又有些羞怯的微笑，背地里靠缓和剂和止痛药度日。这个哈利，真的让人心疼到不行。</p>
+    <p style="text-align:center;color:#e5dfe2;font-size:10px;letter-spacing:4px;margin:20px 0;">· · ·</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">然后德拉科出场了。从阿兹卡班出来的德拉科，头发长过了肩膀，失去了铂金的光泽，乱糟糟卷曲着。但即使如此落魄，他身上依旧带着斯莱特林王子的气质——颓废忧郁却高贵。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0;">哈利把德拉科安排住在格里莫广场 12 号，监管他。死对头，同居，监管者和被监管者——这设定绝了好吗？！</p>
+  </section>
+
+  <!-- 03 · 名场面预警 -->
+  <section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">03</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">名场面预警</span>
+    </p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">两个人一开始是真的互相看不顺眼。德拉科住进来之后天天跟狐朋狗友开 party，把布莱克祖宅搞得乌烟瘴气。哈利呢？早出晚归，故意避开德拉科，两个人在同一个屋檐下住了一个月，说的话不超过十句。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">直到有一天——</p>
+    <div style="margin:20px 0;padding:16px;background:#fdf2f5;border-left:3px solid #E8739A;">
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">「哈利·波特。」</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">哈利从那份愚蠢的《预言家日报》上抬起头来。马尔福正在愤怒地看着他。</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">「我知道你讨厌我，哈利波特，」德拉科冷笑了一声，「呵，当然，我是个食死徒，是个垃圾。伟大的救世主当然不屑和我这样一个垃圾住在一起，不是么？」</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">「我并没有这样想。」</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">「那你到底怎么想，你说出来啊！我又不是你的男朋友，<strong style="color:#1a1a1a;">我没心思去猜你每天到底都在想些什么！</strong>」</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0;">哈利愣了愣，「你疯了吗，马尔福？！你当然不是我的男朋友！」于是两个人互相瞪着陷入了尴尬的沉默。</p>
+    </div>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">德拉科你这是在撒娇吗？！你这委屈巴巴的语气是认真的吗？！然后两个人就开始了漫长的和解之路。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0;">两个人从互相防备到互相依赖，从针锋相对到并肩作战。这个过程写得又细腻又自然，一点都不突兀。</p>
+  </section>
+
+  <!-- 04 · 最戳我的一个细节 -->
+  <section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">04</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">最戳我的一个细节</span>
+    </p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">德拉科用无杖魔法施展"时光再现"，凌晨三点睡不着。哈利半夜头疼发作倒在厨房里，德拉科发现后默默守在他床边。第二天早上德拉科递给他一杯自己熬的止痛缓和剂。</p>
+    <div style="margin:20px 0;padding:16px;background:#fdf2f5;border-left:3px solid #E8739A;">
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0 0 8px;">哈利问他：「我以为我们在冷战。你怎么会关心我的事？」</p>
+      <p style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:13px;line-height:1.85;color:#3a3a3a;font-style:italic;margin:0;">德拉科说：「我们已经是成年人了，已经过了吵架怄气的年纪了。而且……<strong style="color:#1a1a1a;">我能理解你所做的一切。</strong>」</p>
+    </div>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0;">德拉科说「我能理解你」的时候，我眼泪直接下来了。只有这个曾经的死对头，看穿了他铁腕面具下的疲惫和孤独。</p>
+  </section>
+
+  <!-- 05 · 综合评价 -->
+  <section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
+    <p style="margin:0 0 24px;">
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:40px;font-weight:700;line-height:1;color:#3B82C5;vertical-align:middle;">05</span>
+      <span style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin-left:12px;vertical-align:middle;">综合评价</span>
+    </p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">这篇文的核心主题是 <em>"memento mori"</em>——记住你终将死去。但作者要说的恰恰相反：<strong style="color:#1a1a1a;">正因为终将死去，才更要好好活着。</strong></p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">两个遍体鳞伤的人，在格里莫广场 12 号这座阴暗的老宅子里，一点一点把对方从深渊里拉了回来。他们没有拯救世界，他们拯救了彼此。</p>
+    <p style="font-size:15px;line-height:1.85;color:#3a3a3a;margin:0 0 14px;">文笔方面没话说，正剧向但不沉闷，人物刻画非常立体。</p>
+    <div style="margin:20px 0 0;padding:18px 16px;background:#ffffff;border:1px solid #E8739A;border-left-width:3px;border-radius:4px;">
+      <p style="font-size:12px;font-weight:600;color:#E8739A;margin:0 0 6px;">⚠ 阅读提醒</p>
+      <p style="font-size:13px;line-height:1.8;color:#3a3a3a;margin:0 0 6px;"><strong style="color:#1a1a1a;">NC-17 分级，部分内容不适合未成年。</strong></p>
+      <p style="font-size:13px;line-height:1.8;color:#3a3a3a;margin:0;">另外这篇是正剧向，节奏偏慢，需要耐心看进去。但一旦看进去，就再也出不来了。</p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section style="padding:28px 16px 32px;background:linear-gradient(180deg,#fdf2f5 0%,#eef5fb 100%);text-align:center;border-top:1px solid #e5dfe2;">
+    <p style="font-size:12px;line-height:2;color:#888888;margin:0 0 20px;">所有荣誉与利益属于作者和创作者，Fanst 只是同人文的搬运工。<br>即使你不了解这些角色，也不用担心，该书完全可以当成一部独立小说看待。</p>
+    <div style="display:inline-block;padding:12px 28px;background:#ffffff;border:2px solid #E8739A;border-radius:8px;">
+      <p style="font-size:14px;font-weight:600;line-height:1.6;color:#E8739A;margin:0;">💬 非常需要你的推荐留言或观后感！</p>
+      <p style="font-size:12px;color:#888888;margin:4px 0 0;">读完这篇文你有什么感受？在评论区告诉我们～</p>
+    </div>
+    <p style="margin:18px 0 0;font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:12px;color:#b8c8d5;letter-spacing:2px;">Fanst 推文杂志 · 哈利波特特辑</p>
+  </section>
+
+</article>
+
+<script>
+function copyArticle() {
+  var el = document.getElementById('article');
+  var done = function() {
+    var t = document.getElementById('toast');
+    t.style.display = 'block';
+    setTimeout(function(){ t.style.display = 'none'; }, 2000);
+  };
+  if (navigator.clipboard && window.ClipboardItem) {
+    var html = el.outerHTML;
+    var item = new ClipboardItem({
+      'text/html': new Blob([html], {type: 'text/html'}),
+      'text/plain': new Blob([el.innerText], {type: 'text/plain'})
+    });
+    navigator.clipboard.write([item]).then(done).catch(function(){ legacyCopy(el, done); });
+  } else {
+    legacyCopy(el, done);
+  }
+}
+function legacyCopy(el, done) {
+  var range = document.createRange();
+  range.selectNodeContents(el);
+  var sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  document.execCommand('copy');
+  sel.removeAllRanges();
+  done();
+}
+</script>
+</body>
+</html>

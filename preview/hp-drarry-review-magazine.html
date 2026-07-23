@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>马尔福：住进死对头家是什么体验？ — Fanst 推文杂志</title>
+<style>
+/* ═══════════════════════════════════════════════════════════════════════
+ * WeChat Design System — tokens.css verbatim :root block
+ * Extended with macaron palette: sky blue primary, green secondary
+ * ═══════════════════════════════════════════════════════════════════ */
+:root {
+  --bg:           #ededed;
+  --surface:      #f7f7f7;
+  --surface-warm: var(--surface);
+  --fg:    #1a1a1a;
+  --fg-2:  var(--fg);
+  --muted: #888888;
+  --meta:  var(--muted);
+  --border:      #e0e0e0;
+  --border-soft: var(--border);
+  --accent:        #07c160;
+  --accent-on:     #ffffff;
+  --accent-hover:  #10b160;
+  --accent-active: #059050;
+  --success: #07c160;
+  --warn:    #fab702;
+  --danger:  #fa5151;
+  --font-display: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", "STSong", serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 15px;
+  --text-lg:   16px;
+  --text-xl:   18px;
+  --text-2xl:  24px;
+  --text-3xl:  32px;
+  --text-4xl:  48px;
+  --leading-body:     1.6;
+  --leading-tight:    1.3;
+  --tracking-display: -0.01em;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --section-y-desktop: 72px;
+  --section-y-tablet:  48px;
+  --section-y-phone:   32px;
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   16px;
+  --radius-pill: 9999px;
+  --elev-flat:   none;
+  --elev-ring:   0 0 0 1px var(--border);
+  --elev-raised: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --focus-ring: 0 0 0 3px color-mix(in oklab, var(--accent), transparent 70%);
+  --motion-fast:   100ms;
+  --motion-base:   200ms;
+  --ease-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --container-max:            1200px;
+  --container-gutter-desktop: 24px;
+  --container-gutter-tablet:  16px;
+  --container-gutter-phone:   16px;
+
+  /* ─── Macaron palette extensions ─── */
+  --macaron-sky:       #3B82C5;
+  --macaron-sky-light: #dcecf8;
+  --macaron-sky-pale:  #eef5fb;
+  --macaron-pink:       #E8739A;
+  --macaron-pink-light: #fce8ee;
+  --macaron-pink-pale:  #fdf2f5;
+  --macaron-mint:       #b8e6d0;
+  --macaron-mint-light: #eafaf1;
+  --paper:             #fafcfd;
+  --ink-soft:          #3a3a3a;
+  --divider:           #e5dfe2;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * Reset & Base — WeChat-compatible: no absolute positioning, no overlap
+ * ═══════════════════════════════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100%; display: block; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * Magazine Container
+ * ═══════════════════════════════════════════════════════════════════════ */
+.magazine {
+  max-width: 680px;
+  margin: 0 auto;
+  background: var(--paper);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * ① CP CHARACTER IMAGE PLACEHOLDER
+ *    WeChat-safe: full-width block, no overlap. Replace in 微信公众号 editor.
+ * ═══════════════════════════════════════════════════════════════════════ */
+.cp-image-slot {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: linear-gradient(135deg, #c8ddf5 0%, #a8cdf0 30%, #f5d8e2 60%, #fad2e0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cp-image-slot::after {
+  content: '📷 在此插入德哈 CP 角色图';
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: rgba(59, 130, 197, 0.6);
+  letter-spacing: 0.04em;
+}
+/* Thin sky-blue rule below image — clean transition to info card */
+.cp-image-rule {
+  height: 3px;
+  background: var(--macaron-sky);
+  opacity: 0.7;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * ② INFO CARD
+ *    Flat white card, sequential flow — no overlap with image above
+ * ═══════════════════════════════════════════════════════════════════════ */
+.info-card {
+  background: #fff;
+  padding: 28px 28px 24px;
+}
+.info-card h1 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+  margin-bottom: 20px;
+}
+.info-card h1 .highlight {
+  color: var(--macaron-sky);
+  font-style: normal;
+}
+.info-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+.info-meta-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.info-meta-label {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  min-width: 56px;
+  flex-shrink: 0;
+}
+.info-meta-value {
+  font-weight: 500;
+  color: var(--fg);
+}
+.info-meta-value.sky {
+  color: var(--macaron-sky);
+}
+
+/* Tag chips */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.tag-chip {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--macaron-sky-light);
+  color: #2d72ad;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * SECTION COMMON
+ * ═══════════════════════════════════════════════════════════════════════ */
+.section {
+  padding: 40px 28px;
+}
+.section + .section {
+  border-top: 1px solid var(--divider);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-number {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--macaron-sky);
+}
+.section-label {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+  color: var(--fg);
+}
+
+/* ─── Body copy — clean, no centered big text ─── */
+.section-body {
+  font-size: var(--text-base);
+  line-height: 1.85;
+  color: var(--ink-soft);
+}
+.section-body p {
+  margin-bottom: 14px;
+}
+.section-body p:last-child {
+  margin-bottom: 0;
+}
+.section-body strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+.section-body em {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * QUOTE BLOCK — image-3 style: smaller, serif italic, sky-blue left bar
+ * ═══════════════════════════════════════════════════════════════════════ */
+.quote-block {
+  margin: 20px 0;
+  padding: 20px 22px;
+  background: var(--macaron-pink-pale);
+  border-left: 3px solid var(--macaron-pink);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.quote-block p {
+  font-family: var(--font-display);
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.quote-block p:last-child {
+  margin-bottom: 0;
+}
+.quote-block p strong {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--fg);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * WARNING BOX — image-4 style: wider padding, sky-blue accent
+ * ═══════════════════════════════════════════════════════════════════════ */
+.warning-box {
+  margin: 20px 0;
+  padding: 24px 24px;
+  background: #fff;
+  border: 1px solid var(--macaron-pink);
+  border-left-width: 3px;
+  border-radius: var(--radius-sm);
+}
+.warning-box p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+.warning-box p:last-child {
+  margin-bottom: 0;
+}
+.warning-box p strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+.warning-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--macaron-pink);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * 00 · RESOURCE SECTION — prominent traffic funnel, sky-blue cards
+ * ═══════════════════════════════════════════════════════════════════════ */
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.resource-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px;
+  background: #fff;
+  border: 1.5px solid var(--macaron-sky);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.resource-item .res-label {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 5px 12px;
+  background: var(--macaron-sky);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.resource-item .res-link-text {
+  font-weight: 500;
+  color: var(--fg);
+}
+.resource-item .res-arrow {
+  color: var(--macaron-sky);
+  font-weight: 700;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * DIVIDER
+ * ═══════════════════════════════════════════════════════════════════════ */
+.soft-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 20px 0;
+  color: var(--divider);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+.soft-divider::before,
+.soft-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+  max-width: 60px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * FOOTER — simplified: two copyright lines + strong CTA for comments
+ * ═══════════════════════════════════════════════════════════════════════ */
+.footer-section {
+  padding: 36px 28px 40px;
+  background: linear-gradient(180deg, var(--macaron-pink-pale) 0%, var(--macaron-sky-pale) 100%);
+  text-align: center;
+  border-top: 1px solid var(--divider);
+}
+.footer-section .copyright {
+  font-size: 12px;
+  line-height: 2;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+/* CTA for comments — prominent but not loud */
+.footer-cta {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #fff;
+  border: 2px solid var(--macaron-pink);
+  border-radius: var(--radius-md);
+}
+.footer-cta p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--macaron-pink);
+  letter-spacing: 0.02em;
+}
+.footer-brand {
+  margin-top: 18px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: #b8c8d5;
+  letter-spacing: 0.08em;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * RESPONSIVE — max 520px breakpoint
+ * ═══════════════════════════════════════════════════════════════════════ */
+@media (max-width: 520px) {
+  .info-card {
+    padding: 22px 18px 20px;
+  }
+  .info-card h1 {
+    font-size: 22px;
+  }
+  .section {
+    padding: 32px 18px;
+  }
+  .section-number {
+    font-size: 36px;
+  }
+  .section-label {
+    font-size: 20px;
+  }
+  .quote-block {
+    padding: 16px;
+    margin: 16px 0;
+  }
+  .warning-box {
+    padding: 18px 16px;
+  }
+  .resource-item {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+  .footer-section {
+    padding: 28px 18px 32px;
+  }
+}
+</style>
+</head>
+<body>
+
+<article class="magazine" data-od-id="magazine-article">
+
+  <!-- ════════════════════════════════════════════════════════
+   ① CP 角色图 — 色块占位
+      在微信公众号编辑器中替换为真实图片
+      下方信息卡独立排列，互不重叠
+   ════════════════════════════════════════════════════════════ -->
+  <div class="cp-image-slot" data-od-id="cp-image-placeholder"></div>
+  <div class="cp-image-rule"></div>
+
+  <!-- ════════════════════════════════════════════════════════
+   ② 推文信息卡
+      字段：标题 / 作者 / 分级 / 攻受属性 / CP角色 / 标签
+   ════════════════════════════════════════════════════════════ -->
+  <section class="info-card" data-od-id="info-card">
+    <h1 data-od-id="article-title">
+      马尔福：住进<span class="highlight">死对头家</span>是什么体验？
+    </h1>
+    <div class="info-meta">
+      <div class="info-meta-row">
+        <span class="info-meta-label">作者</span>
+        <span class="info-meta-value">爱丽丝梦游症候群</span>
+      </div>
+      <div class="info-meta-row">
+        <span class="info-meta-label">分级</span>
+        <span class="info-meta-value sky">NC-17</span>
+      </div>
+      <div class="info-meta-row">
+        <span class="info-meta-label">属性</span>
+        <span class="info-meta-value">铁腕政治家救世主哈利 × 落魄斯莱特林王子德拉科</span>
+      </div>
+      <div class="info-meta-row">
+        <span class="info-meta-label">CP</span>
+        <span class="info-meta-value sky">德哈 · Drarry</span>
+      </div>
+    </div>
+    <div class="tag-row">
+      <span class="tag-chip">战后</span>
+      <span class="tag-chip">正剧向</span>
+      <span class="tag-chip">相互救赎</span>
+      <span class="tag-chip">宿敌变同居</span>
+      <span class="tag-chip">权力博弈</span>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   00 · 小说哪里看
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-resource" style="padding-top:28px;padding-bottom:28px;">
+    <div class="section-header">
+      <span class="section-number">00</span>
+      <h2 class="section-label">小说哪里看</h2>
+    </div>
+    <div class="resource-list">
+      <div class="resource-item">
+        <span class="res-label">小说在哪看</span>
+        <span class="res-link-text">请看这篇：<span class="res-arrow">小说阅读途径 →</span></span>
+      </div>
+      <div class="resource-item">
+        <span class="res-label">已推小说合集</span>
+        <span class="res-link-text">请看这篇：<span class="res-arrow">麻瓜请看这！我这有3000+哈利波特同人文 →</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   01 · 文案推荐
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-summary">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-label">文案推荐</h2>
+    </div>
+    <div class="section-body">
+      <p>哈利·波特站在魔法即是力量纪念碑前，他嘴角是淡淡的温和笑意，带着恰到好处的疏离以及让人觉得敬畏和莫测的自信。</p>
+      <p>哈利·波特，他拥有无数头衔：大难不死的男孩，格兰芬多的黄金男孩，救世主，凤凰社的领导者，战争英雄，以及现在——<strong>新一任的魔法部长</strong>。</p>
+      <p>人们带着敬畏，甚至是恐惧的眼神看着他。在公众的眼中，他是一个伟大而独裁的领导者；在下属的面前，是如同伏地魔一般强大而可怕的巫师；在政治家眼中，是一个以铁腕政策玩弄权力的野心家；在他曾经的朋友们眼中，是一个完完全全的陌生人。</p>
+      <p>哈利·波特走在幽深黑暗的走廊里，脚步声一声一声空荡地回响。他知道自己走在一条黑暗的、漫长的道路上。他曾经所爱的人们，都永远地留在了这条黑暗的道路上……</p>
+      <p>而他，只能继续永远地留下他们，不回头，不驻足，继续向前走。</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   02 · Fanst 碎碎念
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-fanst-thoughts">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-label">Fanst 碎碎念</h2>
+    </div>
+    <div class="section-body">
+      <p>好，先让我深呼吸一下。这篇文，怎么说呢，就是那种看完会让你在被窝里翻来覆去睡不着的类型。战后文看过不少，但这篇的质感真的很不一样。</p>
+      <p>作者笔下的哈利，已经不是我们记忆中那个懵懵懂懂的绿眼小男孩了。<strong>23岁，最年轻的魔法部长</strong>，制定颁布了 347 条法令，恢复纯血家族的部分特权，削弱魔法保密条款，引进麻瓜科技——听起来是不是很厉害？</p>
+    </div>
+
+    <div class="soft-divider">· · ·</div>
+
+    <div class="section-body">
+      <p>但代价是什么？金妮死了，死在 17 岁的平安夜。罗恩失去了一只眼睛。韦斯莱家恨他入骨。赫敏看他的眼神全是陌生。他变成了一个用幻身咒掩盖黑眼圈和苍白脸色的政治家，对着镜头露出温和又有些羞怯的微笑，背地里靠缓和剂和止痛药度日。这个哈利，真的让人心疼到不行。</p>
+    </div>
+
+    <div class="soft-divider">· · ·</div>
+
+    <div class="section-body">
+      <p>然后德拉科出场了。从阿兹卡班出来的德拉科，头发长过了肩膀，失去了铂金的光泽，乱糟糟卷曲着。但即使如此落魄，他身上依旧带着斯莱特林王子的气质——颓废忧郁却高贵。所有人必须承认，他看上去糟透了，却仍旧引人注目。</p>
+      <p>哈利把德拉科安排住在格里莫广场 12 号，监管他。死对头，同居，监管者和被监管者——这设定绝了好吗？！</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   03 · 名场面预警
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-famous-scenes">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-label">名场面预警</h2>
+    </div>
+    <div class="section-body">
+      <p>两个人一开始是真的互相看不顺眼。德拉科住进来之后天天跟狐朋狗友开 party，抽大麻喝酒搞女孩，把布莱克祖宅搞得乌烟瘴气。哈利呢？早出晚归，故意避开德拉科，两个人在同一个屋檐下住了一个月，说的话不超过十句。</p>
+      <p>直到有一天——</p>
+    </div>
+
+    <!-- Quote block: image-3 style — smaller serif italic, sky-blue accent -->
+    <div class="quote-block" data-od-id="quote-fight-scene">
+      <p>「哈利·波特。」</p>
+      <p>哈利从那份愚蠢的《预言家日报》上抬起头来。马尔福正在愤怒地看着他。</p>
+      <p>「我知道你讨厌我，哈利波特，」德拉科冷笑了一声，「呵，当然，我是个食死徒，是个垃圾。伟大的救世主当然不屑和我这样一个垃圾住在一起，不是么？」</p>
+      <p>「我并没有这样想。」</p>
+      <p>「那你到底怎么想，你说出来啊！我又不是你的男朋友，<strong>我没心思去猜你每天到底都在想些什么！</strong>」</p>
+      <p>哈利愣了愣，「你疯了吗，马尔福？！你当然不是我的男朋友！」</p>
+      <p>于是两个人互相瞪着陷入了尴尬的沉默。</p>
+    </div>
+
+    <div class="section-body">
+      <p>德拉科你这是在撒娇吗？！你这委屈巴巴的语气是认真的吗？！然后两个人就开始了漫长的和解之路。从互呛白鼬往事，到德拉科发现哈利靠止痛药续命，主动给他熬缓和剂；从哈利给德拉科带回一根槭木魔杖，到德拉科在圣芒戈用摄魂取念帮哈利解决棘手案件。</p>
+      <p>两个人从互相防备到互相依赖，从针锋相对到并肩作战。这个过程写得又细腻又自然，一点都不突兀。</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   04 · 最戳我的细节
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-detail">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2 class="section-label">最戳我的一个细节</h2>
+    </div>
+    <div class="section-body">
+      <p>德拉科用无杖魔法施展"时光再现"，凌晨三点睡不着。哈利半夜头疼发作倒在厨房里，德拉科发现后默默守在他床边。第二天早上德拉科递给他一杯自己熬的止痛缓和剂。</p>
+    </div>
+
+    <div class="quote-block" data-od-id="quote-understand">
+      <p>哈利问他：「我以为我们在冷战。你怎么会关心我的事？」</p>
+      <p>德拉科说：「我们已经是成年人了，已经过了吵架怄气的年纪了。而且……<strong>我能理解你所做的一切。</strong>」</p>
+    </div>
+
+    <div class="section-body">
+      <p>德拉科说「我能理解你」的时候，我眼泪直接下来了。哈利身边所有人都在远离他——罗恩恨他，赫敏不理解他，纳威卢娜也只是远远地看着他。只有这个曾经的死对头，这个从阿兹卡班出来的食死徒，看穿了他铁腕面具下的疲惫和孤独。</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   05 · 综合评价
+   ════════════════════════════════════════════════════════════ -->
+  <section class="section" data-od-id="section-review">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2 class="section-label">综合评价</h2>
+    </div>
+    <div class="section-body">
+      <p>这篇文的核心主题是 <em>"memento mori"</em>——记住你终将死去。但作者要说的恰恰相反：<strong>正因为终将死去，才更要好好活着。</strong></p>
+      <p>哈利在战后变成了一个冰冷的政治机器，用权力和冷漠武装自己。德拉科在阿兹卡班失去了一切，出来后只能用酒精和毒品麻痹自己。两个遍体鳞伤的人，在格里莫广场 12 号这座阴暗的老宅子里，一点一点把对方从深渊里拉了回来。他们没有拯救世界，他们拯救了彼此。</p>
+      <p>文笔方面没话说，正剧向但不沉闷，人物刻画非常立体。德拉科的毒舌傲娇和脆弱并存，哈利的铁血手腕和柔软内心形成强烈反差。战争的残酷、政治的博弈、人性的复杂，都写得很有深度。</p>
+    </div>
+
+    <!-- Warning box: image-4 style — wider padding, sky-blue, independent block -->
+    <div class="warning-box" data-od-id="warning-nc17">
+      <div class="warning-label">⚠ 阅读提醒</div>
+      <p><strong>NC-17 分级，部分内容不适合未成年。</strong></p>
+      <p>另外这篇是正剧向，节奏偏慢，需要耐心看进去。但一旦看进去，就再也出不来了。</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+   收尾 — 仅两句版权声明 + 强烈呼吁留言
+   ════════════════════════════════════════════════════════════ -->
+  <footer class="footer-section" data-od-id="footer">
+    <p class="copyright">
+      所有荣誉与利益属于作者和创作者，Fanst 只是同人文的搬运工。<br>
+      即使你不了解这些角色，也不用担心，该书完全可以当成一部独立小说看待。
+    </p>
+    <div class="footer-cta" data-od-id="footer-cta-comment">
+      <p>💬 非常需要你的推荐留言或观后感！</p>
+      <p style="font-size:12px;font-weight:400;color:var(--muted);margin-top:4px;">读完这篇文你有什么感受？在评论区告诉我们～</p>
+    </div>
+    <div class="footer-brand">Fanst 推文杂志 · 哈利波特特辑</div>
+  </footer>
+
+</article>
+
+</body>
+</html>

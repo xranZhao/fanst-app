@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>磕学家排版预览 · 克制编辑部风</title>
+<style>
+  body { margin: 0; background: #f5f5f5; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .toolbar { position: sticky; top: 0; background: #fff; padding: 10px 16px; border-bottom: 1px solid #eee; display: flex; gap: 10px; z-index: 10; align-items: center; }
+  .toolbar button { background: #0051ba; color: #fff; border: none; padding: 8px 18px; border-radius: 6px; font-size: 14px; }
+  .toolbar .hint { font-size: 12px; color: #999; }
+  #toast { position: fixed; top: 60px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 8px 20px; border-radius: 20px; font-size: 13px; display: none; z-index: 99; }
+  .page { max-width: 677px; margin: 0 auto; background: #fff; padding: 20px 16px 60px; }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <button onclick="copyArticle()">一键复制（去订阅号助手粘贴）</button>
+  <span class="hint">这是预览页，看样式用。图片占位处发布时手动插图。</span>
+</div>
+<div id="toast">已复制</div>
+
+<!-- ============================================================
+     以下 <section id="article"> 内全部使用内联样式，
+     即复制到微信编辑器后实际保留的样子。
+     设计规范（克制编辑部风）：
+     - 品牌蓝 #0051ba：标题文字、强调
+     - 暗金 #c9a227：只做细节（边线、小方块、符号），绝不做色块
+     - 标题分两级：书名标题（居中/衬线/细线夹持）、章节编号（左对齐/蓝色编号/细分隔线）
+     - 磕学家注：金色左边线引用块
+============================================================= -->
+<section id="article" class="page">
+
+  <!-- 封面占位 -->
+  <p style="text-align:center; color:#bbb; font-size:13px; border:1px dashed #ddd; padding:30px 0; margin:0 0 6px;">【此处插入封面图】</p>
+  <p style="text-align:center; color:#999; font-size:13px; margin:0 0 32px;">很主观很主观，只推让我磕的死去活来的小说</p>
+
+  <!-- 获取方式 -->
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 6px;"><strong style="color:#0051ba;">【小说在哪看】</strong>请看这篇：小说阅读途径</p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 40px;"><strong style="color:#0051ba;">【已推小说合集】</strong>请看这篇：麻瓜请看这！我这有3000+哈利波特同人文</p>
+
+  <!-- ========== 第一本书 ========== -->
+
+  <!-- 书名标题（一级）：衬线 + 细线夹持 + 金色小方块 -->
+  <table style="width:100%; border-collapse:collapse; margin:0 0 8px;"><tr>
+    <td style="border-top:1px solid #e8e8e8; font-size:1px; line-height:1px;">&nbsp;</td>
+  </tr></table>
+  <p style="text-align:center; margin:18px 0 4px;">
+    <span style="color:#c9a227; font-size:10px; vertical-align:middle;">◆</span>
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:19px; font-weight:bold; color:#0051ba; letter-spacing:1px;"> 德赫《致命吸引》 </span>
+    <span style="color:#c9a227; font-size:10px; vertical-align:middle;">◆</span>
+  </p>
+  <table style="width:100%; border-collapse:collapse; margin:0 0 24px;"><tr>
+    <td style="border-top:1px solid #e8e8e8; font-size:1px; line-height:1px;">&nbsp;</td>
+  </tr></table>
+
+  <!-- 信息区：描边 chips -->
+  <p style="text-align:center; margin:0 0 28px;">
+    <span style="display:inline-block; border:1px solid #c9a227; color:#8a6d1d; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">作者 · bookworm1993</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">战后</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">正剧向</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">相互救赎</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">宿敌变同居</span>
+  </p>
+
+  <!-- 章节标题（二级）：蓝色编号 + 灰色文字 + 底部细线 -->
+  <p style="margin:36px 0 14px; padding-bottom:8px; border-bottom:1px solid #eee;">
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:20px; font-weight:bold; color:#0051ba;">01</span>
+    <span style="font-size:14px; color:#999; margin-left:8px; letter-spacing:2px;">人物设定</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">赫敏·格兰杰有个男朋友叫罗恩·韦斯莱，德拉科·马尔福有个女朋友叫做莎蒂·雷恩，可是他们却双双出轨成为一对。</p>
+
+  <p style="margin:36px 0 14px; padding-bottom:8px; border-bottom:1px solid #eee;">
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:20px; font-weight:bold; color:#0051ba;">02</span>
+    <span style="font-size:14px; color:#999; margin-left:8px; letter-spacing:2px;">剧情走向</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">德拉科摸摸下巴，我要把格兰杰变成美女，让韦斯莱你后悔，让莎蒂你咬牙。只是新鲜美女出炉后，德拉科你自己能把持住不动心吗？</p>
+
+  <p style="margin:36px 0 14px; padding-bottom:8px; border-bottom:1px solid #eee;">
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:20px; font-weight:bold; color:#0051ba;">03</span>
+    <span style="font-size:14px; color:#999; margin-left:8px; letter-spacing:2px;">推荐原因</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">这里是推荐原因正文。这里是推荐原因正文。这里是推荐原因正文。</p>
+
+  <!-- 磕学家注：金色左边线引用块 -->
+  <blockquote style="margin:20px 0; padding:12px 16px; border-left:3px solid #c9a227; background:#fafaf7;">
+    <p style="font-size:13px; color:#8a8a8a; line-height:1.8; margin:0; font-style:italic;">磕学家：整理出来才发现就是《风情万种》换了个名字，我专门写了一篇详尽书评推送《风情万种》，好奇可戳——&gt;链接；还有一个小彩蛋，这篇的翻译者是《龙的新娘》作者。</p>
+  </blockquote>
+
+  <p style="margin:36px 0 14px; padding-bottom:8px; border-bottom:1px solid #eee;">
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:20px; font-weight:bold; color:#0051ba;">04</span>
+    <span style="font-size:14px; color:#999; margin-left:8px; letter-spacing:2px;">名场面预警</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">这里是名场面正文。</p>
+
+  <p style="margin:36px 0 14px; padding-bottom:8px; border-bottom:1px solid #eee;">
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:20px; font-weight:bold; color:#0051ba;">05</span>
+    <span style="font-size:14px; color:#999; margin-left:8px; letter-spacing:2px;">综合评价</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">这里是综合评价正文。</p>
+
+  <!-- 书与书之间的分隔：细线 + 金色符号 -->
+  <p style="text-align:center; margin:48px 0; color:#c9a227; font-size:12px; letter-spacing:8px;">— ✦ —</p>
+
+  <!-- ========== 第二本书（演示重复单元） ========== -->
+  <table style="width:100%; border-collapse:collapse; margin:0 0 8px;"><tr>
+    <td style="border-top:1px solid #e8e8e8; font-size:1px; line-height:1px;">&nbsp;</td>
+  </tr></table>
+  <p style="text-align:center; margin:18px 0 4px;">
+    <span style="color:#c9a227; font-size:10px; vertical-align:middle;">◆</span>
+    <span style="font-family:'Songti SC','SimSun',serif; font-size:19px; font-weight:bold; color:#0051ba; letter-spacing:1px;"> 德赫《凤凰于飞》 </span>
+    <span style="color:#c9a227; font-size:10px; vertical-align:middle;">◆</span>
+  </p>
+  <table style="width:100%; border-collapse:collapse; margin:0 0 24px;"><tr>
+    <td style="border-top:1px solid #e8e8e8; font-size:1px; line-height:1px;">&nbsp;</td>
+  </tr></table>
+  <p style="text-align:center; margin:0 0 28px;">
+    <span style="display:inline-block; border:1px solid #c9a227; color:#8a6d1d; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">作者 · 待补充</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">虐心</span>
+    <span style="display:inline-block; border:1px solid #ddd; color:#888; font-size:12px; padding:2px 10px; border-radius:2px; margin:2px;">HE</span>
+  </p>
+  <p style="font-size:15px; color:#3a3a3a; line-height:1.8; margin:0 0 16px;">如果我们不相见，那不会有过多的牵绊与不舍；可是我们如果真的不相识，那不会有这么美好的时光与留恋。</p>
+
+  <!-- 引导点赞 footer -->
+  <p style="text-align:center; margin:56px 0 8px; color:#c9a227; font-size:12px; letter-spacing:8px;">— ✦ —</p>
+  <p style="font-size:12px; color:#aaa; line-height:1.8; margin:0 0 12px; font-style:italic;">所有荣誉与利益属于作者和创作者，fanst只是同人文的搬运工。即使你不了解这些角色，也不用担心，该书完全可以当成一部独立小说看待。</p>
+  <p style="font-size:13px; color:#888; line-height:1.8; margin:0; text-align:center;"><strong>要是你不喜欢就不要点赞，但要是能帮到你，能给Fanst点个赞鼓励一下不~</strong></p>
+
+</section>
+
+<script>
+function copyArticle() {
+  var el = document.getElementById('article');
+  var done = function() {
+    var t = document.getElementById('toast');
+    t.style.display = 'block';
+    setTimeout(function(){ t.style.display = 'none'; }, 2000);
+  };
+  if (navigator.clipboard && window.ClipboardItem) {
+    var html = el.outerHTML;
+    var blob = new Blob([html], {type: 'text/html'});
+    var item = new ClipboardItem({'text/html': blob, 'text/plain': new Blob([el.innerText], {type:'text/plain'})});
+    navigator.clipboard.write([item]).then(done).catch(function(){ legacyCopy(el, done); });
+  } else {
+    legacyCopy(el, done);
+  }
+}
+function legacyCopy(el, done) {
+  var range = document.createRange();
+  range.selectNodeContents(el);
+  var sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  document.execCommand('copy');
+  sel.removeAllRanges();
+  done();
+}
+</script>
+</body>
+</html>

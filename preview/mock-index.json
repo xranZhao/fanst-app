@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mock-1",
+    "title": "示例·致命吸引",
+    "cp": "德赫",
+    "file": "library/德赫/示例·致命吸引.txt",
+    "chars": 152300,
+    "bytes": 435000,
+    "recommended": true
+  },
+  {
+    "id": "mock-2",
+    "title": "示例·凤凰于飞",
+    "cp": "德赫",
+    "file": "library/德赫/示例·凤凰于飞.txt",
+    "chars": 88400,
+    "bytes": 252000,
+    "recommended": false
+  },
+  {
+    "id": "mock-3",
+    "title": "示例·After Noon",
+    "cp": "哈德",
+    "file": "library/哈德/示例·After Noon.txt",
+    "chars": 230072,
+    "bytes": 659302,
+    "recommended": false
+  },
+  {
+    "id": "mock-4",
+    "title": "示例·长夜将明",
+    "cp": "斯赫",
+    "file": "library/斯赫/示例·长夜将明.txt",
+    "chars": 512000,
+    "bytes": 1460000,
+    "recommended": false
+  },
+  {
+    "id": "mock-5",
+    "title": "示例·无名氏",
+    "cp": "待分类",
+    "file": "library/待分类/示例·无名氏.txt",
+    "chars": 46000,
+    "bytes": 131000,
+    "recommended": false
+  }
+]

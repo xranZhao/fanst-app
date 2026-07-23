@@ -1,0 +1,2054 @@
+# 小说库整理报告
+
+- 源目录: `D:\CLAUDE\01-HP同人\03-原小说库`
+- 输出: `D:\CLAUDE\fanst-app\library`
+- 耗时: 58 秒
+- **成功转换 3286 本**(源文件 4436 个),失败 318 个,跳过 57 个
+- TXT 库总大小: 893.0 MB
+- 已推荐标记: 102 本匹配成功, 39 行未匹配
+
+## 各格式处理数量
+
+| 格式 | 成功 | 失败 | 跳过 |
+|---|---|---|---|
+| .7z | 6 | 0 | 0 |
+| .cfg | 0 | 0 | 24 |
+| .ds_store | 0 | 0 | 1 |
+| .epub | 9 | 0 | 0 |
+| .ffs_tmp | 0 | 0 | 1 |
+| .mobi | 0 | 0 | 3 |
+| .pdf | 0 | 0 | 4 |
+| .rar | 3733 | 314 | 0 |
+| .txt | 543 | 1 | 0 |
+| .xltd | 0 | 0 | 24 |
+| .zip | 145 | 3 | 0 |
+
+## 失败文件列表
+
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】All You Want.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Claiming Hermione（1-33章全）.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Climax .txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Extempore.pdf.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】FDrvaOjUYAo9qZV.rar`: 压缩包内无 txt/html/epub/docx(内含: .jpg)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Five Days.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】HUNTED_机翻.rar`: 包内 docx 解析失败: File is not a zip file
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Her Sweet Decadent Smile.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Hot for Teacher.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Intertwine 交集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】LINKED难解之劫嘉嘉译.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Screenshot_20211031_011656_com.sina.weibo_edit_598924115237254.jpg.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Shou Fan The Art of.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】THEUNSEEMLYPROPOSAL-不合适的婚约.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】The Agency.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】The Good Girl.rar`: 包内 epub 解析失败: File is not a zip file
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】Utterly Despicable 卑鄙至极.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】hp恶龙的守护.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】what a difference a night makes 忽如一夜春风来.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】兵临城下.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】十年完整版.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】反乌托邦.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】对角巷的肉店铺.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】寻找.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源(1)\【HP德赫】拍卖会.rar`: 包内 epub 解析失败: File is not a zip file
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】Ten Days 译文  HW .rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】不凡之源.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】丝之屋(全章节.mobi.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】信仰篇1-3篇合集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】希望篇1-2篇合集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】战争罪行 & 幸福之路.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】斑点带子案补遗 & 四月之旅.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】无言之思.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】毁弃与埋葬.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源(1)\【福尔摩斯-福华】爱诗篇1-7篇合集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】All You Want.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源\【HP德赫】Breath Mints & Battle Scars(机翻).rar`: 包内 docx 解析失败: File is not a zip file
+- `待分类/240410-Fanst补充资源\【HP德赫】Claiming Hermione（1-33章全）.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源\【HP德赫】Climax .txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源\【HP德赫】Extempore.pdf.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】FDrvaOjUYAo9qZV.rar`: 压缩包内无 txt/html/epub/docx(内含: .jpg)
+- `待分类/240410-Fanst补充资源\【HP德赫】Five Days.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】HUNTED_机翻.rar`: 包内 docx 解析失败: File is not a zip file
+- `待分类/240410-Fanst补充资源\【HP德赫】Her Sweet Decadent Smile.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源\【HP德赫】Hot for Teacher.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】Intertwine 交集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】LINKED难解之劫嘉嘉译.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】Screenshot_20211031_011656_com.sina.weibo_edit_598924115237254.jpg.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240410-Fanst补充资源\【HP德赫】Shou Fan The Art of.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】The Agency.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240410-Fanst补充资源\【HP德赫】hp恶龙的守护.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240522-fanst补充资源\10 Years After.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Fine Life - SlytherPouf.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Ghost of a Chance - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Kiss for the Netherfairies - zaubernuss.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Life of Dreaming - Ladymage Samiko.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Murder of Crows - Hogwarts_91.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Sloe Comfortable Screw Up Aga - Flyingegg.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Time for Goodbyes - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Time to Heal - KajisGirl.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Time to Trust - alphafemale.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\A Treatise On The Healing Prope - Teddy Radiator.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Against the Wind - Freyja.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Almost Love - kci47.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\An Army of Snapes - ladyofthemasque.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\An Inspector Calls - Hannah_1888.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\And In The End - sister_d.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\And Loyal Hope Survives - Stasia.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Another Dream - dragoon811.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\As Soon As I Belong - firefly124.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\As the Pages Turn - StormySkize.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At Any Moment - OzRatbag2 (2).rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At Any Moment - OzRatbag2.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At Any Moment II - OzRatbag2.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At The Shore Of The Heart - neelix.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At Your Door - dragoon811.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\At the Beach - chivalric.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Augury and Ardor - SnapeySnax.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Before I Saw Your Face - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Being Hermione Granger - Amphotera.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Being Muggle-born - Minerva394.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Beyond 84 Charing Cross Road - devsgma.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Beyond Captivation - Herbologist.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Bitter Hearts - Rilla.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Blind Date - Marianne.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Bookends - livvy6.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Breaching the Otherworld - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Bright Morning Star - Trawler.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Bushy and the Beast - Wonk.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Calling Card - Bambu.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Camerado - MillieJoan.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Canvas & Paint - Warded_Portal.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Choose Something Like A Star - Teddy Radiator.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Come With Me - Chrmisha.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Confidential Assignment - devsgma.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Confluence of Truths - liasis.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Dark Princess - Invisible Voice.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Dark Roast - lady_rhian.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Darkness Within - neelix.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Defamation of Character - looneyluna.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Denial - little beloved.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Doubts and Desires - Cassie.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Enraptured - sshg316.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Everything I've Ever Done - duj.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Expecting - Evie Sunny Rae.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Face of Love - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Falling In Love_ It Hasn't Happ - dragoon811.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Fame and Misfortune - looneyluna.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Finding His Voice - michmak.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Flight of the Prince - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Foolish Wagers - devsgma.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Forbidden Fruit - Leraiv Snape.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\From Death to Life Again - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\From Dire Circumstances - brandy01.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\From Mother to Daughter_ Severu - septentrion.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Full of Grace - livvy6.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Furry Matchmaking - septentrion.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Gentle Rain - Aura Illumina.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Getting Past Broken - TycheSong.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Getting Personal - Oracle Obscured.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Getting the Best of the Gloomil - zaubernuss.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Gifts - Annie Talbot.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Halloween at Hogwarts - AlwaysSS.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Happily Ever After the Fact - TycheSong.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Happy Christmas - AprilGrey.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Have No Fear - Deeble.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Hermione Granger and the Tacitu - PlaidPooka.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Hermione's List - moonglow.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Hidden Truths - MetaMuse.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Hinge of Fate冥冥天意.pdf.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\His Infamous Red Quill - anogete.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\I Always Wondered If You Would - Miss.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\I Can Dream About You - Oracle Obscured.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\I Will if You Will - Morbidmuch.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\I don't need a hero - PhoebeADA.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\I'm Not In Love - neelix.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Improbable Felicity - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\In Time - ladyofthemasque.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Inevitable - EggplantAndCaviar.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\It All Started when the Girl Fe - Silver Birch.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\It Was Not Me, It Was My Evil T - Marianne.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\It started with a book - Shiv5468.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\It's Just a Technicality, After - blackaces924.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\King of Swords - machshefa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Learning to Love - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Lest the Old Traditions Fail - Quillusion.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Letter from Exile One Merciful - Sphinx.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Libertine - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Like Sands Through the Hourglas - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Liminal - Cybrokat.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Living Legacy - sshg316.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Love Across Time - snapesflower.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Love Him in My Absence - anogete.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Love Never Fails - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Love Potion no. 9 - RedOrchid.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Luring the Enchantress - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Master of Enchantment - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Mercy of the Fallen - Rilla.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Moonflower - Ehmaz.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\More Real Than This - Grainne.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\More Than Fantasy - RachelW.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Naked Journey - PlaidPooka.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Nervous Habits - persephone_bound.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\New Beginnings - madeleone.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Night of the Nargles (Complete) - PlaidPooka.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Not A Moment Too Soon - SlytherinPrefect85.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Not to the Manor Born - Good_Witch.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\OWL Save You! - Meladara.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Of Debts and Debt Collection - Anastasia.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\On the Clear Understanding That - Deeble.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\One Day Like This - Hannah_1888.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\One Vital Ingredient - cocoachristy.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\One Who Knew - Ausland.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Out of the Depths - laurielove.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Overcome With Feeling - PlaidPooka.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Overcoming Parentage - astopperindeath.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Parvus Obitus - darnedchild.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Paying Tribute To A Hero - Marianne.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Playing a New Game - Ladymage Samiko.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Playing the Game - indigo_night.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Polyandry and Other Problems - ayerf.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Post-mort - duj.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Power in All its Glory - ksevfansd.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Power of The Mind - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Professor Granger's Puzzle - Meladara.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Prophecy's Pawns - Leandra.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Quartet - Oracle Obscured.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Rare, Dangerous, and Unusual - tonksinger.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Raven - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Red Lace - Ravyn.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Redemption & Brandy - lady_rhian.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Redivivus - ayerf.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Regarding Severus Snape - hexgirl.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Renaissance - StormySkize.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Resolution - Chrmisha.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Rumour Has It - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Run to the Water - lady_rhian.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Saturday Night Waltz - ohthepsychosis.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Seduction By Design - happilyjaded.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Send Not to Know - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Shattered - Adriana.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\She Never Stops Talking - michmak.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\She Was Beautiful to Him - Keladry Lupin.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Snape, A History - kailin.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Something Akin to Normalcy - thebridgeovertheriverkwai.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Survival Instinct - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Sweetest of All - Loraine.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Teacher, Death Eater, Soldier, - dionde.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Teaching Miss Granger - Oracle Obscured.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Amber Effect - wandlimb.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Amber Solution - wandlimb.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Bookmark - Eridanus.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Christmas Gift - SnarkyWench.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Christmas Rose - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Coward's Kiss - madamelecourayer.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The First Faint Glimmer - Ladymage Samiko.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Fortress Within - Idamae.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Games People Play - madeleone.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Gentleman Bettor - Meladara.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Grim Mistress - alphafemale.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Harder They Fall - Flyingegg.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Incident In The Great Hall - Acadia elle.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Letter - alexa83.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Love You Take - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Price Was Right - neelix.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Price of Madness - PlaidPooka.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Problem with Purity - Silver Birch.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Properties of Silver - madqueenmab.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Quality of Mercy - christinex.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Quarter-Blood Princess - moonrevel.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Rumor - alexa83.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Seven Transgressions - Chicxulub.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Seventh Year - bccaw.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Squandered Heart - moonrevel.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Succubus - southern_witch_69.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Sun is Often Out - Hannah_1888.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Thing With Wings - bluewillow.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Unlikely Proposal - mtnwmgirl.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The Way To A Woman's Heart Is T - articcat621.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\The reunion - Class of '98 - Lana Manckir.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Those Who Favor Fire - snapeonthebrain.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Tidings of Comfort and Joy - StormySkize.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Time Changes Everything - Fervesco.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Time Does Not Heal All Wounds - WendyNat.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Transcendent Quality of Remembr - Subversa.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Trysts With Quidam - MariaLynette.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Turn of the Tide - Emerald_Sparrow.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Twenty Four Little Hours - Severusgirlx.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Under the Mistletoe - vanityfair.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Unexpected, Or How You Made Me - danilion125.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Unforgettable - looneyluna.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Veela Love Bite! - articcat621.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Vomica Domintor - AlwaysSS.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\When history repeats and repeat - PhoebeADA.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Witchy Woman - linlawless.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\Worthy of Love - Gersknightlady.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\You Win_ A Very Happy Christmas - Pearle.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\a melodyen passant - Ladymage Samiko.rar`: 压缩包内无 txt/html/epub/docx(内含: .mobi)
+- `待分类/240522-fanst补充资源\kiss&run.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240522-fanst补充资源\same with you SS&HG.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240522-fanst补充资源\【HP德赫】506号特工.TXT.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】All You Want.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】Claiming Hermione（1-33章全）.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】Climax .txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】Extempore.pdf.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】FDrvaOjUYAo9qZV.rar`: 压缩包内无 txt/html/epub/docx(内含: .jpg)
+- `待分类/240522-fanst补充资源\【HP德赫】Five Days.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】Her Sweet Decadent Smile.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】Hot for Teacher.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】Intertwine 交集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】LINKED难解之劫嘉嘉译.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】Screenshot_20211031_011656_com.sina.weibo_edit_598924115237254.jpg.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】Shou Fan The Art of.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】THEUNSEEMLYPROPOSAL-不合适的婚约.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】The Agency.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】Utterly Despicable 卑鄙至极.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】hp恶龙的守护.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240522-fanst补充资源\【HP德赫】what a difference a night makes 忽如一夜春风来.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】兵临城下.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】十年完整版.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/240522-fanst补充资源\【HP德赫】反乌托邦.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/240522-fanst补充资源\【HP德赫】对角巷的肉店铺.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240522-fanst补充资源\【HP德赫】寻找.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/240920-磕学家补充资源\【HP格邓】荣光尽头.zip`: 压缩包内无 txt/html/epub/docx(内含: ._銆怘P鏍奸倱銆戣崳鍏夊敖澶_epub, 銆怘P鏍奸倱銆戣崳鍏夊敖澶_epub, 銆怘P鏍奸倱銆戣崳鍏夊敖澶_txt)
+- `待分类/Fanst资源日更中（先转存再查看\【HP双子】魁地奇情事全文 番外密码230707.rar`: 嵌套压缩包 【HP双子】魁地奇情事全文 番外密码230707.zip 解压失败(7z 退出码 255)
+- `待分类/Fanst资源日更中（先转存再查看\【HP哈金】英雄（原著续写向，战后求婚文）.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】名扬四海（密码：MYSH）.rar`: 嵌套压缩包 【HP德哈】名扬四海（密码：MYSH）.zip 解压失败(7z 退出码 255)
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】恒星时刻（密码065731）.rar`: 嵌套压缩包 【HP德哈】恒星时刻（密码065731）.zip 解压失败(7z 退出码 255)
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】恒星时刻（密码065731）.zip`: 嵌套压缩包 恒星时刻（正文+番外完结）.zip 解压失败(7z 退出码 2)
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】致命温柔（密码：sannia）.rar`: 嵌套压缩包 【HP德哈】致命温柔（密码：sannia）.zip 解压失败(7z 退出码 255)
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】致命温柔（密码：sannia）.zip`: 嵌套压缩包 致命温柔（密码zmwr）.zip 解压失败(7z 退出码 2)
+- `待分类/Fanst资源日更中（先转存再查看\【HP教授】斯内普站街文.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】An Hour of Snape.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】Phantom of Hogwarts - Good_Witch.rar`: 包内 epub 解析失败: File is not a zip file
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】kiss&run.doc.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】检疫隔离期.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】稍纵即逝.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】美国丽人.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP斯赫】霍格沃茨爱情故事（修订本）.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP未知】听坚冰碎裂之声.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP未知】无处可去的不信仰者.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/Fanst资源日更中（先转存再查看\【HP未知】致命诱惑.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `待分类/Fanst资源日更中（先转存再查看\【柿饼-袁许】袁许背后三米的距离.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】All You Want.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/【HP德赫】Claiming Hermione（1-33章全）.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/【HP德赫】Climax .txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/【HP德赫】Extempore.pdf.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】FDrvaOjUYAo9qZV.rar`: 压缩包内无 txt/html/epub/docx(内含: .jpg)
+- `待分类/【HP德赫】Five Days.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】Her Sweet Decadent Smile.txt.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/【HP德赫】Hot for Teacher.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `德哈/【HP德赫】Hot for Teacher.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】Intertwine 交集.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】LINKED难解之劫嘉嘉译.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】Screenshot_20211031_011656_com.sina.weibo_edit_598924115237254.jpg.baiduyun.p.rar`: 压缩包内无 txt/html/epub/docx(内含: .downloading)
+- `待分类/【HP德赫】Shou Fan The Art of.rar`: 压缩包内无 txt/html/epub/docx(内含: .pdf)
+- `待分类/【HP德赫】hp恶龙的守护.rar`: 压缩包内无 txt/html/epub/docx(内含: .doc)
+- `柿饼/【柿饼高袁】.txt`: 书名清洗后为空
+
+## 跳过的文件
+
+- `待分类/240410-Fanst补充资源\【HP德赫】The Bracelet环镯之约.rar.xltd`: .xltd 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Bracelet环镯之约.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Movie Star Assistant（真同人）.rar.xltd`: .xltd 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Movie Star Assistant（真同人）.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Reminder.rar.xltd`: .xltd 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Reminder.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Right Thing To Do为了正义（完整）.rar.xltd`: .xltd 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The Right Thing To Do为了正义（完整）.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The last Somnus.rar.xltd`: .xltd 格式跳过
+- `待分类/240410-Fanst补充资源\【HP德赫】The last Somnus.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】哈利波特与小黑屋.rar.xltd`: .xltd 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】哈利波特与小黑屋.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】暖年.rar.xltd`: .xltd 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】暖年.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】鲜血使徒.rar.xltd`: .xltd 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】鲜血使徒.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】黑暗的心.rar.xltd`: .xltd 格式跳过
+- `待分类/240416-Fanst补充资源\【HP哈赫】黑暗的心.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240416-Fanst补充资源\【HP教授】littleprince.rar.xltd`: .xltd 格式跳过
+- `待分类/240416-Fanst补充资源\【HP教授】littleprince.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】The Simple Joy of Living.rar.xltd`: .xltd 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】The Simple Joy of Living.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】世界星辉.rar.xltd`: .xltd 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】世界星辉.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】他比晚风温柔BY鸵鸟的秘密.rar.xltd`: .xltd 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】他比晚风温柔BY鸵鸟的秘密.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】暴雨夜（含番外2篇）.rar.xltd`: .xltd 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】暴雨夜（含番外2篇）.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】江河梦里人合集.zip.xltd`: .xltd 格式跳过
+- `待分类/240425-Fanst补充资源\【HP德哈】江河梦里人合集.zip.xltd.cfg`: .cfg 格式跳过
+- `待分类/Fanst资源日更中（先转存再查看\【HP德哈】捕捉你的目光-fc0f.ffs_tmp`: .ffs_tmp 格式跳过
+- `待分类/【HP伏斯】赎罪lmss.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP伏斯】赎罪lmss.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP伏斯】银青传奇.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP伏斯】银青传奇.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP伏赫】在梦醒黄昏后.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP伏赫】在梦醒黄昏后.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP伏赫】愈伤.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP伏赫】愈伤.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP德赫】The Agency 特工 .rar.xltd`: .xltd 格式跳过
+- `待分类/【HP德赫】The Agency 特工 .rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP德赫】The Agency.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP德赫】The Agency.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP德赫】The Bracelet环镯之约.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP德赫】The Bracelet环镯之约.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP德赫】The Christmas Admirer 圣诞爱慕者.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP德赫】The Christmas Admirer 圣诞爱慕者.rar.xltd.cfg`: .cfg 格式跳过
+- `待分类/【HP德赫】The coincidence of the situation.rar.xltd`: .xltd 格式跳过
+- `待分类/【HP德赫】The coincidence of the situation.rar.xltd.cfg`: .cfg 格式跳过
+- `柿饼/【柿饼袁许】【柿饼袁许】背后三米的距离.pdf`: .pdf 格式跳过
+- `斯赫/冥冥天意\英文版\Hinge of Fate - Ramos.mobi`: .mobi 格式跳过
+- `斯赫/冥冥天意\英文版\Hinge-of-Fate-Ramos.pdf`: .pdf 格式跳过
+- `斯赫/十宗罪.mobi`: .mobi 格式跳过
+- `斯赫/双重人生\Second Life.pdf`: .pdf 格式跳过
+- `斯赫/赫敏的学徒生涯\Copy17 .DS_Store`: 未知格式 .ds_store 跳过
+- `斯赫/赫敏的学徒生涯\英文版\One Day Like This - Hannah-1888.mobi`: .mobi 格式跳过
+- `斯赫/赫敏的学徒生涯\英文版\One-Day-Like-This-Hannah-1888.pdf`: .pdf 格式跳过
+
+## 重复书名(保留先处理的)
+
+- `哈德/B数没有，我是Alpha`: 保留 `【HP哈德】B数没有，我是Alpha.txt`,丢弃 `【HP哈德】B数没有，我是Alpha.zip`
+- `待分类/10 Lies Draco Malfoy Told Hermione Granger`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`
+- `待分类/10 Lies Draco Malfoy Told Hermione Granger`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`,丢弃 `240522-fanst补充资源\【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`
+- `待分类/10 Lies Draco Malfoy Told Hermione Granger`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`,丢弃 `【HP德赫】10 Lies Draco Malfoy Told Hermione Granger.rar`
+- `待分类/10 by novacanemalfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 by novacanemalfoy.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】10 by novacanemalfoy.rar`
+- `待分类/10 by novacanemalfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 by novacanemalfoy.rar`,丢弃 `240522-fanst补充资源\【HP德赫】10 by novacanemalfoy.rar`
+- `待分类/10 by novacanemalfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】10 by novacanemalfoy.rar`,丢弃 `【HP德赫】10 by novacanemalfoy.rar`
+- `待分类/11 Things`: 保留 `240410-Fanst补充资源(1)\【HP德赫】11 Things.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】11 Things.rar`
+- `待分类/11 Things`: 保留 `240410-Fanst补充资源(1)\【HP德赫】11 Things.rar`,丢弃 `240522-fanst补充资源\【HP德赫】11 Things.rar`
+- `待分类/11 Things`: 保留 `240410-Fanst补充资源(1)\【HP德赫】11 Things.rar`,丢弃 `【HP德赫】11 Things.rar`
+- `待分类/2010年舞台剧剧本`: 保留 `240410-Fanst补充资源(1)\【HP德赫】2010年舞台剧剧本.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】2010年舞台剧剧本.rar`
+- `待分类/2010年舞台剧剧本`: 保留 `240410-Fanst补充资源(1)\【HP德赫】2010年舞台剧剧本.rar`,丢弃 `240522-fanst补充资源\【HP德赫】2010年舞台剧剧本.rar`
+- `待分类/2010年舞台剧剧本`: 保留 `240410-Fanst补充资源(1)\【HP德赫】2010年舞台剧剧本.rar`,丢弃 `【HP德赫】2010年舞台剧剧本.rar`
+- `待分类/47天改造`: 保留 `241022-磕学家补充资源\【HP伏哈】47天改造.7z`,丢弃 `241022-磕学家补充资源\【HP伏哈】47天改造.txt`
+- `待分类/47天改造`: 保留 `241022-磕学家补充资源\【HP伏哈】47天改造.7z`,丢弃 `【HP伏哈】47天改造.txt`
+- `待分类/A Tale of Flamenco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】A Tale of Flamenco.rar`
+- `待分类/A Tale of Flamenco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco.rar`,丢弃 `240522-fanst补充资源\【HP德赫】A Tale of Flamenco.rar`
+- `待分类/A Tale of Flamenco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco.rar`,丢弃 `【HP德赫】A Tale of Flamenco.rar`
+- `待分类/A Tale of Flamenco（HE）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco（HE）.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】A Tale of Flamenco（HE）.rar`
+- `待分类/A Tale of Flamenco（HE）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco（HE）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】A Tale of Flamenco（HE）.rar`
+- `待分类/A Tale of Flamenco（HE）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Tale of Flamenco（HE）.rar`,丢弃 `【HP德赫】A Tale of Flamenco（HE）.rar`
+- `待分类/A Thousand Words 懒癌翻译组`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Thousand Words 懒癌翻译组.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】A Thousand Words 懒癌翻译组.rar`
+- `待分类/A Thousand Words 懒癌翻译组`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Thousand Words 懒癌翻译组.rar`,丢弃 `240522-fanst补充资源\【HP德赫】A Thousand Words 懒癌翻译组.rar`
+- `待分类/A Thousand Words 懒癌翻译组`: 保留 `240410-Fanst补充资源(1)\【HP德赫】A Thousand Words 懒癌翻译组.rar`,丢弃 `【HP德赫】A Thousand Words 懒癌翻译组.rar`
+- `待分类/Addicted`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Addicted.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Addicted.rar`
+- `待分类/Addicted`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Addicted.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Addicted.rar`
+- `待分类/Addicted`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Addicted.rar`,丢弃 `【HP德赫】Addicted.rar`
+- `待分类/After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`,丢弃 `240410-Fanst补充资源\【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`
+- `待分类/After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`,丢弃 `240522-fanst补充资源\【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`
+- `待分类/After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`,丢弃 `【HP德赫】After_that(续明星助理-The_Movie_Star_Assistant依旧演员同人).rar`
+- `待分类/Alive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Alive.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Alive.rar`
+- `待分类/Alive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Alive.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Alive.rar`
+- `待分类/Alive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Alive.rar`,丢弃 `【HP德赫】Alive.rar`
+- `待分类/All I Want Is Saying Hello to You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】All I Want Is Saying Hello to You.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】All I Want Is Saying Hello to You.rar`
+- `待分类/All I Want Is Saying Hello to You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】All I Want Is Saying Hello to You.rar`,丢弃 `240522-fanst补充资源\【HP德赫】All I Want Is Saying Hello to You.rar`
+- `待分类/All I Want Is Saying Hello to You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】All I Want Is Saying Hello to You.rar`,丢弃 `【HP德赫】All I Want Is Saying Hello to You.rar`
+- `待分类/Amateur Cartography`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Amateur Cartography.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Amateur Cartography.rar`
+- `待分类/Amateur Cartography`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Amateur Cartography.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Amateur Cartography.rar`
+- `待分类/Amateur Cartography`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Amateur Cartography.rar`,丢弃 `【HP德赫】Amateur Cartography.rar`
+- `待分类/An Unexpected Wedding by BookishPower`: 保留 `240410-Fanst补充资源(1)\【HP德赫】An Unexpected Wedding by BookishPower.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】An Unexpected Wedding by BookishPower.rar`
+- `待分类/An Unexpected Wedding by BookishPower`: 保留 `240410-Fanst补充资源(1)\【HP德赫】An Unexpected Wedding by BookishPower.rar`,丢弃 `240522-fanst补充资源\【HP德赫】An Unexpected Wedding by BookishPower.rar`
+- `待分类/An Unexpected Wedding by BookishPower`: 保留 `240410-Fanst补充资源(1)\【HP德赫】An Unexpected Wedding by BookishPower.rar`,丢弃 `【HP德赫】An Unexpected Wedding by BookishPower.rar`
+- `待分类/As you like it`: 保留 `Fanst资源日更中（先转存再查看\【HP斯赫】As you like it .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】As you like it.rar`
+- `待分类/BL黎明重现`: 保留 `241014-磕学家补充资源\【HP德拉科】BL黎明重现.rar`,丢弃 `241128-哈皮磕学家\【HP小龙】BL黎明重现.zip`
+- `待分类/Babysitter`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Babysitter.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Babysitter.rar`
+- `待分类/Babysitter`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Babysitter.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Babysitter.rar`
+- `待分类/Babysitter`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Babysitter.rar`,丢弃 `【HP德赫】Babysitter.rar`
+- `待分类/Bad Medicine 良药苦口`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bad Medicine 良药苦口.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Bad Medicine 良药苦口.rar`
+- `待分类/Bad Medicine 良药苦口`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bad Medicine 良药苦口.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Bad Medicine 良药苦口.rar`
+- `待分类/Bad Medicine 良药苦口`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bad Medicine 良药苦口.rar`,丢弃 `【HP德赫】Bad Medicine 良药苦口.rar`
+- `待分类/Beautiful Within`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Beautiful Within.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Beautiful Within.rar`
+- `待分类/Beautiful Within`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Beautiful Within.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Beautiful Within.rar`
+- `待分类/Beautiful Within`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Beautiful Within.rar`,丢弃 `【HP德赫】Beautiful Within.rar`
+- `待分类/Because of you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Because of you.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Because of you.rar`
+- `待分类/Because of you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Because of you.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Because of you.rar`
+- `待分类/Because of you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Because of you.rar`,丢弃 `【HP德赫】Because of you.rar`
+- `待分类/Betray`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Betray.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Betray.rar`
+- `待分类/Betray`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Betray.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Betray.rar`
+- `待分类/Betray`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Betray.rar`,丢弃 `【HP德赫】Betray.rar`
+- `待分类/Breath Mints & Battle Scars(机翻)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Breath Mints & Battle Scars(机翻).rar`,丢弃 `240522-fanst补充资源\【HP德赫】Breath Mints & Battle Scars(机翻).rar`
+- `待分类/Breath Mints & Battle Scars(机翻)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Breath Mints & Battle Scars(机翻).rar`,丢弃 `【HP德赫】Breath Mints & Battle Scars(机翻).rar`
+- `待分类/Bus stop 巴士站`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bus stop 巴士站.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Bus stop 巴士站.rar`
+- `待分类/Bus stop 巴士站`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bus stop 巴士站.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Bus stop 巴士站.rar`
+- `待分类/Bus stop 巴士站`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Bus stop 巴士站.rar`,丢弃 `【HP德赫】Bus stop 巴士站.rar`
+- `待分类/Charon's Gift`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Charon's Gift.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Charon's Gift.rar`
+- `待分类/Charon's Gift`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Charon's Gift.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Charon's Gift.rar`
+- `待分类/Charon's Gift`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Charon's Gift.rar`,丢弃 `【HP德赫】Charon's Gift.rar`
+- `待分类/Cold War HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Cold War HE.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Cold War HE.rar`
+- `待分类/Cold War HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Cold War HE.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Cold War HE.rar`
+- `待分类/Cold War HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Cold War HE.rar`,丢弃 `【HP德赫】Cold War HE.rar`
+- `待分类/Concealing 隐藏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Concealing 隐藏.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Concealing 隐藏.rar`
+- `待分类/Concealing 隐藏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Concealing 隐藏.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Concealing 隐藏.rar`
+- `待分类/Concealing 隐藏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Concealing 隐藏.rar`,丢弃 `【HP德赫】Concealing 隐藏.rar`
+- `待分类/Conversation Hearts`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Conversation Hearts.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Conversation Hearts.rar`
+- `待分类/Conversation Hearts`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Conversation Hearts.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Conversation Hearts.rar`
+- `待分类/Conversation Hearts`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Conversation Hearts.rar`,丢弃 `【HP德赫】Conversation Hearts.rar`
+- `待分类/DHr_不可思议的美丽心情`: 保留 `240410-Fanst补充资源(1)\【HP德赫】DHr_不可思议的美丽心情.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】DHr_不可思议的美丽心情.rar`
+- `待分类/DHr_不可思议的美丽心情`: 保留 `240410-Fanst补充资源(1)\【HP德赫】DHr_不可思议的美丽心情.rar`,丢弃 `240522-fanst补充资源\【HP德赫】DHr_不可思议的美丽心情.rar`
+- `待分类/DHr_不可思议的美丽心情`: 保留 `240410-Fanst补充资源(1)\【HP德赫】DHr_不可思议的美丽心情.rar`,丢弃 `【HP德赫】DHr_不可思议的美丽心情.rar`
+- `待分类/Daddy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Daddy.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Daddy.rar`
+- `待分类/Daddy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Daddy.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Daddy.rar`
+- `待分类/Daddy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Daddy.rar`,丢弃 `【HP德赫】Daddy.rar`
+- `待分类/Darkness，Loveless`: 保留 `240522-fanst补充资源\【HP待分类】Darkness，Loveless.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Darkness，Loveless.rar`
+- `待分类/Destiny`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Destiny.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Destiny.rar`
+- `待分类/Destiny`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Destiny.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Destiny.rar`
+- `待分类/Destiny`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Destiny.rar`,丢弃 `【HP德赫】Destiny.rar`
+- `待分类/Di_Shi_San_Ye（第十三夜）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`
+- `待分类/Di_Shi_San_Ye（第十三夜）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`
+- `待分类/Di_Shi_San_Ye（第十三夜）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`,丢弃 `【HP德赫】Di_Shi_San_Ye（第十三夜）.rar`
+- `待分类/Downing`: 保留 `240522-fanst补充资源\Downing.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Downing.rar`
+- `待分类/Dracilla`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Dracilla.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Dracilla.rar`
+- `待分类/Dracilla`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Dracilla.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Dracilla.rar`
+- `待分类/Dracilla`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Dracilla.rar`,丢弃 `【HP德赫】Dracilla.rar`
+- `待分类/Draco Malfoy's Nightmare`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco Malfoy's Nightmare.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Draco Malfoy's Nightmare.rar`
+- `待分类/Draco Malfoy's Nightmare`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco Malfoy's Nightmare.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Draco Malfoy's Nightmare.rar`
+- `待分类/Draco Malfoy's Nightmare`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco Malfoy's Nightmare.rar`,丢弃 `【HP德赫】Draco Malfoy's Nightmare.rar`
+- `待分类/Draco-Phoenix Rising`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco-Phoenix Rising.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Draco-Phoenix Rising.rar`
+- `待分类/Draco-Phoenix Rising`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco-Phoenix Rising.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Draco-Phoenix Rising.rar`
+- `待分类/Draco-Phoenix Rising`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Draco-Phoenix Rising.rar`,丢弃 `【HP德赫】Draco-Phoenix Rising.rar`
+- `待分类/Ending(BE)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ending(BE).rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Ending(BE).rar`
+- `待分类/Ending(BE)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ending(BE).rar`,丢弃 `240522-fanst补充资源\【HP德赫】Ending(BE).rar`
+- `待分类/Ending(BE)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ending(BE).rar`,丢弃 `【HP德赫】Ending(BE).rar`
+- `待分类/Extempore.txt`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Extempore.txt.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Extempore.txt.rar`
+- `待分类/Extempore.txt`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Extempore.txt.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Extempore.txt.rar`
+- `待分类/Extempore.txt`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Extempore.txt.rar`,丢弃 `【HP德赫】Extempore.txt.rar`
+- `待分类/Five Days 五天`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Five Days 五天.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Five Days 五天.rar`
+- `待分类/Five Days 五天`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Five Days 五天.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Five Days 五天.rar`
+- `待分类/Five Days 五天`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Five Days 五天.rar`,丢弃 `【HP德赫】Five Days 五天.rar`
+- `待分类/Forever Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever Road.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forever Road.rar`
+- `待分类/Forever Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever Road.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forever Road.rar`
+- `待分类/Forever Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever Road.rar`,丢弃 `【HP德赫】Forever Road.rar`
+- `待分类/Forever_Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever_Road.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forever_Road.rar`
+- `待分类/Forever_Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever_Road.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forever_Road.rar`
+- `待分类/Forever_Road`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forever_Road.rar`,丢弃 `【HP德赫】Forever_Road.rar`
+- `待分类/Forgettable Vows 遗忘的誓言（作者：luckei1）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`
+- `待分类/Forgettable Vows 遗忘的誓言（作者：luckei1）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`
+- `待分类/Forgettable Vows 遗忘的誓言（作者：luckei1）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`,丢弃 `【HP德赫】Forgettable Vows 遗忘的誓言（作者：luckei1）.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forgive.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `240416-Fanst补充资源(1)\【HP德赫】Forgive.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `240416-Fanst补充资源\【HP德赫】Forgive.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forgive.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Forgive.rar`
+- `待分类/Forgive`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive.rar`,丢弃 `【HP德赫】Forgive.rar`
+- `待分类/Forgiveness`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgiveness.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forgiveness.rar`
+- `待分类/Forgiveness`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgiveness.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forgiveness.rar`
+- `待分类/Forgiveness`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgiveness.rar`,丢弃 `【HP德赫】Forgiveness.rar`
+- `待分类/Forgive新结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive新结局.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Forgive新结局.rar`
+- `待分类/Forgive新结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive新结局.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Forgive新结局.rar`
+- `待分类/Forgive新结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Forgive新结局.rar`,丢弃 `【HP德赫】Forgive新结局.rar`
+- `待分类/Fourth Time's the Charm`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Fourth Time's the Charm.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Fourth Time's the Charm.rar`
+- `待分类/Fourth Time's the Charm`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Fourth Time's the Charm.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Fourth Time's the Charm.rar`
+- `待分类/Fourth Time's the Charm`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Fourth Time's the Charm.rar`,丢弃 `【HP德赫】Fourth Time's the Charm.rar`
+- `待分类/Graveyard Valentine墓地情人节`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Graveyard Valentine墓地情人节.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Graveyard Valentine墓地情人节.rar`
+- `待分类/Graveyard Valentine墓地情人节`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Graveyard Valentine墓地情人节.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Graveyard Valentine墓地情人节.rar`
+- `待分类/Graveyard Valentine墓地情人节`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Graveyard Valentine墓地情人节.rar`,丢弃 `【HP德赫】Graveyard Valentine墓地情人节.rar`
+- `待分类/Gravity`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gravity.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Gravity.rar`
+- `待分类/Gravity`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gravity.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Gravity.rar`
+- `待分类/Gravity`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gravity.rar`,丢弃 `【HP德赫】Gravity.rar`
+- `待分类/Gray Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gray Eyes.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Gray Eyes.rar`
+- `待分类/Gray Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gray Eyes.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Gray Eyes.rar`
+- `待分类/Gray Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Gray Eyes.rar`,丢弃 `【HP德赫】Gray Eyes.rar`
+- `待分类/H`: 保留 `240522-fanst补充资源\H.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】H.rar`
+- `待分类/HEART OVER MIND`: 保留 `240522-fanst补充资源\HEART OVER MIND.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】HEART OVER MIND.rar`
+- `待分类/HP德赫之黄金罗盘`: 保留 `240410-Fanst补充资源(1)\【HP德赫】HP德赫之黄金罗盘.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】HP德赫之黄金罗盘.rar`
+- `待分类/HP德赫之黄金罗盘`: 保留 `240410-Fanst补充资源(1)\【HP德赫】HP德赫之黄金罗盘.rar`,丢弃 `240522-fanst补充资源\【HP德赫】HP德赫之黄金罗盘.rar`
+- `待分类/HP德赫之黄金罗盘`: 保留 `240410-Fanst补充资源(1)\【HP德赫】HP德赫之黄金罗盘.rar`,丢弃 `【HP德赫】HP德赫之黄金罗盘.rar`
+- `待分类/HUNTED_机翻`: 保留 `240522-fanst补充资源\【HP德赫】HUNTED_机翻.rar`,丢弃 `【HP德赫】HUNTED_机翻.rar`
+- `待分类/Hello Again by NamiSwaannn`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hello Again by NamiSwaannn.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Hello Again by NamiSwaannn.rar`
+- `待分类/Hello Again by NamiSwaannn`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hello Again by NamiSwaannn.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Hello Again by NamiSwaannn.rar`
+- `待分类/Hello Again by NamiSwaannn`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hello Again by NamiSwaannn.rar`,丢弃 `【HP德赫】Hello Again by NamiSwaannn.rar`
+- `待分类/Hermione Granger and the jealous Ferret`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Granger and the jealous Ferret.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Hermione Granger and the jealous Ferret.rar`
+- `待分类/Hermione Granger and the jealous Ferret`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Granger and the jealous Ferret.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Hermione Granger and the jealous Ferret.rar`
+- `待分类/Hermione Granger and the jealous Ferret`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Granger and the jealous Ferret.rar`,丢弃 `【HP德赫】Hermione Granger and the jealous Ferret.rar`
+- `待分类/Hermione Malfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Malfoy.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Hermione Malfoy.rar`
+- `待分类/Hermione Malfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Malfoy.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Hermione Malfoy.rar`
+- `待分类/Hermione Malfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Hermione Malfoy.rar`,丢弃 `【HP德赫】Hermione Malfoy.rar`
+- `待分类/His Beautiful, Haunting Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】His Beautiful, Haunting Eyes.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】His Beautiful, Haunting Eyes.rar`
+- `待分类/His Beautiful, Haunting Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】His Beautiful, Haunting Eyes.rar`,丢弃 `240522-fanst补充资源\【HP德赫】His Beautiful, Haunting Eyes.rar`
+- `待分类/His Beautiful, Haunting Eyes`: 保留 `240410-Fanst补充资源(1)\【HP德赫】His Beautiful, Haunting Eyes.rar`,丢弃 `【HP德赫】His Beautiful, Haunting Eyes.rar`
+- `待分类/Hybrid Legacy`: 保留 `240522-fanst补充资源\【HP待分类】Hybrid Legacy.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Hybrid Legacy.rar`
+- `待分类/Ice And Fire`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ice And Fire .rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Ice And Fire .rar`
+- `待分类/Ice And Fire`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ice And Fire .rar`,丢弃 `240522-fanst补充资源\【HP德赫】Ice And Fire .rar`
+- `待分类/Ice And Fire`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ice And Fire .rar`,丢弃 `【HP德赫】Ice And Fire .rar`
+- `待分类/Irresistible Poison`: 保留 `241022-磕学家补充资源\【HP德哈】Irresistible Poison.txt`,丢弃 `241128-哈皮磕学家\【HP德哈】Irresistible Poison.zip`
+- `待分类/Irresistible Poison`: 保留 `241022-磕学家补充资源\【HP德哈】Irresistible Poison.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Irresistible Poison.rar`
+- `待分类/It Makes Me Ill`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It Makes Me Ill.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】It Makes Me Ill.rar`
+- `待分类/It Makes Me Ill`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It Makes Me Ill.rar`,丢弃 `240522-fanst补充资源\【HP德赫】It Makes Me Ill.rar`
+- `待分类/It Makes Me Ill`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It Makes Me Ill.rar`,丢弃 `【HP德赫】It Makes Me Ill.rar`
+- `待分类/It's not goodbye`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It's not goodbye.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】It's not goodbye.rar`
+- `待分类/It's not goodbye`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It's not goodbye.rar`,丢弃 `240522-fanst补充资源\【HP德赫】It's not goodbye.rar`
+- `待分类/It's not goodbye`: 保留 `240410-Fanst补充资源(1)\【HP德赫】It's not goodbye.rar`,丢弃 `【HP德赫】It's not goodbye.rar`
+- `待分类/Juniper 刺柏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Juniper 刺柏.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Juniper 刺柏.rar`
+- `待分类/Juniper 刺柏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Juniper 刺柏.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Juniper 刺柏.rar`
+- `待分类/Juniper 刺柏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Juniper 刺柏.rar`,丢弃 `【HP德赫】Juniper 刺柏.rar`
+- `待分类/Just Get In, Malfoy!`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just Get In, Malfoy!.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Just Get In, Malfoy!.rar`
+- `待分类/Just Get In, Malfoy!`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just Get In, Malfoy!.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Just Get In, Malfoy!.rar`
+- `待分类/Just Get In, Malfoy!`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just Get In, Malfoy!.rar`,丢弃 `【HP德赫】Just Get In, Malfoy!.rar`
+- `待分类/Just admit it`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just admit it.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Just admit it.rar`
+- `待分类/Just admit it`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just admit it.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Just admit it.rar`
+- `待分类/Just admit it`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just admit it.rar`,丢弃 `【HP德赫】Just admit it.rar`
+- `待分类/Just wanna be with you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just wanna be with you.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Just wanna be with you.rar`
+- `待分类/Just wanna be with you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just wanna be with you.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Just wanna be with you.rar`
+- `待分类/Just wanna be with you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Just wanna be with you.rar`,丢弃 `【HP德赫】Just wanna be with you.rar`
+- `待分类/King Me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】King Me.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】King Me.rar`
+- `待分类/King Me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】King Me.rar`,丢弃 `240522-fanst补充资源\【HP德赫】King Me.rar`
+- `待分类/King Me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】King Me.rar`,丢弃 `【HP德赫】King Me.rar`
+- `待分类/Kiss or Kill`: 保留 `Fanst资源日更中（先转存再查看\【HP待分类】Kiss or Kill.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Kiss or Kill.rar`
+- `待分类/Late Night Conversations Over a Rothmans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Late Night Conversations Over a Rothmans.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Late Night Conversations Over a Rothmans.rar`
+- `待分类/Late Night Conversations Over a Rothmans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Late Night Conversations Over a Rothmans.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Late Night Conversations Over a Rothmans.rar`
+- `待分类/Late Night Conversations Over a Rothmans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Late Night Conversations Over a Rothmans.rar`,丢弃 `【HP德赫】Late Night Conversations Over a Rothmans.rar`
+- `待分类/Libido 原欲`: 保留 `240415-Fanst补充资源\【飞机能飞】Libido 原欲.rar`,丢弃 `【飞机能飞】Libido 原欲.rar`
+- `待分类/Light A Fire`: 保留 `240920-磕学家补充资源\【HP德哈】Light A Fire.zip`,丢弃 `241128-哈皮磕学家\【HP德哈】Light A Fire.zip`
+- `待分类/Light in the Dungeon`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】 Light in the Dungeon.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Light in the Dungeon.rar`
+- `待分类/Link-by-link`: 保留 `240522-fanst补充资源\【HP待分类】Link-by-link.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Link-by-link.rar`
+- `待分类/Link-by-link`: 保留 `240522-fanst补充资源\【HP待分类】Link-by-link.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Link-by-link.rar`
+- `待分类/Living To Love You`: 保留 `240522-fanst补充资源\【HP待分类】Living To Love You.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创女主】Living To Love You.rar`
+- `待分类/Living To Love You`: 保留 `240522-fanst补充资源\【HP待分类】Living To Love You.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Living To Love You.rar`
+- `待分类/Lost in Venice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Lost in Venice.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Lost in Venice.rar`
+- `待分类/Lost in Venice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Lost in Venice.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Lost in Venice.rar`
+- `待分类/Lost in Venice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Lost in Venice.rar`,丢弃 `【HP德赫】Lost in Venice.rar`
+- `待分类/Love Me Twice再爱我一次`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Love Me Twice再爱我一次.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Love Me Twice再爱我一次.rar`
+- `待分类/Love Me Twice再爱我一次`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Love Me Twice再爱我一次.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Love Me Twice再爱我一次.rar`
+- `待分类/Love Me Twice再爱我一次`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Love Me Twice再爱我一次.rar`,丢弃 `【HP德赫】Love Me Twice再爱我一次.rar`
+- `待分类/Made_Of_Honor`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Made_Of_Honor.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Made_Of_Honor.rar`
+- `待分类/Made_Of_Honor`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Made_Of_Honor.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Made_Of_Honor.rar`
+- `待分类/Made_Of_Honor`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Made_Of_Honor.rar`,丢弃 `【HP德赫】Made_Of_Honor.rar`
+- `待分类/Malfoy医生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Malfoy医生.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Malfoy医生.rar`
+- `待分类/Malfoy医生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Malfoy医生.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Malfoy医生.rar`
+- `待分类/Malfoy医生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Malfoy医生.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Malfoy医生.rar`
+- `待分类/Malfoy医生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Malfoy医生.rar`,丢弃 `【HP德赫】Malfoy医生.rar`
+- `待分类/Manacled`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Manacled.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Manacled.rar`
+- `待分类/Manacled`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Manacled.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Manacled.rar`
+- `待分类/Manacled`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Manacled.rar`,丢弃 `【HP德赫】Manacled.rar`
+- `待分类/Master(NC17)by AkashaTheKitty`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Master(NC17)by AkashaTheKitty.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Master(NC17)by AkashaTheKitty.rar`
+- `待分类/Master(NC17)by AkashaTheKitty`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Master(NC17)by AkashaTheKitty.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Master(NC17)by AkashaTheKitty.rar`
+- `待分类/Master(NC17)by AkashaTheKitty`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Master(NC17)by AkashaTheKitty.rar`,丢弃 `【HP德赫】Master(NC17)by AkashaTheKitty.rar`
+- `待分类/Memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Memory.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Memory.rar`
+- `待分类/Memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Memory.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Memory.rar`
+- `待分类/Memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Memory.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Memory.rar`
+- `待分类/Memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Memory.rar`,丢弃 `【HP德赫】Memory.rar`
+- `待分类/Miller_Mallen`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Miller_Mallen.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Miller_Mallen.rar`
+- `待分类/Miller_Mallen`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Miller_Mallen.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Miller_Mallen.rar`
+- `待分类/Miller_Mallen`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Miller_Mallen.rar`,丢弃 `【HP德赫】Miller_Mallen.rar`
+- `待分类/Mirror of Dream`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Mirror of Dream.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Mirror of Dream.rar`
+- `待分类/Mirror of Dream`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Mirror of Dream.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Mirror of Dream.rar`
+- `待分类/Mirror of Dream`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Mirror of Dream.rar`,丢弃 `【HP德赫】Mirror of Dream.rar`
+- `待分类/My Hero`: 保留 `240410-Fanst补充资源(1)\【HP德赫】My Hero.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】My Hero.rar`
+- `待分类/My Hero`: 保留 `240410-Fanst补充资源(1)\【HP德赫】My Hero.rar`,丢弃 `240522-fanst补充资源\【HP德赫】My Hero.rar`
+- `待分类/My Hero`: 保留 `240410-Fanst补充资源(1)\【HP德赫】My Hero.rar`,丢弃 `【HP德赫】My Hero.rar`
+- `待分类/Never Fade Away`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Never Fade Away.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Never Fade Away.rar`
+- `待分类/Never Fade Away`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Never Fade Away.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Never Fade Away.rar`
+- `待分类/Never Fade Away`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Never Fade Away.rar`,丢弃 `【HP德赫】Never Fade Away.rar`
+- `待分类/Never Return`: 保留 `240522-fanst补充资源\Never Return.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Never Return.rar`
+- `待分类/No Comment.无可奉告`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Comment.无可奉告.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】No Comment.无可奉告.rar`
+- `待分类/No Comment.无可奉告`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Comment.无可奉告.rar`,丢弃 `240522-fanst补充资源\【HP德赫】No Comment.无可奉告.rar`
+- `待分类/No Comment.无可奉告`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Comment.无可奉告.rar`,丢弃 `【HP德赫】No Comment.无可奉告.rar`
+- `待分类/No Sleep Tonight`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Sleep Tonight.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】No Sleep Tonight.rar`
+- `待分类/No Sleep Tonight`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Sleep Tonight.rar`,丢弃 `240522-fanst补充资源\【HP德赫】No Sleep Tonight.rar`
+- `待分类/No Sleep Tonight`: 保留 `240410-Fanst补充资源(1)\【HP德赫】No Sleep Tonight.rar`,丢弃 `【HP德赫】No Sleep Tonight.rar`
+- `待分类/Nonscents 暗香浮动`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Nonscents 暗香浮动.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Nonscents 暗香浮动.rar`
+- `待分类/Nonscents 暗香浮动`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Nonscents 暗香浮动.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Nonscents 暗香浮动.rar`
+- `待分类/Nonscents 暗香浮动`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Nonscents 暗香浮动.rar`,丢弃 `【HP德赫】Nonscents 暗香浮动.rar`
+- `待分类/Not_Ready_to_Make_Nice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Not_Ready_to_Make_Nice.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Not_Ready_to_Make_Nice.rar`
+- `待分类/Not_Ready_to_Make_Nice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Not_Ready_to_Make_Nice.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Not_Ready_to_Make_Nice.rar`
+- `待分类/Not_Ready_to_Make_Nice`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Not_Ready_to_Make_Nice.rar`,丢弃 `【HP德赫】Not_Ready_to_Make_Nice.rar`
+- `待分类/Obliviate`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Obliviate.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Obliviate.rar`
+- `待分类/Obliviate`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Obliviate.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Obliviate.rar`
+- `待分类/Obliviate`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Obliviate.rar`,丢弃 `【HP德赫】Obliviate.rar`
+- `待分类/PIECES`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】PIECES .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】PIECES .zip`
+- `待分类/PLOT 阴谋 HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】PLOT 阴谋 HE.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】PLOT 阴谋 HE.rar`
+- `待分类/PLOT 阴谋 HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】PLOT 阴谋 HE.rar`,丢弃 `240522-fanst补充资源\【HP德赫】PLOT 阴谋 HE.rar`
+- `待分类/PLOT 阴谋 HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】PLOT 阴谋 HE.rar`,丢弃 `【HP德赫】PLOT 阴谋 HE.rar`
+- `待分类/Permanent Stain烙印`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Permanent Stain烙印.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Permanent Stain烙印.rar`
+- `待分类/Permanent Stain烙印`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Permanent Stain烙印.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Permanent Stain烙印.rar`
+- `待分类/Permanent Stain烙印`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Permanent Stain烙印.rar`,丢弃 `【HP德赫】Permanent Stain烙印.rar`
+- `待分类/Persuading Draco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Persuading Draco.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Persuading Draco.rar`
+- `待分类/Persuading Draco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Persuading Draco.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Persuading Draco.rar`
+- `待分类/Persuading Draco`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Persuading Draco.rar`,丢弃 `【HP德赫】Persuading Draco.rar`
+- `待分类/Pianist Of The Night`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Pianist Of The Night.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Pianist Of The Night.rar`
+- `待分类/Pianist Of The Night`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Pianist Of The Night.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Pianist Of The Night.rar`
+- `待分类/Pianist Of The Night`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Pianist Of The Night.rar`,丢弃 `【HP德赫】Pianist Of The Night.rar`
+- `待分类/Plannig to Fail`: 保留 `240522-fanst补充资源\【HP罗赫】Plannig to Fail.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】Plannig to Fail.rar`
+- `待分类/Plannig to Fail`: 保留 `240522-fanst补充资源\【HP罗赫】Plannig to Fail.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP罗赫】Plannig to Fail.rar`
+- `待分类/Plus One`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Plus One.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Plus One.rar`
+- `待分类/Plus One`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Plus One.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Plus One.rar`
+- `待分类/Plus One`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Plus One.rar`,丢弃 `【HP德赫】Plus One.rar`
+- `待分类/Porque te vas 因为你走了`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Porque te vas 因为你走了.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Porque te vas 因为你走了.rar`
+- `待分类/Porque te vas 因为你走了`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Porque te vas 因为你走了.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Porque te vas 因为你走了.rar`
+- `待分类/Porque te vas 因为你走了`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Porque te vas 因为你走了.rar`,丢弃 `【HP德赫】Porque te vas 因为你走了.rar`
+- `待分类/Prophecies 预言`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Prophecies 预言.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Prophecies 预言.rar`
+- `待分类/Prophecies 预言`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Prophecies 预言.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Prophecies 预言.rar`
+- `待分类/Prophecies 预言`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Prophecies 预言.rar`,丢弃 `【HP德赫】Prophecies 预言.rar`
+- `待分类/Public Display of Affection`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Public Display of Affection.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Public Display of Affection.rar`
+- `待分类/Public Display of Affection`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Public Display of Affection.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Public Display of Affection.rar`
+- `待分类/Public Display of Affection`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Public Display of Affection.rar`,丢弃 `【HP德赫】Public Display of Affection.rar`
+- `待分类/Queen of Heaven`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Queen of Heaven.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Queen of Heaven.rar`
+- `待分类/Queen of Heaven`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Queen of Heaven.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Queen of Heaven.rar`
+- `待分类/Queen of Heaven`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Queen of Heaven.rar`,丢弃 `【HP德赫】Queen of Heaven.rar`
+- `待分类/RAIN DANCE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】RAIN DANCE.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】RAIN DANCE.rar`
+- `待分类/RAIN DANCE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】RAIN DANCE.rar`,丢弃 `240522-fanst补充资源\【HP德赫】RAIN DANCE.rar`
+- `待分类/RAIN DANCE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】RAIN DANCE.rar`,丢弃 `【HP德赫】RAIN DANCE.rar`
+- `待分类/Remember`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Remember.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Remember.rar`
+- `待分类/Remember`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Remember.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Remember.rar`
+- `待分类/Remember`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Remember.rar`,丢弃 `【HP德赫】Remember.rar`
+- `待分类/Ripples`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ripples.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Ripples.rar`
+- `待分类/Ripples`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ripples.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Ripples.rar`
+- `待分类/Ripples`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Ripples.rar`,丢弃 `【HP德赫】Ripples.rar`
+- `待分类/SEE_HOW_MUCH_I_LOVE_YOU`: 保留 `240410-Fanst补充资源(1)\【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`
+- `待分类/SEE_HOW_MUCH_I_LOVE_YOU`: 保留 `240410-Fanst补充资源(1)\【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`,丢弃 `240522-fanst补充资源\【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`
+- `待分类/SEE_HOW_MUCH_I_LOVE_YOU`: 保留 `240410-Fanst补充资源(1)\【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`,丢弃 `【HP德赫】SEE_HOW_MUCH_I_LOVE_YOU.rar`
+- `待分类/Sacrifice献贞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sacrifice献贞.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Sacrifice献贞.rar`
+- `待分类/Sacrifice献贞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sacrifice献贞.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Sacrifice献贞.rar`
+- `待分类/Sacrifice献贞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sacrifice献贞.rar`,丢弃 `【HP德赫】Sacrifice献贞.rar`
+- `待分类/Seamus is Seamus and You Are Yourself`: 保留 `240522-fanst补充资源\【HP待分类】Seamus is Seamus and You Are Yourself.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】Seamus is Seamus and You Are Yourself.rar`
+- `待分类/Silencio 【重整完整版】_0202214756`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Silencio 【重整完整版】_0202214756.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Silencio 【重整完整版】_0202214756.rar`
+- `待分类/Silencio 【重整完整版】_0202214756`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Silencio 【重整完整版】_0202214756.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Silencio 【重整完整版】_0202214756.rar`
+- `待分类/Silencio 【重整完整版】_0202214756`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Silencio 【重整完整版】_0202214756.rar`,丢弃 `【HP德赫】Silencio 【重整完整版】_0202214756.rar`
+- `待分类/Simple Life`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Simple Life.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Simple Life.rar`
+- `待分类/Simple Life`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Simple Life.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Simple Life.rar`
+- `待分类/Simple Life`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Simple Life.rar`,丢弃 `【HP德赫】Simple Life.rar`
+- `待分类/Simply Irresistible风情万种`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】Simply Irresistible风情万种 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】Simply Irresistible风情万种 .zip`
+- `待分类/Sincerely yours`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sincerely yours.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Sincerely yours.rar`
+- `待分类/Sincerely yours`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sincerely yours.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Sincerely yours.rar`
+- `待分类/Sincerely yours`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Sincerely yours.rar`,丢弃 `【HP德赫】Sincerely yours.rar`
+- `待分类/Small小赫 Big小德`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Small小赫 Big小德.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Small小赫 Big小德.rar`
+- `待分类/Small小赫 Big小德`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Small小赫 Big小德.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Small小赫 Big小德.rar`
+- `待分类/Small小赫 Big小德`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Small小赫 Big小德.rar`,丢弃 `【HP德赫】Small小赫 Big小德.rar`
+- `待分类/Snowman Shenanigans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Snowman Shenanigans.rar`
+- `待分类/Snowman Shenanigans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Snowman Shenanigans.rar`
+- `待分类/Snowman Shenanigans`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans.rar`,丢弃 `【HP德赫】Snowman Shenanigans.rar`
+- `待分类/Snowman Shenanigans(1)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans(1).rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Snowman Shenanigans(1).rar`
+- `待分类/Snowman Shenanigans(1)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans(1).rar`,丢弃 `240522-fanst补充资源\【HP德赫】Snowman Shenanigans(1).rar`
+- `待分类/Snowman Shenanigans(1)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Snowman Shenanigans(1).rar`,丢弃 `【HP德赫】Snowman Shenanigans(1).rar`
+- `待分类/Somewhere in memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Somewhere in memory.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Somewhere in memory.rar`
+- `待分类/Somewhere in memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Somewhere in memory.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Somewhere in memory.rar`
+- `待分类/Somewhere in memory`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Somewhere in memory.rar`,丢弃 `【HP德赫】Somewhere in memory.rar`
+- `待分类/Stuck On You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Stuck On You.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】Stuck On You.rar`
+- `待分类/Stuck On You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Stuck On You.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Stuck On You.rar`
+- `待分类/Stuck On You`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Stuck On You.rar`,丢弃 `【HP德赫】Stuck On You.rar`
+- `待分类/Surrender the Grey`: 保留 `Fanst资源日更中（先转存再查看\【HP待分类】Surrender the Grey.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】Surrender the Grey.rar`
+- `待分类/Sympathy`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】Sympathy.rar`,丢弃 `240416-Fanst补充资源\【HP伏斯】Sympathy.rar`
+- `待分类/Sympathy`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】Sympathy.rar`,丢弃 `【HP伏斯】Sympathy.rar`
+- `待分类/THIS_LOVE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】THIS_LOVE.rar`,丢弃 `240522-fanst补充资源\【HP德赫】THIS_LOVE.rar`
+- `待分类/The Academy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Academy .rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Academy .rar`
+- `待分类/The Academy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Academy .rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Academy .rar`
+- `待分类/The Academy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Academy .rar`,丢弃 `【HP德赫】The Academy .rar`
+- `待分类/The Agency 特工`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Agency 特工 .rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Agency 特工 .rar`
+- `待分类/The Agency 特工`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Agency 特工 .rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Agency 特工 .rar`
+- `待分类/The Bracelet环镯之约`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Bracelet环镯之约.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Bracelet环镯之约.rar`
+- `待分类/The Christmas Admirer 圣诞爱慕者`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Christmas Admirer 圣诞爱慕者.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Christmas Admirer 圣诞爱慕者.rar`
+- `待分类/The Christmas Admirer 圣诞爱慕者`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Christmas Admirer 圣诞爱慕者.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Christmas Admirer 圣诞爱慕者.rar`
+- `待分类/The Chronicle Play历史剧`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Chronicle Play历史剧.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Chronicle Play历史剧.rar`
+- `待分类/The Chronicle Play历史剧`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Chronicle Play历史剧.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Chronicle Play历史剧.rar`
+- `待分类/The Chronicle Play历史剧`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Chronicle Play历史剧.rar`,丢弃 `【HP德赫】The Chronicle Play历史剧.rar`
+- `待分类/The Flatmate(房客)机翻`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Flatmate(房客)机翻.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Flatmate(房客)机翻.rar`
+- `待分类/The Flatmate(房客)机翻`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Flatmate(房客)机翻.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Flatmate(房客)机翻.rar`
+- `待分类/The Gambler赌徒 BY suii`: 保留 `241022-磕学家补充资源\【HP伏哈】The Gambler赌徒 BY suii.txt`,丢弃 `【HP伏哈】The Gambler赌徒 BY suii.txt`
+- `待分类/The Good Girl`: 保留 `240410-Fanst补充资源\【HP德赫】The Good Girl.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Good Girl.rar`
+- `待分类/The Letter`: 保留 `240522-fanst补充资源\【HP待分类】The Letter.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】The Letter.rar`
+- `待分类/The Letter`: 保留 `240522-fanst补充资源\【HP待分类】The Letter.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】The Letter.rar`
+- `待分类/The Life After Hogwarts`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Life After Hogwarts .rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Life After Hogwarts .rar`
+- `待分类/The Life After Hogwarts`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Life After Hogwarts .rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Life After Hogwarts .rar`
+- `待分类/The Measure of Our Torment`: 保留 `240522-fanst补充资源\【HP待分类】The Measure of Our Torment.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】The Measure of Our Torment.rar`
+- `待分类/The Measure of Our Torment`: 保留 `240522-fanst补充资源\【HP待分类】The Measure of Our Torment.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】The Measure of Our Torment.rar`
+- `待分类/The Medean Curse`: 保留 `240522-fanst补充资源\【HP待分类】The Medean Curse.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】The Medean Curse.rar`
+- `待分类/The Mile High Club——High上云霄俱乐部`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Mile High Club——High上云霄俱乐部.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Mile High Club——High上云霄俱乐部.rar`
+- `待分类/The Mile High Club——High上云霄俱乐部`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Mile High Club——High上云霄俱乐部.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Mile High Club——High上云霄俱乐部.rar`
+- `待分类/The Mirror of Maybe`: 保留 `240522-fanst补充资源\【HP待分类】The Mirror of Maybe.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】The Mirror of Maybe.rar`
+- `待分类/The Mirror of Maybe`: 保留 `240522-fanst补充资源\【HP待分类】The Mirror of Maybe.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】The Mirror of Maybe.rar`
+- `待分类/The Movie Star Assistant（真同人）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Movie Star Assistant（真同人）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Movie Star Assistant（真同人）.rar`
+- `待分类/The Obliviation`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Obliviation.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Obliviation.rar`
+- `待分类/The Obliviation`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Obliviation.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Obliviation.rar`
+- `待分类/The Precocity of Veela 媚娃的早熟`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Precocity of Veela 媚娃的早熟.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Precocity of Veela 媚娃的早熟.rar`
+- `待分类/The Precocity of Veela 媚娃的早熟`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Precocity of Veela 媚娃的早熟.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Precocity of Veela 媚娃的早熟.rar`
+- `待分类/The Princess and the Ferret 公主与白鼬`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Princess and the Ferret 公主与白鼬.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The Princess and the Ferret 公主与白鼬.rar`
+- `待分类/The Princess and the Ferret 公主与白鼬`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Princess and the Ferret 公主与白鼬.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Princess and the Ferret 公主与白鼬.rar`
+- `待分类/The Reminder`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Reminder.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Reminder.rar`
+- `待分类/The Right Thing To Do为了正义（完整）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Right Thing To Do为了正义（完整）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Right Thing To Do为了正义（完整）.rar`
+- `待分类/The Rose&Obvious`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Rose&Obvious.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Rose&Obvious.rar`
+- `待分类/The Simple Joy of Living`: 保留 `240425-Fanst补充资源(1)\【HP德哈】The Simple Joy of Living.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】The Simple Joy of Living.rar`
+- `待分类/The Unseemly Proposal`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Unseemly Proposal.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Unseemly Proposal.rar`
+- `待分类/The Voice`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】The Voice .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】The Voice.rar`
+- `待分类/The Witch Weekly Quiz by Rita Skeeter`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The Witch Weekly Quiz by Rita Skeeter.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The Witch Weekly Quiz by Rita Skeeter.rar`
+- `待分类/The coincidence of the situation`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The coincidence of the situation.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】The coincidence of the situation.rar`
+- `待分类/The coincidence of the situation`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The coincidence of the situation.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The coincidence of the situation.rar`
+- `待分类/The last Somnus`: 保留 `240410-Fanst补充资源(1)\【HP德赫】The last Somnus.rar`,丢弃 `240522-fanst补充资源\【HP德赫】The last Somnus.rar`
+- `待分类/The tension and the spark`: 保留 `240522-fanst补充资源\The tension and the spark.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】The tension and the spark.rar`
+- `待分类/Think_of_me[D／H]`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Think_of_me[D／H].rar`,丢弃 `240522-fanst补充资源\【HP德赫】Think_of_me[D／H].rar`
+- `待分类/This Love`: 保留 `240410-Fanst补充资源(1)\【HP德赫】This Love.rar`,丢弃 `240522-fanst补充资源\【HP德赫】This Love.rar`
+- `待分类/Tickling the Dragon（挠挠那只龙）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Tickling the Dragon（挠挠那只龙）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Tickling the Dragon（挠挠那只龙）.rar`
+- `待分类/To Be Yourself`: 保留 `240410-Fanst补充资源(1)\【HP德赫】To Be Yourself.rar`,丢弃 `240522-fanst补充资源\【HP德赫】To Be Yourself.rar`
+- `待分类/Too Much Talking`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Too Much Talking.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Too Much Talking.rar`
+- `待分类/True Colours by AkashaTheKitty`: 保留 `240410-Fanst补充资源(1)\【HP德赫】True Colours by AkashaTheKitty.rar`,丢弃 `240522-fanst补充资源\【HP德赫】True Colours by AkashaTheKitty.rar`
+- `待分类/Try to Remember`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Try to Remember.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Try to Remember.rar`
+- `待分类/Uncoffined by ladyofclunn`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Uncoffined by ladyofclunn.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Uncoffined by ladyofclunn.rar`
+- `待分类/Unconscionable Behavior`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Unconscionable Behavior.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Unconscionable Behavior.rar`
+- `待分类/Valentine Encounter`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Valentine Encounter.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Valentine Encounter.rar`
+- `待分类/Valentine's Day`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Valentine's Day.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Valentine's Day.rar`
+- `待分类/Waiting`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Waiting.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Waiting.rar`
+- `待分类/Waiting fou you in the sky`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Waiting fou you in the sky.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Waiting fou you in the sky.rar`
+- `待分类/We Learned the Sea`: 保留 `240410-Fanst补充资源(1)\【HP德赫】We Learned the Sea.rar`,丢弃 `240522-fanst补充资源\【HP德赫】We Learned the Sea.rar`
+- `待分类/White Hores`: 保留 `240410-Fanst补充资源(1)\【HP德赫】White Hores.rar`,丢弃 `240522-fanst补充资源\【HP德赫】White Hores.rar`
+- `待分类/Y`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Y .rar`,丢弃 `240522-fanst补充资源\【HP德赫】Y .rar`
+- `待分类/Y[整理版]`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Y[整理版].rar`,丢弃 `240522-fanst补充资源\【HP德赫】Y[整理版].rar`
+- `待分类/Y_网友想要的旧版`: 保留 `240410-Fanst补充资源(1)\【HP德赫】Y_网友想要的旧版.rar`,丢弃 `240522-fanst补充资源\【HP德赫】Y_网友想要的旧版.rar`
+- `待分类/You Are My Home`: 保留 `240522-fanst补充资源\【HP西斯】 You Are My Home.rar`,丢弃 `240522-fanst补充资源\【HP西斯】You Are My Home.rar`
+- `待分类/You Don't Have To`: 保留 `240410-Fanst补充资源(1)\【HP德赫】You Don't Have To.rar`,丢弃 `240522-fanst补充资源\【HP德赫】You Don't Have To.rar`
+- `待分类/and say yes`: 保留 `240522-fanst补充资源\and say yes.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】and say yes.rar`
+- `待分类/beautiful_within heart`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】beautiful_within heart .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】beautiful_within heart .zip`
+- `待分类/beautiful_within_Nc17`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beautiful_within_Nc17.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】beautiful_within_Nc17.rar`
+- `待分类/beautiful_within_Nc17`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beautiful_within_Nc17.rar`,丢弃 `240522-fanst补充资源\【HP德赫】beautiful_within_Nc17.rar`
+- `待分类/beautiful_within_Nc17`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beautiful_within_Nc17.rar`,丢弃 `【HP德赫】beautiful_within_Nc17.rar`
+- `待分类/beyond the phantom`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beyond the phantom.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】beyond the phantom.rar`
+- `待分类/beyond the phantom`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beyond the phantom.rar`,丢弃 `240522-fanst补充资源\【HP德赫】beyond the phantom.rar`
+- `待分类/beyond the phantom`: 保留 `240410-Fanst补充资源(1)\【HP德赫】beyond the phantom.rar`,丢弃 `【HP德赫】beyond the phantom.rar`
+- `待分类/cassiopia`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cassiopia.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】cassiopia.rar`
+- `待分类/cassiopia`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cassiopia.rar`,丢弃 `240522-fanst补充资源\【HP德赫】cassiopia.rar`
+- `待分类/cassiopia`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cassiopia.rar`,丢弃 `【HP德赫】cassiopia.rar`
+- `待分类/cold summer`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cold summer.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】cold summer.rar`
+- `待分类/cold summer`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cold summer.rar`,丢弃 `240522-fanst补充资源\【HP德赫】cold summer.rar`
+- `待分类/cold summer`: 保留 `240410-Fanst补充资源(1)\【HP德赫】cold summer.rar`,丢弃 `【HP德赫】cold summer.rar`
+- `待分类/counseling婚姻咨询`: 保留 `240410-Fanst补充资源(1)\【HP德赫】counseling婚姻咨询.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】counseling婚姻咨询.rar`
+- `待分类/counseling婚姻咨询`: 保留 `240410-Fanst补充资源(1)\【HP德赫】counseling婚姻咨询.rar`,丢弃 `240522-fanst补充资源\【HP德赫】counseling婚姻咨询.rar`
+- `待分类/counseling婚姻咨询`: 保留 `240410-Fanst补充资源(1)\【HP德赫】counseling婚姻咨询.rar`,丢弃 `【HP德赫】counseling婚姻咨询.rar`
+- `待分类/decinda德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】decinda德赫.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】decinda德赫.rar`
+- `待分类/decinda德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】decinda德赫.rar`,丢弃 `【HP德赫】decinda德赫.rar`
+- `待分类/far away by joeling2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】far away by joeling2.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】far away by joeling2.rar`
+- `待分类/far away by joeling2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】far away by joeling2.rar`,丢弃 `240522-fanst补充资源\【HP德赫】far away by joeling2.rar`
+- `待分类/far away by joeling2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】far away by joeling2.rar`,丢弃 `【HP德赫】far away by joeling2.rar`
+- `待分类/fvdsfs`: 保留 `240522-fanst补充资源\fvdsfs.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】fvdsfs.rar`
+- `待分类/hp致命吸引（德赫）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】hp致命吸引（德赫）.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】hp致命吸引（德赫）.rar`
+- `待分类/hp致命吸引（德赫）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】hp致命吸引（德赫）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】hp致命吸引（德赫）.rar`
+- `待分类/hp致命吸引（德赫）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】hp致命吸引（德赫）.rar`,丢弃 `【HP德赫】hp致命吸引（德赫）.rar`
+- `待分类/if...`: 保留 `240522-fanst补充资源\【HP待分类】if....rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】if....rar`
+- `待分类/isolation49章完整版`: 保留 `240410-Fanst补充资源(1)\【HP德赫】isolation49章完整版.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】isolation49章完整版.rar`
+- `待分类/isolation49章完整版`: 保留 `240410-Fanst补充资源(1)\【HP德赫】isolation49章完整版.rar`,丢弃 `240522-fanst补充资源\【HP德赫】isolation49章完整版.rar`
+- `待分类/isolation49章完整版`: 保留 `240410-Fanst补充资源(1)\【HP德赫】isolation49章完整版.rar`,丢弃 `【HP德赫】isolation49章完整版.rar`
+- `待分类/just the two of us`: 保留 `240410-Fanst补充资源(1)\【HP德赫】just the two of us.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】just the two of us.rar`
+- `待分类/just the two of us`: 保留 `240410-Fanst补充资源(1)\【HP德赫】just the two of us.rar`,丢弃 `240522-fanst补充资源\【HP德赫】just the two of us.rar`
+- `待分类/just the two of us`: 保留 `240410-Fanst补充资源(1)\【HP德赫】just the two of us.rar`,丢弃 `【HP德赫】just the two of us.rar`
+- `待分类/kiss or kill`: 保留 `240522-fanst补充资源\【HP待分类】kiss or kill.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】kiss or kill.rar`
+- `待分类/kitten`: 保留 `240522-fanst补充资源\kitten.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】kitten.rar`
+- `待分类/left my heart`: 保留 `240522-fanst补充资源\【HP待分类】left my heart.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】left my heart.rar`
+- `待分类/left my heart`: 保留 `240522-fanst补充资源\【HP待分类】left my heart.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】left my heart.rar`
+- `待分类/missing you德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】missing you德赫.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】missing you德赫.rar`
+- `待分类/missing you德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】missing you德赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】missing you德赫.rar`
+- `待分类/missing you德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】missing you德赫.rar`,丢弃 `【HP德赫】missing you德赫.rar`
+- `待分类/promise_of_snow(德赫)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】promise_of_snow(德赫).rar`,丢弃 `240410-Fanst补充资源\【HP德赫】promise_of_snow(德赫).rar`
+- `待分类/promise_of_snow(德赫)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】promise_of_snow(德赫).rar`,丢弃 `240522-fanst补充资源\【HP德赫】promise_of_snow(德赫).rar`
+- `待分类/promise_of_snow(德赫)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】promise_of_snow(德赫).rar`,丢弃 `【HP德赫】promise_of_snow(德赫).rar`
+- `待分类/see how much i love you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】see how much i love you.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】see how much i love you.rar`
+- `待分类/see how much i love you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】see how much i love you.rar`,丢弃 `240522-fanst补充资源\【HP德赫】see how much i love you.rar`
+- `待分类/see how much i love you`: 保留 `240410-Fanst补充资源(1)\【HP德赫】see how much i love you.rar`,丢弃 `【HP德赫】see how much i love you.rar`
+- `待分类/slowly，close to you`: 保留 `240522-fanst补充资源\slowly，close to you.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】slowly，close to you.rar`
+- `待分类/snape 介绍`: 保留 `240522-fanst补充资源\snape 介绍.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】snape 介绍.rar`
+- `待分类/someone there for me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】someone there for me.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】someone there for me.rar`
+- `待分类/someone there for me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】someone there for me.rar`,丢弃 `240522-fanst补充资源\【HP德赫】someone there for me.rar`
+- `待分类/someone there for me`: 保留 `240410-Fanst补充资源(1)\【HP德赫】someone there for me.rar`,丢弃 `【HP德赫】someone there for me.rar`
+- `待分类/take my heart away`: 保留 `240522-fanst补充资源\【HP伏赫】take my heart away.rar`,丢弃 `Fanst资源日更中（先转存再查看\【伏赫】take my heart away.rar`
+- `待分类/tell_me_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】tell_me_德赫.rar`,丢弃 `240410-Fanst补充资源\【HP德赫】tell_me_德赫.rar`
+- `待分类/tell_me_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】tell_me_德赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】tell_me_德赫.rar`
+- `待分类/tell_me_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】tell_me_德赫.rar`,丢弃 `【HP德赫】tell_me_德赫.rar`
+- `待分类/the List 清单`: 保留 `240416-Fanst补充资源(1)\【HP哈赫】the List 清单.rar`,丢弃 `240416-Fanst补充资源\【HP哈赫】the List 清单.rar`
+- `待分类/the wing第一部（整理版）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】the wing第一部（整理版）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】the wing第一部（整理版）.rar`
+- `待分类/the wing第二部+文档`: 保留 `240410-Fanst补充资源(1)\【HP德赫】the wing第二部+文档.rar`,丢弃 `240522-fanst补充资源\【HP德赫】the wing第二部+文档.rar`
+- `待分类/《HP刺杀普林斯》作者：青椒鱼`: 保留 `240928-磕学家补充资源\《HP刺杀普林斯》作者：青椒鱼.zip`,丢弃 `《HP刺杀普林斯》作者：青椒鱼.zip`
+- `待分类/《HP霍格沃茨：另一段校史》作者：BBBriony`: 保留 `240928-磕学家补充资源\《HP霍格沃茨：另一段校史》作者：BBBriony.rar`,丢弃 `《HP霍格沃茨：另一段校史》作者：BBBriony.rar`
+- `待分类/《[HP]关于前任》作者：情树`: 保留 `240928-磕学家补充资源\《[HP]关于前任》作者：情树.rar`,丢弃 `《[HP]关于前任》作者：情树.rar`
+- `待分类/《[HP]和救世主协议结婚了》作者：情树`: 保留 `240928-磕学家补充资源\《[HP]和救世主协议结婚了》作者：情树.rar`,丢弃 `《[HP]和救世主协议结婚了》作者：情树.rar`
+- `待分类/《[HP]攻略上司的一百零八式》作者：情树`: 保留 `240928-磕学家补充资源\《[HP]攻略上司的一百零八式》作者：情树.rar`,丢弃 `《[HP]攻略上司的一百零八式》作者：情树.rar`
+- `待分类/《[HP]斯莱特林的心愿》作者：就写这一本`: 保留 `240928-磕学家补充资源\《[HP]斯莱特林的心愿》作者：就写这一本.rar`,丢弃 `《[HP]斯莱特林的心愿》作者：就写这一本.rar`
+- `待分类/《[HP]魔法没有放弃你》作者：江汐润`: 保留 `240928-磕学家补充资源\《[HP]魔法没有放弃你》作者：江汐润.rar`,丢弃 `《[HP]魔法没有放弃你》作者：江汐润.rar`
+- `待分类/《[HP双子]你们两个都是坏人》作者：Vivianguess`: 保留 `240928-磕学家补充资源\《[HP双子]你们两个都是坏人》作者：Vivianguess.rar`,丢弃 `《[HP双子]你们两个都是坏人》作者：Vivianguess.rar`
+- `待分类/《[HP穿越] Silver Fox》作者：宅十四`: 保留 `240928-磕学家补充资源\《[HP穿越] Silver Fox》作者：宅十四.rar`,丢弃 `《[HP穿越] Silver Fox》作者：宅十四.rar`
+- `待分类/《会呼吸的痛》作者：趴趴尘`: 保留 `240928-磕学家补充资源\《会呼吸的痛》作者：趴趴尘.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】《会呼吸的痛》作者：趴趴尘.rar`
+- `待分类/《会呼吸的痛》作者：趴趴尘`: 保留 `240928-磕学家补充资源\《会呼吸的痛》作者：趴趴尘.rar`,丢弃 `《会呼吸的痛》作者：趴趴尘.rar`
+- `待分类/《（HP同人）HP之星光》作者：漓落幽幽`: 保留 `240928-磕学家补充资源\《（HP同人）HP之星光》作者：漓落幽幽.rar`,丢弃 `《（HP同人）HP之星光》作者：漓落幽幽.rar`
+- `待分类/《（HP同人）[HP]依蕾妮一定是个天才》作者：Subicia`: 保留 `240928-磕学家补充资源\《（HP同人）[HP]依蕾妮一定是个天才》作者：Subicia.rar`,丢弃 `《（HP同人）[HP]依蕾妮一定是个天才》作者：Subicia.rar`
+- `待分类/《（HP同人）德拉科的秘密》作者：小裙要走出自闭o`: 保留 `240928-磕学家补充资源\《（HP同人）德拉科的秘密》作者：小裙要走出自闭o.rar`,丢弃 `《（HP同人）德拉科的秘密》作者：小裙要走出自闭o.rar`
+- `待分类/《［HP·卢平］月亮也会奔你而来》作者：阿鵺的做梦时间`: 保留 `240928-磕学家补充资源\《［HP·卢平］月亮也会奔你而来》作者：阿鵺的做梦时间.rar`,丢弃 `《［HP·卢平］月亮也会奔你而来》作者：阿鵺的做梦时间.rar`
+- `待分类/一个人的想念&It's gonna be love`: 保留 `240410-Fanst补充资源(1)\【HP德赫】一个人的想念&It's gonna be love.rar`,丢弃 `240522-fanst补充资源\【HP德赫】一个人的想念&It's gonna be love.rar`
+- `待分类/一个陌生女人的来信`: 保留 `240410-Fanst补充资源(1)\【HP德赫】一个陌生女人的来信.rar`,丢弃 `240522-fanst补充资源\【HP德赫】一个陌生女人的来信.rar`
+- `待分类/一步之遥`: 保留 `240410-Fanst补充资源(1)\【福尔摩斯-福华】一步之遥.rar`,丢弃 `241128-哈皮磕学家\【HP犬蝠】一步之遥.zip`
+- `待分类/一段校史`: 保留 `241022-磕学家补充资源\【HP创始人】一段校史.txt`,丢弃 `【HP创始人】一段校史.txt`
+- `待分类/一生所爱 BY 上山打老虎巴扎嘿`: 保留 `241022-磕学家补充资源\【HP德哈】一生所爱 BY 上山打老虎巴扎嘿.txt`,丢弃 `241128-哈皮磕学家\【HP德哈】一生所爱 BY 上山打老虎巴扎嘿.zip`
+- `待分类/一百加隆的巧搭秘密`: 保留 `240410-Fanst补充资源(1)\【HP德赫】一百加隆的巧搭秘密.rar`,丢弃 `240522-fanst补充资源\【HP德赫】一百加隆的巧搭秘密.rar`
+- `待分类/一直陪在你身边`: 保留 `240522-fanst补充资源\一直陪在你身边.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】一直陪在你身边.rar`
+- `待分类/七宗罪`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】七宗罪 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】七宗罪.rar`
+- `待分类/万事通小姐`: 保留 `240410-Fanst补充资源(1)\【HP德赫】万事通小姐.rar`,丢弃 `240522-fanst补充资源\【HP德赫】万事通小姐.rar`
+- `待分类/万事通小姐`: 保留 `240410-Fanst补充资源(1)\【HP德赫】万事通小姐.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP重生】万事通小姐.rar`
+- `待分类/万圣节的诅咒`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】万圣节的诅咒.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】万圣节的诅咒.zip`
+- `待分类/三生奇缘`: 保留 `240522-fanst补充资源\三生奇缘.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】三生奇缘.rar`
+- `待分类/不为人知的秘密`: 保留 `240416-Fanst补充资源(1)\【HP哈赫】不为人知的秘密.rar`,丢弃 `240416-Fanst补充资源\【HP哈赫】不为人知的秘密.rar`
+- `待分类/不同的过去和将来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不同的过去和将来.rar`,丢弃 `240522-fanst补充资源\【HP德赫】不同的过去和将来.rar`
+- `待分类/不同的过去和将来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不同的过去和将来.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】不同的过去和将来.rar`
+- `待分类/不存在的情人`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不存在的情人.rar`,丢弃 `240522-fanst补充资源\【HP德赫】不存在的情人.rar`
+- `待分类/不曾遗失的回忆`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不曾遗失的回忆.rar`,丢弃 `240522-fanst补充资源\【HP德赫】不曾遗失的回忆.rar`
+- `待分类/不期而遇`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不期而遇.rar`,丢弃 `240522-fanst补充资源\【HP德赫】不期而遇.rar`
+- `待分类/不要温和地走进那个良夜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】不要温和地走进那个良夜.rar`,丢弃 `240522-fanst补充资源\【HP德赫】不要温和地走进那个良夜.rar`
+- `待分类/不语胜千言 Talk to Me`: 保留 `240920-磕学家补充资源\【HP德哈】不语胜千言 Talk to Me.rar`,丢弃 `240928-磕学家补充资源\【HP德哈】不语胜千言 Talk to Me.rar`
+- `待分类/与他共度六十一世`: 保留 `240522-fanst补充资源\【HP待分类】与他共度六十一世.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】与他共度六十一世.rar`
+- `待分类/与他共度六十一世`: 保留 `240522-fanst补充资源\【HP待分类】与他共度六十一世.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】与他共度六十一世.rar`
+- `待分类/与郎共枕1001夜`: 保留 `240522-fanst补充资源\【HP待分类】与郎共枕1001夜.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】与郎共枕1001夜.rar`
+- `待分类/世纪婚礼`: 保留 `240410-Fanst补充资源(1)\【HP德赫】世纪婚礼.rar`,丢弃 `240522-fanst补充资源\【HP德赫】世纪婚礼.rar`
+- `待分类/世间最遥远的距离`: 保留 `240410-Fanst补充资源(1)\【HP德赫】世间最遥远的距离.rar`,丢弃 `240522-fanst补充资源\【HP德赫】世间最遥远的距离.rar`
+- `待分类/两个马尔福VS一个格兰杰BY：雪倩`: 保留 `240410-Fanst补充资源(1)\【HP德赫】两个马尔福VS一个格兰杰BY：雪倩.rar`,丢弃 `240522-fanst补充资源\【HP德赫】两个马尔福VS一个格兰杰BY：雪倩.rar`
+- `待分类/两重苍穹 - 谁把流年暗偷换`: 保留 `240410-Fanst补充资源(1)\【HP德赫】两重苍穹 - 谁把流年暗偷换.rar`,丢弃 `240522-fanst补充资源\【HP德赫】两重苍穹 - 谁把流年暗偷换.rar`
+- `待分类/临窗欧石楠`: 保留 `240410-Fanst补充资源(1)\【HP德赫】临窗欧石楠.rar`,丢弃 `240522-fanst补充资源\【HP德赫】临窗欧石楠.rar`
+- `待分类/为什么`: 保留 `240410-Fanst补充资源(1)\【HP德赫】为什么.rar`,丢弃 `240522-fanst补充资源\【HP德赫】为什么.rar`
+- `待分类/为爱干杯`: 保留 `240522-fanst补充资源\为爱干杯.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】为爱干杯.rar`
+- `待分类/也许原来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】也许原来.rar`,丢弃 `240522-fanst补充资源\【HP德赫】也许原来.rar`
+- `待分类/也许相关，也许注定`: 保留 `240410-Fanst补充资源(1)\【HP德赫】也许相关，也许注定.rar`,丢弃 `240522-fanst补充资源\【HP德赫】也许相关，也许注定.rar`
+- `待分类/也许相爱`: 保留 `240522-fanst补充资源\【HP待分类】也许相爱.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】也许相爱.rar`
+- `待分类/也许相爱`: 保留 `240522-fanst补充资源\【HP待分类】也许相爱.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】也许相爱.rar`
+- `待分类/乱了心弦`: 保留 `240522-fanst补充资源\【HP待分类】乱了心弦.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】乱了心弦.rar`
+- `待分类/乱弹琴之另一条路`: 保留 `240522-fanst补充资源\【HP待分类】乱弹琴之另一条路.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】乱弹琴之另一条路.rar`
+- `待分类/乱弹琴之另一条路`: 保留 `240522-fanst补充资源\【HP待分类】乱弹琴之另一条路.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP穿越成教授】乱弹琴之另一条路.rar`
+- `待分类/亚历山大图书馆(1)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】亚历山大图书馆(1).rar`,丢弃 `240522-fanst补充资源\【HP德赫】亚历山大图书馆(1).rar`
+- `待分类/亡灵归来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】亡灵归来.rar`,丢弃 `240522-fanst补充资源\【HP德赫】亡灵归来.rar`
+- `待分类/亲子教学课`: 保留 `240410-Fanst补充资源(1)\【HP德赫】亲子教学课.rar`,丢弃 `240522-fanst补充资源\【HP德赫】亲子教学课.rar`
+- `待分类/亲子教学课`: 保留 `240410-Fanst补充资源(1)\【HP德赫】亲子教学课.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】亲子教学课.rar`
+- `待分类/人人都说我爱你`: 保留 `240410-Fanst补充资源(1)\【HP德赫】人人都说我爱你.rar`,丢弃 `240522-fanst补充资源\【HP德赫】人人都说我爱你.rar`
+- `待分类/什么事也没有发生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】什么事也没有发生.rar`,丢弃 `240522-fanst补充资源\【HP德赫】什么事也没有发生.rar`
+- `待分类/从平行到相交-上（DHr）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】从平行到相交-上（DHr）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】从平行到相交-上（DHr）.rar`
+- `待分类/从平行到相交-下（DHr）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】从平行到相交-下（DHr）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】从平行到相交-下（DHr）.rar`
+- `待分类/从平行到相交（DHr）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】从平行到相交（DHr）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】从平行到相交（DHr）.rar`
+- `待分类/从错到对`: 保留 `240410-Fanst补充资源(1)\【HP德赫】从错到对.rar`,丢弃 `240522-fanst补充资源\【HP德赫】从错到对.rar`
+- `待分类/仓鼠小赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】仓鼠小赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】仓鼠小赫.rar`
+- `待分类/仓鼠遭遇蛇`: 保留 `240522-fanst补充资源\【HP待分类】仓鼠遭遇蛇.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】仓鼠遭遇蛇.rar`
+- `待分类/仓鼠遭遇蛇`: 保留 `240522-fanst补充资源\【HP待分类】仓鼠遭遇蛇.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】仓鼠遭遇蛇.rar`
+- `待分类/他将长成为何（What He Grows To Be)`: 保留 `241022-磕学家补充资源\【HP伏哈】他将长成为何（What He Grows To Be) .txt`,丢弃 `【HP伏哈】他将长成为何（What He Grows To Be) .txt`
+- `待分类/他是龙 by 白鹿洞主`: 保留 `240410-Fanst补充资源(1)\【HP德赫】他是龙 by 白鹿洞主.rar`,丢弃 `240522-fanst补充资源\【HP德赫】他是龙 by 白鹿洞主.rar`
+- `待分类/仙人掌天使`: 保留 `240522-fanst补充资源\【HP待分类】仙人掌天使.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】仙人掌天使.rar`
+- `待分类/仙人掌天使`: 保留 `240522-fanst补充资源\【HP待分类】仙人掌天使.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】仙人掌天使.rar`
+- `待分类/以正义之名（HE）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】以正义之名（HE）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】以正义之名（HE）.rar`
+- `待分类/似是故人来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】似是故人来.rar`,丢弃 `240522-fanst补充资源\【HP德赫】似是故人来.rar`
+- `待分类/似水流年`: 保留 `240522-fanst补充资源\似水流年.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】似水流年.rar`
+- `待分类/佛罗伦萨的十二封情书`: 保留 `240410-Fanst补充资源(1)\【HP德赫】佛罗伦萨的十二封情书.rar`,丢弃 `240522-fanst补充资源\【HP德赫】佛罗伦萨的十二封情书.rar`
+- `待分类/你别装行不行`: 保留 `240928-磕学家补充资源\【HP弗雷德】你别装行不行.rar`,丢弃 `【HP弗雷德】你别装行不行.rar`
+- `待分类/你并不拥有我`: 保留 `240410-Fanst补充资源(1)\【HP德赫】你并不拥有我.rar`,丢弃 `240522-fanst补充资源\【HP德赫】你并不拥有我.rar`
+- `待分类/你我的最后一夜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】你我的最后一夜.rar`,丢弃 `240522-fanst补充资源\【HP德赫】你我的最后一夜.rar`
+- `待分类/你的名字，我的姓氏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】你的名字，我的姓氏.rar`,丢弃 `240522-fanst补充资源\【HP德赫】你的名字，我的姓氏.rar`
+- `待分类/你的名字，我的姓氏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】你的名字，我的姓氏.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】你的名字，我的姓氏.rar`
+- `待分类/你背叛，我报复`: 保留 `240522-fanst补充资源\【HP待分类】你背叛，我报复.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】你背叛，我报复.rar`
+- `待分类/你背叛，我报复`: 保留 `240522-fanst补充资源\【HP待分类】你背叛，我报复.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】你背叛，我报复.rar`
+- `待分类/你错过的三两事`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】你错过的三两事.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】你错过的三两事.rar`
+- `待分类/你错过的三两事`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】你错过的三两事.rar`,丢弃 `【HP伏赫】你错过的三两事.rar`
+- `待分类/佩妮的情事`: 保留 `240416-Fanst补充资源(1)\【HP教授】佩妮的情事.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创女主】佩妮的情事.rar`
+- `待分类/佩妮的情事`: 保留 `240416-Fanst补充资源(1)\【HP教授】佩妮的情事.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP教授】佩妮的情事.zip`
+- `待分类/例行级长会议`: 保留 `240410-Fanst补充资源(1)\【HP德赫】例行级长会议.rar`,丢弃 `240522-fanst补充资源\【HP德赫】例行级长会议.rar`
+- `待分类/俗套啊俗套`: 保留 `240522-fanst补充资源\【HP待分类】俗套啊俗套.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】俗套啊俗套.rar`
+- `待分类/俗套啊俗套`: 保留 `240522-fanst补充资源\【HP待分类】俗套啊俗套.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】俗套啊俗套.rar`
+- `待分类/假面爱情`: 保留 `240410-Fanst补充资源(1)\【HP德赫】假面爱情.rar`,丢弃 `240522-fanst补充资源\【HP德赫】假面爱情.rar`
+- `待分类/偶然`: 保留 `240410-Fanst补充资源(1)\【HP德赫】偶然.rar`,丢弃 `240522-fanst补充资源\【HP德赫】偶然.rar`
+- `待分类/偶然`: 保留 `240410-Fanst补充资源(1)\【HP德赫】偶然.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】偶然.rar`
+- `待分类/偷偷吃了你(HE)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】偷偷吃了你(HE).rar`,丢弃 `240522-fanst补充资源\【HP德赫】偷偷吃了你(HE).rar`
+- `待分类/傻瓜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】傻瓜.rar`,丢弃 `240522-fanst补充资源\【HP德赫】傻瓜.rar`
+- `待分类/傻瓜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】傻瓜.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】傻瓜.rar`
+- `待分类/像天使一样堕落`: 保留 `240410-Fanst补充资源(1)\【HP德赫】像天使一样堕落.rar`,丢弃 `240522-fanst补充资源\【HP德赫】像天使一样堕落.rar`
+- `待分类/光影之间`: 保留 `240410-Fanst补充资源(1)\【HP德赫】光影之间.rar`,丢弃 `240522-fanst补充资源\【HP德赫】光影之间.rar`
+- `待分类/克拉布的日记`: 保留 `240410-Fanst补充资源(1)\【HP德赫】克拉布的日记.rar`,丢弃 `240522-fanst补充资源\【HP德赫】克拉布的日记.rar`
+- `待分类/克拉布的日记`: 保留 `240410-Fanst补充资源(1)\【HP德赫】克拉布的日记.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】克拉布的日记.rar`
+- `待分类/八卦时代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】八卦时代.rar`,丢弃 `240522-fanst补充资源\【HP德赫】八卦时代.rar`
+- `待分类/兰色郁金香`: 保留 `240522-fanst补充资源\【HP待分类】兰色郁金香.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】兰色郁金香.rar`
+- `待分类/兰色郁金香`: 保留 `240522-fanst补充资源\【HP待分类】兰色郁金香.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】兰色郁金香.rar`
+- `待分类/关于赫敏 格兰杰的一切`: 保留 `240410-Fanst补充资源(1)\【HP德赫】关于赫敏 格兰杰的一切.rar`,丢弃 `240522-fanst补充资源\【HP德赫】关于赫敏 格兰杰的一切.rar`
+- `待分类/兵临城下`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】兵临城下.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】兵临城下.zip`
+- `待分类/再见1998.`: 保留 `240410-Fanst补充资源(1)\【HP德赫】再见1998..rar`,丢弃 `240522-fanst补充资源\【HP德赫】再见1998..rar`
+- `待分类/再见时,人间天堂&昨天`: 保留 `240410-Fanst补充资源(1)\【HP德赫】再见时,人间天堂&昨天.rar`,丢弃 `240522-fanst补充资源\【HP德赫】再见时,人间天堂&昨天.rar`
+- `待分类/冰夜(三部)`: 保留 `240522-fanst补充资源\【HP待分类】冰夜(三部).rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】冰夜(三部).rar`
+- `待分类/几幅素描`: 保留 `240522-fanst补充资源\几幅素描.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】几幅素描.rar`
+- `待分类/分裂整理`: 保留 `240416-Fanst补充资源(1)\【HP哈赫】分裂整理.rar`,丢弃 `240416-Fanst补充资源\【HP哈赫】分裂整理.rar`
+- `待分类/别碰 它是有毒的`: 保留 `240410-Fanst补充资源(1)\【HP德赫】别碰 它是有毒的.rar`,丢弃 `240522-fanst补充资源\【HP德赫】别碰 它是有毒的.rar`
+- `待分类/别跟我说脏话`: 保留 `241128-哈皮磕学家\【HP斯赫】别跟我说脏话.7z`,丢弃 `241128-哈皮磕学家\【HP斯赫】别跟我说脏话.zip`
+- `待分类/别跟我说脏话`: 保留 `241128-哈皮磕学家\【HP斯赫】别跟我说脏话.7z`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】别跟我说脏话.rar`
+- `待分类/刺青(短篇已完结)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】刺青(短篇已完结).rar`,丢弃 `240522-fanst补充资源\【HP德赫】刺青(短篇已完结).rar`
+- `待分类/剃刀边缘的探戈`: 保留 `240522-fanst补充资源\【HP待分类】剃刀边缘的探戈.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】剃刀边缘的探戈.rar`
+- `待分类/前事今生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】前事今生.rar`,丢弃 `240522-fanst补充资源\【HP德赫】前事今生.rar`
+- `待分类/十九年之后`: 保留 `240410-Fanst补充资源(1)\【HP德赫】十九年之后.rar`,丢弃 `240522-fanst补充资源\【HP德赫】十九年之后.rar`
+- `待分类/十二封信`: 保留 `240925-磕学家补充资源\【HP雷古勒斯】十二封信.rar`,丢弃 `【HP雷古勒斯】十二封信.rar`
+- `待分类/午后，英伦在下雨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】午后，英伦在下雨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】午后，英伦在下雨.rar`
+- `待分类/单人沙发,双人爱情_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】单人沙发,双人爱情_德赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】单人沙发,双人爱情_德赫.rar`
+- `待分类/占星楼与一个面颊吻`: 保留 `240410-Fanst补充资源(1)\【HP德赫】占星楼与一个面颊吻.rar`,丢弃 `240522-fanst补充资源\【HP德赫】占星楼与一个面颊吻.rar`
+- `待分类/卧室玩具`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】卧室玩具.rar`,丢弃 `240416-Fanst补充资源\【HP伏斯】卧室玩具.rar`
+- `待分类/卧室玩具`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】卧室玩具.rar`,丢弃 `【HP伏斯】卧室玩具.rar`
+- `待分类/厮守`: 保留 `240522-fanst补充资源\厮守.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】厮守.rar`
+- `待分类/去死吧！正派！`: 保留 `240522-fanst补充资源\【HP待分类】去死吧！正派！.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】去死吧！正派！.rar`
+- `待分类/去死吧！正派！`: 保留 `240522-fanst补充资源\【HP待分类】去死吧！正派！.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】去死吧！正派！.rar`
+- `待分类/又一站穿越`: 保留 `240522-fanst补充资源\【HP待分类】又一站穿越.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创男主】又一站穿越.rar`
+- `待分类/又一站穿越`: 保留 `240522-fanst补充资源\【HP待分类】又一站穿越.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】又一站穿越.rar`
+- `待分类/又见霍格沃茨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】又见霍格沃茨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】又见霍格沃茨.rar`
+- `待分类/双蛇之争`: 保留 `240410-Fanst补充资源(1)\【HP德赫】双蛇之争.rar`,丢弃 `240522-fanst补充资源\【HP德赫】双蛇之争.rar`
+- `待分类/双重人生`: 保留 `240522-fanst补充资源\双重人生.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】双重人生.rar`
+- `待分类/反向形成晚期疗法`: 保留 `240415-Fanst补充资源\【飞机能飞】反向形成晚期疗法.rar`,丢弃 `【飞机能飞】反向形成晚期疗法.rar`
+- `待分类/另一个故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】另一个故事.rar`,丢弃 `240522-fanst补充资源\【HP德赫】另一个故事.rar`
+- `待分类/另一个故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】另一个故事.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】另一个故事.rar`
+- `待分类/只对你说`: 保留 `240410-Fanst补充资源(1)\【HP德赫】只对你说.rar`,丢弃 `240522-fanst补充资源\【HP德赫】只对你说.rar`
+- `待分类/只愿时光记得`: 保留 `240410-Fanst补充资源(1)\【HP德赫】只愿时光记得.rar`,丢弃 `240522-fanst补充资源\【HP德赫】只愿时光记得.rar`
+- `待分类/只要我们手牵手`: 保留 `240522-fanst补充资源\只要我们手牵手.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】只要我们手牵手.rar`
+- `待分类/只要我长大`: 保留 `240410-Fanst补充资源(1)\【HP德赫】只要我长大.rar`,丢弃 `240522-fanst补充资源\【HP德赫】只要我长大.rar`
+- `待分类/只要我长大`: 保留 `240410-Fanst补充资源(1)\【HP德赫】只要我长大.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】只要我长大.rar`
+- `待分类/吸血鬼的午夜`: 保留 `240522-fanst补充资源\【HP待分类】吸血鬼的午夜.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】吸血鬼的午夜.rar`
+- `待分类/吸血鬼的午夜`: 保留 `240522-fanst补充资源\【HP待分类】吸血鬼的午夜.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】吸血鬼的午夜.rar`
+- `待分类/命运之轮`: 保留 `240410-Fanst补充资源(1)\【HP德赫】命运之轮.rar`,丢弃 `240522-fanst补充资源\【HP德赫】命运之轮.rar`
+- `待分类/咒语大全`: 保留 `240522-fanst补充资源\咒语大全.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】咒语大全.rar`
+- `待分类/哈利波特不高兴`: 保留 `240410-Fanst补充资源(1)\【HP德赫】哈利波特不高兴.rar`,丢弃 `240522-fanst补充资源\【HP德赫】哈利波特不高兴.rar`
+- `待分类/哈利波特不高兴`: 保留 `240410-Fanst补充资源(1)\【HP德赫】哈利波特不高兴.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】哈利波特不高兴.rar`
+- `待分类/哈利波特不高兴&一个陌生女人的来信`: 保留 `240410-Fanst补充资源(1)\【HP德赫】哈利波特不高兴&一个陌生女人的来信.rar`,丢弃 `240522-fanst补充资源\【HP德赫】哈利波特不高兴&一个陌生女人的来信.rar`
+- `待分类/哈利波特之我是赫敏格兰杰`: 保留 `240410-Fanst补充资源(1)\【HP德赫】哈利波特之我是赫敏格兰杰.rar`,丢弃 `240522-fanst补充资源\【HP德赫】哈利波特之我是赫敏格兰杰.rar`
+- `待分类/哈利波特秘密档案`: 保留 `240410-Fanst补充资源(1)\【HP德赫】哈利波特秘密档案.rar`,丢弃 `240522-fanst补充资源\【HP德赫】哈利波特秘密档案.rar`
+- `待分类/唯一的记忆`: 保留 `240410-Fanst补充资源(1)\【HP德赫】唯一的记忆.rar`,丢弃 `240522-fanst补充资源\【HP德赫】唯一的记忆.rar`
+- `待分类/嘿!猫咪`: 保留 `240410-Fanst补充资源(1)\【HP德赫】嘿!猫咪.rar`,丢弃 `240522-fanst补充资源\【HP德赫】嘿!猫咪.rar`
+- `待分类/四月中的七天 Seven Days In April`: 保留 `240410-Fanst补充资源(1)\【HP德赫】四月中的七天 Seven Days In April.rar`,丢弃 `240522-fanst补充资源\【HP德赫】四月中的七天 Seven Days In April.rar`
+- `待分类/回到过去`: 保留 `240410-Fanst补充资源(1)\【HP德赫】回到过去.rar`,丢弃 `240522-fanst补充资源\【HP德赫】回到过去.rar`
+- `待分类/回家`: 保留 `240522-fanst补充资源\回家.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】回家.rar`
+- `待分类/在你手中转动`: 保留 `240415-Fanst补充资源\【HP教授】在你手中转动.rar`,丢弃 `【HP教授】在你手中转动.rar`
+- `待分类/在劫难逃`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】在劫难逃.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】在劫难逃.zip`
+- `待分类/在梦醒黄昏后`: 保留 `240410-Fanst补充资源(1)\【HP德赫】在梦醒黄昏后.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】在梦醒黄昏后.rar`
+- `待分类/在梦醒黄昏后`: 保留 `240410-Fanst补充资源(1)\【HP德赫】在梦醒黄昏后.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】在梦醒黄昏后.rar`
+- `待分类/在梦醒黄昏后`: 保留 `240410-Fanst补充资源(1)\【HP德赫】在梦醒黄昏后.rar`,丢弃 `240522-fanst补充资源\【HP德赫】在梦醒黄昏后.rar`
+- `待分类/在遥远的附近`: 保留 `240410-Fanst补充资源(1)\【HP德赫】在遥远的附近.rar`,丢弃 `240522-fanst补充资源\【HP德赫】在遥远的附近.rar`
+- `待分类/在遥远的附近`: 保留 `240410-Fanst补充资源(1)\【HP德赫】在遥远的附近.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】在遥远的附近.rar`
+- `待分类/地主家的儿媳妇`: 保留 `Fanst资源日更中（先转存再查看\【真人-马龙】地主家的儿媳妇.rar`,丢弃 `Fanst资源日更中（先转存再查看\【真人-马龙】地主家的儿媳妇.zip`
+- `待分类/堕落渊`: 保留 `240522-fanst补充资源\堕落渊.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】堕落渊.rar`
+- `待分类/声乐`: 保留 `240410-Fanst补充资源(1)\【HP德赫】声乐.rar`,丢弃 `240522-fanst补充资源\【HP德赫】声乐.rar`
+- `待分类/声声慢`: 保留 `240410-Fanst补充资源(1)\【HP德赫】声声慢.rar`,丢弃 `240522-fanst补充资源\【HP德赫】声声慢.rar`
+- `待分类/夏祭`: 保留 `240410-Fanst补充资源(1)\【HP德赫】夏祭.rar`,丢弃 `240522-fanst补充资源\【HP德赫】夏祭.rar`
+- `待分类/外交艺术The Art of Diplomacy by Rizzle`: 保留 `240410-Fanst补充资源(1)\【HP德赫】外交艺术The Art of Diplomacy by Rizzle.rar`,丢弃 `240522-fanst补充资源\【HP德赫】外交艺术The Art of Diplomacy by Rizzle.rar`
+- `待分类/夜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】夜.rar`,丢弃 `240522-fanst补充资源\【HP德赫】夜.rar`
+- `待分类/夜情`: 保留 `240522-fanst补充资源\夜情.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】夜情.rar`
+- `待分类/夜旅将尽 And So The Journey Of The Night Descends`: 保留 `240410-Fanst补充资源(1)\【HP德赫】夜旅将尽 And So The Journey Of The Night Descends.rar`,丢弃 `240522-fanst补充资源\【HP德赫】夜旅将尽 And So The Journey Of The Night Descends.rar`
+- `待分类/夜游`: 保留 `240522-fanst补充资源\夜游.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】夜游.rar`
+- `待分类/天外有天`: 保留 `240522-fanst补充资源\天外有天.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】天外有天.rar`
+- `待分类/天黑`: 保留 `240410-Fanst补充资源(1)\【HP德赫】天黑.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】天黑.rar`
+- `待分类/天黑`: 保留 `240410-Fanst补充资源(1)\【HP德赫】天黑.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】天黑.rar`
+- `待分类/天黑`: 保留 `240410-Fanst补充资源(1)\【HP德赫】天黑.rar`,丢弃 `240522-fanst补充资源\【HP德赫】天黑.rar`
+- `待分类/天黑`: 保留 `240410-Fanst补充资源(1)\【HP德赫】天黑.rar`,丢弃 `【HP伏赫】天黑.rar`
+- `待分类/夫妻相性100问`: 保留 `240410-Fanst补充资源(1)\【HP德赫】夫妻相性100问.rar`,丢弃 `240522-fanst补充资源\【HP德赫】夫妻相性100问.rar`
+- `待分类/夫妻相性100问`: 保留 `240410-Fanst补充资源(1)\【HP德赫】夫妻相性100问.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】夫妻相性100问.rar`
+- `待分类/女贞路4号`: 保留 `240522-fanst补充资源\【HP待分类】女贞路4号.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】女贞路4号.rar`
+- `待分类/女贞路4号`: 保留 `240522-fanst补充资源\【HP待分类】女贞路4号.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP未知】女贞路4号.rar`
+- `待分类/如何教育一个Malfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】如何教育一个Malfoy.rar`,丢弃 `240522-fanst补充资源\【HP德赫】如何教育一个Malfoy.rar`
+- `待分类/如何调教一个Malfoy`: 保留 `240410-Fanst补充资源(1)\【HP德赫】如何调教一个Malfoy.rar`,丢弃 `240522-fanst补充资源\【HP德赫】如何调教一个Malfoy.rar`
+- `待分类/如果哈利波特不是童话`: 保留 `241022-磕学家补充资源\【HP德哈】如果哈利波特不是童话.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】如果哈利波特不是童话.rar`
+- `待分类/如果的事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】如果的事.rar`,丢弃 `240522-fanst补充资源\【HP德赫】如果的事.rar`
+- `待分类/如蝉`: 保留 `240522-fanst补充资源\【HP待分类】如蝉.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创女主】如蝉.rar`
+- `待分类/如蝉`: 保留 `240522-fanst补充资源\【HP待分类】如蝉.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】如蝉.rar`
+- `待分类/婚礼进行曲`: 保留 `240522-fanst补充资源\婚礼进行曲.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】婚礼进行曲.rar`
+- `待分类/媒人布雷斯`: 保留 `240410-Fanst补充资源(1)\【HP德赫】媒人布雷斯.rar`,丢弃 `240522-fanst补充资源\【HP德赫】媒人布雷斯.rar`
+- `待分类/字母表 Alphabet by everythursday`: 保留 `240410-Fanst补充资源(1)\【HP德赫】字母表 Alphabet by everythursday.rar`,丢弃 `240522-fanst补充资源\【HP德赫】字母表 Alphabet by everythursday.rar`
+- `待分类/孤独的心`: 保留 `240410-Fanst补充资源(1)\【HP德赫】孤独的心.rar`,丢弃 `240522-fanst补充资源\【HP德赫】孤独的心.rar`
+- `待分类/守护`: 保留 `240522-fanst补充资源\守护.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】守护.rar`
+- `待分类/守护幸福！`: 保留 `240522-fanst补充资源\【HP待分类】守护幸福！.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】守护幸福！.rar`
+- `待分类/守护幸福！`: 保留 `240522-fanst补充资源\【HP待分类】守护幸福！.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】守护幸福！.rar`
+- `待分类/客房服务 Room Serviced by pir8fancier`: 保留 `240410-Fanst补充资源(1)\【HP德赫】客房服务 Room Serviced by pir8fancier.rar`,丢弃 `240522-fanst补充资源\【HP德赫】客房服务 Room Serviced by pir8fancier.rar`
+- `待分类/宿忘`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】宿忘.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】宿忘.rar`
+- `待分类/宿忘`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】宿忘.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】宿忘.zip`
+- `待分类/宿忘_作者馋馋`: 保留 `240410-Fanst补充资源(1)\【HP德赫】宿忘_作者馋馋.rar`,丢弃 `240522-fanst补充资源\【HP德赫】宿忘_作者馋馋.rar`
+- `待分类/寂寞先生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】寂寞先生.rar`,丢弃 `240522-fanst补充资源\【HP德赫】寂寞先生.rar`
+- `待分类/寻猎仙踪 The Nymph Hunt by AkashaTheKitty`: 保留 `240410-Fanst补充资源(1)\【HP德赫】寻猎仙踪 The Nymph Hunt by AkashaTheKitty.rar`,丢弃 `240522-fanst补充资源\【HP德赫】寻猎仙踪 The Nymph Hunt by AkashaTheKitty.rar`
+- `待分类/导游与魔术师`: 保留 `240410-Fanst补充资源(1)\【HP德赫】导游与魔术师.rar`,丢弃 `240522-fanst补充资源\【HP德赫】导游与魔术师.rar`
+- `待分类/将错就错&偶然`: 保留 `240410-Fanst补充资源(1)\【HP德赫】将错就错&偶然.rar`,丢弃 `240522-fanst补充资源\【HP德赫】将错就错&偶然.rar`
+- `待分类/小天使与小主人`: 保留 `240410-Fanst补充资源(1)\【HP德赫】小天使与小主人.rar`,丢弃 `240522-fanst补充资源\【HP德赫】小天使与小主人.rar`
+- `待分类/小猫`: 保留 `240522-fanst补充资源\小猫.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】小猫.rar`
+- `待分类/已无来时路`: 保留 `240522-fanst补充资源\【HP待分类】已无来时路.rar`,丢弃 `240522-fanst补充资源\已无来时路.rar`
+- `待分类/已无来时路`: 保留 `240522-fanst补充资源\【HP待分类】已无来时路.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】已无来时路.rar`
+- `待分类/巴黎`: 保留 `240410-Fanst补充资源(1)\【HP德赫】巴黎.rar`,丢弃 `240522-fanst补充资源\【HP德赫】巴黎.rar`
+- `待分类/巴黎`: 保留 `240410-Fanst补充资源(1)\【HP德赫】巴黎.rar`,丢弃 `241014-磕学家补充资源\【HP德赫】巴黎.rar`
+- `待分类/巴黎`: 保留 `240410-Fanst补充资源(1)\【HP德赫】巴黎.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】巴黎.rar`
+- `待分类/巴黎永忆`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】巴黎永忆.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】巴黎永忆.zip`
+- `待分类/布雷斯他心好累`: 保留 `240410-Fanst补充资源(1)\【HP德赫】布雷斯他心好累.rar`,丢弃 `240522-fanst补充资源\【HP德赫】布雷斯他心好累.rar`
+- `待分类/带我去有阳光的地方，好吗`: 保留 `240410-Fanst补充资源(1)\【HP德赫】带我去有阳光的地方，好吗.rar`,丢弃 `240522-fanst补充资源\【HP德赫】带我去有阳光的地方，好吗.rar`
+- `待分类/带走你生命中最重要的东西`: 保留 `240410-Fanst补充资源(1)\【HP德赫】带走你生命中最重要的东西.rar`,丢弃 `240522-fanst补充资源\【HP德赫】带走你生命中最重要的东西.rar`
+- `待分类/带霜的落墨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】带霜的落墨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】带霜的落墨.rar`
+- `待分类/幸存者`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】幸存者.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】幸存者.zip`
+- `待分类/幸福乐章`: 保留 `240410-Fanst补充资源(1)\【HP德赫】幸福乐章.rar`,丢弃 `240522-fanst补充资源\【HP德赫】幸福乐章.rar`
+- `待分类/幸福结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】幸福结局.rar`,丢弃 `240522-fanst补充资源\【HP德赫】幸福结局.rar`
+- `待分类/幸福结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】幸福结局.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】幸福结局.rar`
+- `待分类/庙里有个小和尚`: 保留 `240522-fanst补充资源\【HP待分类】庙里有个小和尚.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】庙里有个小和尚.rar`
+- `待分类/庙里有个小和尚`: 保留 `240522-fanst补充资源\【HP待分类】庙里有个小和尚.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】庙里有个小和尚.rar`
+- `待分类/庸人自扰&请温暖我的双手`: 保留 `240410-Fanst补充资源(1)\【HP德赫】庸人自扰&请温暖我的双手.rar`,丢弃 `240522-fanst补充资源\【HP德赫】庸人自扰&请温暖我的双手.rar`
+- `待分类/开场白`: 保留 `240410-Fanst补充资源(1)\【HP德赫】开场白.rar`,丢弃 `240522-fanst补充资源\【HP德赫】开场白.rar`
+- `待分类/开始——中规中矩的德赫文`: 保留 `240410-Fanst补充资源(1)\【HP德赫】开始——中规中矩的德赫文.rar`,丢弃 `240522-fanst补充资源\【HP德赫】开始——中规中矩的德赫文.rar`
+- `待分类/异性相吸`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】异性相吸.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】异性相吸.rar`
+- `待分类/归 by菜猪姐姐`: 保留 `240410-Fanst补充资源(1)\【HP德赫】归 by菜猪姐姐.rar`,丢弃 `240522-fanst补充资源\【HP德赫】归 by菜猪姐姐.rar`
+- `待分类/归时少年人`: 保留 `240410-Fanst补充资源(1)\【HP德赫】归时少年人.rar`,丢弃 `240522-fanst补充资源\【HP德赫】归时少年人.rar`
+- `待分类/微小说`: 保留 `240410-Fanst补充资源(1)\【HP德赫】微小说.rar`,丢弃 `240522-fanst补充资源\【HP德赫】微小说.rar`
+- `待分类/德拉科归来`: 保留 `240410-Fanst补充资源(1)\【HP德赫】德拉科归来.rar`,丢弃 `240522-fanst补充资源\【HP德赫】德拉科归来.rar`
+- `待分类/德拉科归来 2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】德拉科归来 2.rar`,丢弃 `240522-fanst补充资源\【HP德赫】德拉科归来 2.rar`
+- `待分类/德拉科马尔福不在乎`: 保留 `240410-Fanst补充资源(1)\【HP德赫】德拉科马尔福不在乎.rar`,丢弃 `240522-fanst补充资源\【HP德赫】德拉科马尔福不在乎.rar`
+- `待分类/德赫cold summer`: 保留 `240522-fanst补充资源\德赫cold summer.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】德赫cold summer.rar`
+- `待分类/德赫之论坛体（作者：ylovewrl）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】德赫之论坛体（作者：ylovewrl）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】德赫之论坛体（作者：ylovewrl）.rar`
+- `待分类/德赫文集（19篇）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】德赫文集（19篇）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】德赫文集（19篇）.rar`
+- `待分类/心爱的香樟树`: 保留 `240410-Fanst补充资源(1)\【HP德赫】心爱的香樟树.rar`,丢弃 `240522-fanst补充资源\【HP德赫】心爱的香樟树.rar`
+- `待分类/忘川的那一头`: 保留 `240410-Fanst补充资源(1)\【HP德赫】忘川的那一头.rar`,丢弃 `240522-fanst补充资源\【HP德赫】忘川的那一头.rar`
+- `待分类/急急显形`: 保留 `240410-Fanst补充资源(1)\【HP德赫】急急显形.rar`,丢弃 `240522-fanst补充资源\【HP德赫】急急显形.rar`
+- `待分类/恶龙与她的宝物`: 保留 `240925-磕学家补充资源\【HP小龙】恶龙与她的宝物.rar`,丢弃 `【HP小龙】恶龙与她的宝物.rar`
+- `待分类/悬浮`: 保留 `240410-Fanst补充资源(1)\【HP德赫】悬浮.rar`,丢弃 `240522-fanst补充资源\【HP德赫】悬浮.rar`
+- `待分类/情怯`: 保留 `240522-fanst补充资源\【HP待分类】情怯.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】情怯.rar`
+- `待分类/情怯`: 保留 `240522-fanst补充资源\【HP待分类】情怯.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】情怯.rar`
+- `待分类/情迷皮革`: 保留 `240522-fanst补充资源\情迷皮革.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】情迷皮革.rar`
+- `待分类/想听你说爱我`: 保留 `240410-Fanst补充资源(1)\【HP德赫】想听你说爱我.rar`,丢弃 `240522-fanst补充资源\【HP德赫】想听你说爱我.rar`
+- `待分类/愈伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】愈伤.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】愈伤.rar`
+- `待分类/愈伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】愈伤.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】愈伤.rar`
+- `待分类/愈伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】愈伤.rar`,丢弃 `240522-fanst补充资源\【HP德赫】愈伤.rar`
+- `待分类/愈伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】愈伤.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】愈伤.rar`
+- `待分类/愿望`: 保留 `240522-fanst补充资源\愿望.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】愿望.rar`
+- `待分类/我们的世界`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我们的世界.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我们的世界.rar`
+- `待分类/我们的世界`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我们的世界.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】我们的世界.rar`
+- `待分类/我们的存在`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我们的存在.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我们的存在.rar`
+- `待分类/我就喜欢你凡尔赛的样子+AFaD番外1(体校计算机大神校草x娱乐圈顶流) by昕心心`: 保留 `241022-磕学家补充资源\【博君一肖】我就喜欢你凡尔赛的样子+AFaD番外1(体校计算机大神校草x娱乐圈顶流) by昕心心.txt`,丢弃 `【博君一肖】我就喜欢你凡尔赛的样子+AFaD番外1(体校计算机大神校草x娱乐圈顶流) by昕心心.txt`
+- `待分类/我忘了说`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我忘了说.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我忘了说.rar`
+- `待分类/我想看着你长大`: 保留 `240522-fanst补充资源\我想看着你长大.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】我想看着你长大.rar`
+- `待分类/我是来加入这个家的`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我是来加入这个家的.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我是来加入这个家的.rar`
+- `待分类/我爱你`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我爱你.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我爱你.rar`
+- `待分类/我的主人：服从的教训`: 保留 `241128-哈皮磕学家\【HP斯赫】我的主人：服从的教训.zip`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】我的主人：服从的教训.rar`
+- `待分类/我的冰点,你的沸点`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的冰点,你的沸点.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我的冰点,你的沸点.rar`
+- `待分类/我的前男友和前女友`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的前男友和前女友.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】我的前男友和前女友.rar`
+- `待分类/我的前男友和前女友`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的前男友和前女友.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】我的前男友和前女友.rar`
+- `待分类/我的前男友和前女友`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的前男友和前女友.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我的前男友和前女友.rar`
+- `待分类/我的前男友和前女友`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的前男友和前女友.rar`,丢弃 `【HP伏赫】我的前男友和前女友.rar`
+- `待分类/我的孤独成双`: 保留 `240410-Fanst补充资源(1)\【HP德赫】我的孤独成双.rar`,丢弃 `240522-fanst补充资源\【HP德赫】我的孤独成双.rar`
+- `待分类/战后白兰花`: 保留 `240410-Fanst补充资源(1)\【HP德赫】战后白兰花.rar`,丢弃 `240522-fanst补充资源\【HP德赫】战后白兰花.rar`
+- `待分类/找到幸福`: 保留 `240410-Fanst补充资源(1)\【HP德赫】找到幸福.rar`,丢弃 `240522-fanst补充资源\【HP德赫】找到幸福.rar`
+- `待分类/找幸福给你…_BY可爱╃小坏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】找幸福给你…_BY可爱╃小坏.rar`,丢弃 `240522-fanst补充资源\【HP德赫】找幸福给你…_BY可爱╃小坏.rar`
+- `待分类/把我的身体还给我`: 保留 `240410-Fanst补充资源(1)\【HP德赫】把我的身体还给我.rar`,丢弃 `240522-fanst补充资源\【HP德赫】把我的身体还给我.rar`
+- `待分类/抓住你，我的金色飞贼`: 保留 `240410-Fanst补充资源(1)\【HP德赫】抓住你，我的金色飞贼.rar`,丢弃 `240522-fanst补充资源\【HP德赫】抓住你，我的金色飞贼.rar`
+- `待分类/拐走格兰杰`: 保留 `240410-Fanst补充资源(1)\【HP德赫】拐走格兰杰.rar`,丢弃 `240522-fanst补充资源\【HP德赫】拐走格兰杰.rar`
+- `待分类/拯救赫敏特别行动`: 保留 `240410-Fanst补充资源(1)\【HP德赫】拯救赫敏特别行动.rar`,丢弃 `240522-fanst补充资源\【HP德赫】拯救赫敏特别行动.rar`
+- `待分类/捕鱼指南`: 保留 `240410-Fanst补充资源(1)\【HP德赫】捕鱼指南.rar`,丢弃 `240522-fanst补充资源\【HP德赫】捕鱼指南.rar`
+- `待分类/握不住的他`: 保留 `240410-Fanst补充资源(1)\【HP德赫】握不住的他.rar`,丢弃 `240522-fanst补充资源\【HP德赫】握不住的他.rar`
+- `待分类/撒谎者`: 保留 `241128-哈皮磕学家\【HP德哈】撒谎者.zip`,丢弃 `Fanst资源日更中（先转存再查看\【HP未知】撒谎者.rar`
+- `待分类/放下吃的跟我走！`: 保留 `240410-Fanst补充资源(1)\【HP德赫】放下吃的跟我走！.rar`,丢弃 `240522-fanst补充资源\【HP德赫】放下吃的跟我走！.rar`
+- `待分类/政客的妻子 The Politician's Wife`: 保留 `240410-Fanst补充资源(1)\【HP德赫】政客的妻子 The Politician's Wife.rar`,丢弃 `240522-fanst补充资源\【HP德赫】政客的妻子 The Politician's Wife.rar`
+- `待分类/政治婚姻`: 保留 `240410-Fanst补充资源(1)\【HP德赫】政治婚姻.rar`,丢弃 `240522-fanst补充资源\【HP德赫】政治婚姻.rar`
+- `待分类/教自己的爱人使用飞天扫帚`: 保留 `240410-Fanst补充资源(1)\【HP德赫】教自己的爱人使用飞天扫帚.rar`,丢弃 `240522-fanst补充资源\【HP德赫】教自己的爱人使用飞天扫帚.rar`
+- `待分类/散步`: 保留 `240410-Fanst补充资源(1)\【HP德赫】散步.rar`,丢弃 `240522-fanst补充资源\【HP德赫】散步.rar`
+- `待分类/断章 一幕幕的爱`: 保留 `240410-Fanst补充资源(1)\【HP德赫】断章 一幕幕的爱.rar`,丢弃 `240522-fanst补充资源\【HP德赫】断章 一幕幕的爱.rar`
+- `待分类/斯内普教授想让我退学`: 保留 `240928-磕学家补充资源\【HP教授】斯内普教授想让我退学.rar`,丢弃 `【HP教授】斯内普教授想让我退学.rar`
+- `待分类/斯内普诱惑`: 保留 `240522-fanst补充资源\斯内普诱惑.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】斯内普诱惑.rar`
+- `待分类/斯变小`: 保留 `240522-fanst补充资源\斯变小.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】斯变小.rar`
+- `待分类/斯科皮的单独家长会`: 保留 `240410-Fanst补充资源(1)\【HP德赫】斯科皮的单独家长会.rar`,丢弃 `240522-fanst补充资源\【HP德赫】斯科皮的单独家长会.rar`
+- `待分类/斯莱特林与格兰芬多的同居生活`: 保留 `240410-Fanst补充资源(1)\【HP德赫】斯莱特林与格兰芬多的同居生活.rar`,丢弃 `240522-fanst补充资源\【HP德赫】斯莱特林与格兰芬多的同居生活.rar`
+- `待分类/斯赫R`: 保留 `240522-fanst补充资源\斯赫R.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】斯赫R.rar`
+- `待分类/斯赫虐`: 保留 `240522-fanst补充资源\斯赫虐.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】斯赫虐.rar`
+- `待分类/新建 文本文档`: 保留 `240522-fanst补充资源\新建 文本文档.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】新建 文本文档.rar`
+- `待分类/旅行`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】旅行 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】旅行.rar`
+- `待分类/无与伦比`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无与伦比.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无与伦比.rar`
+- `待分类/无意示好`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无意示好.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无意示好.rar`
+- `待分类/无能为力`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无能为力.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无能为力.rar`
+- `待分类/无解 Unanswered`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无解 Unanswered.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无解 Unanswered.rar`
+- `待分类/无解之伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无解之伤.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】无解之伤.rar`
+- `待分类/无解之伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无解之伤.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】无解之伤.rar`
+- `待分类/无解之伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无解之伤.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无解之伤.rar`
+- `待分类/无解之伤`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无解之伤.rar`,丢弃 `【HP伏赫】无解之伤.rar`
+- `待分类/无足轻重的女孩`: 保留 `240410-Fanst补充资源(1)\【HP德赫】无足轻重的女孩.rar`,丢弃 `240522-fanst补充资源\【HP德赫】无足轻重的女孩.rar`
+- `待分类/无间爱情`: 保留 `240522-fanst补充资源\无间爱情.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】无间爱情.rar`
+- `待分类/日记·风`: 保留 `240410-Fanst补充资源(1)\【HP德赫】日记·风.rar`,丢弃 `240522-fanst补充资源\【HP德赫】日记·风.rar`
+- `待分类/早知如此`: 保留 `241022-磕学家补充资源\【HP哈德】早知如此.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】早知如此.rar`
+- `待分类/时间凝固咒`: 保留 `240410-Fanst补充资源(1)\【HP德赫】时间凝固咒.rar`,丢弃 `240522-fanst补充资源\【HP德赫】时间凝固咒.rar`
+- `待分类/星夜钢琴手`: 保留 `240410-Fanst补充资源(1)\【HP德赫】星夜钢琴手.rar`,丢弃 `240522-fanst补充资源\【HP德赫】星夜钢琴手.rar`
+- `待分类/星期天的早晨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】星期天的早晨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】星期天的早晨.rar`
+- `待分类/昨天再见`: 保留 `240410-Fanst补充资源(1)\【HP德赫】昨天再见.rar`,丢弃 `240522-fanst补充资源\【HP德赫】昨天再见.rar`
+- `待分类/普罗旺斯风情`: 保留 `240410-Fanst补充资源(1)\【HP德赫】普罗旺斯风情.rar`,丢弃 `240522-fanst补充资源\【HP德赫】普罗旺斯风情.rar`
+- `待分类/暖年整理`: 保留 `240416-Fanst补充资源(1)\【HP哈赫】暖年整理.rar`,丢弃 `240416-Fanst补充资源\【HP哈赫】暖年整理.rar`
+- `待分类/暗夜`: 保留 `240410-Fanst补充资源(1)\【HP德赫】暗夜.rar`,丢弃 `240522-fanst补充资源\【HP德赫】暗夜.rar`
+- `待分类/暗夜新结局`: 保留 `240410-Fanst补充资源(1)\【HP德赫】暗夜新结局.rar`,丢弃 `240522-fanst补充资源\【HP德赫】暗夜新结局.rar`
+- `待分类/暗夜爱侣`: 保留 `240410-Fanst补充资源(1)\【HP德赫】暗夜爱侣.rar`,丢弃 `240522-fanst补充资源\【HP德赫】暗夜爱侣.rar`
+- `待分类/暗涌`: 保留 `240410-Fanst补充资源(1)\【HP德赫】暗涌.rar`,丢弃 `240522-fanst补充资源\【HP德赫】暗涌.rar`
+- `待分类/暗算……吗!  HE`: 保留 `240410-Fanst补充资源(1)\【HP德赫】暗算……吗!  HE.rar`,丢弃 `240522-fanst补充资源\【HP德赫】暗算……吗!  HE.rar`
+- `待分类/曾几何时 Once Upon A Thyme`: 保留 `240410-Fanst补充资源(1)\【HP德赫】曾几何时 Once Upon A Thyme.rar`,丢弃 `240522-fanst补充资源\【HP德赫】曾几何时 Once Upon A Thyme.rar`
+- `待分类/曾经以为`: 保留 `240410-Fanst补充资源(1)\【HP德赫】曾经以为.rar`,丢弃 `240522-fanst补充资源\【HP德赫】曾经以为.rar`
+- `待分类/替身`: 保留 `240522-fanst补充资源\替身.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】替身.rar`
+- `待分类/最后的吐真剂`: 保留 `240410-Fanst补充资源(1)\【HP德赫】最后的吐真剂.rar`,丢弃 `240522-fanst补充资源\【HP德赫】最后的吐真剂.rar`
+- `待分类/最后的战役`: 保留 `240410-Fanst补充资源(1)\【HP德赫】最后的战役.rar`,丢弃 `240522-fanst补充资源\【HP德赫】最后的战役.rar`
+- `待分类/最后的战役`: 保留 `240410-Fanst补充资源(1)\【HP德赫】最后的战役.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】最后的战役.rar`
+- `待分类/未命名`: 保留 `240522-fanst补充资源\【HP西斯】未命名.rar`,丢弃 `240522-fanst补充资源\未命名.rar`
+- `待分类/未命名`: 保留 `240522-fanst补充资源\【HP西斯】未命名.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】未命名.rar`
+- `待分类/未命名`: 保留 `240522-fanst补充资源\【HP西斯】未命名.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】未命名.rar`
+- `待分类/未成年不可以进的禁书区part2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】未成年不可以进的禁书区part2.rar`,丢弃 `240522-fanst补充资源\【HP德赫】未成年不可以进的禁书区part2.rar`
+- `待分类/末日的秘密(短篇,2012相关)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】末日的秘密(短篇,2012相关).rar`,丢弃 `240522-fanst补充资源\【HP德赫】末日的秘密(短篇,2012相关).rar`
+- `待分类/杀手`: 保留 `240410-Fanst补充资源(1)\【HP德赫】杀手.rar`,丢弃 `240522-fanst补充资源\【HP德赫】杀手.rar`
+- `待分类/来信 Correspondence by olivieblake`: 保留 `240410-Fanst补充资源(1)\【HP德赫】来信 Correspondence by olivieblake.rar`,丢弃 `240522-fanst补充资源\【HP德赫】来信 Correspondence by olivieblake.rar`
+- `待分类/某霍格沃茨的古代魔文教授`: 保留 `240410-Fanst补充资源(1)\【HP德赫】某霍格沃茨的古代魔文教授.rar`,丢弃 `240522-fanst补充资源\【HP德赫】某霍格沃茨的古代魔文教授.rar`
+- `待分类/柔情似水`: 保留 `240410-Fanst补充资源(1)\【HP德赫】柔情似水.rar`,丢弃 `240522-fanst补充资源\【HP德赫】柔情似水.rar`
+- `待分类/格兰芬多公主和斯莱特林王子_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】格兰芬多公主和斯莱特林王子_德赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】格兰芬多公主和斯莱特林王子_德赫.rar`
+- `待分类/梅花引`: 保留 `240410-Fanst补充资源(1)\【HP德赫】梅花引.rar`,丢弃 `240522-fanst补充资源\【HP德赫】梅花引.rar`
+- `待分类/梦`: 保留 `240410-Fanst补充资源(1)\【HP德赫】梦.rar`,丢弃 `240522-fanst补充资源\【HP德赫】梦.rar`
+- `待分类/梦`: 保留 `240410-Fanst补充资源(1)\【HP德赫】梦.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】梦.rar`
+- `待分类/梦中梦`: 保留 `240522-fanst补充资源\梦中梦.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】梦中梦.rar`
+- `待分类/梦中的纳索西斯`: 保留 `240410-Fanst补充资源(1)\【HP德赫】梦中的纳索西斯.rar`,丢弃 `240522-fanst补充资源\【HP德赫】梦中的纳索西斯.rar`
+- `待分类/梦醒时分`: 保留 `240410-Fanst补充资源(1)\【HP德赫】梦醒时分.rar`,丢弃 `240522-fanst补充资源\【HP德赫】梦醒时分.rar`
+- `待分类/欲纵故擒 Resistance`: 保留 `240410-Fanst补充资源(1)\【HP德赫】欲纵故擒 Resistance.rar`,丢弃 `240522-fanst补充资源\【HP德赫】欲纵故擒 Resistance.rar`
+- `待分类/此情可待成追忆`: 保留 `240410-Fanst补充资源(1)\【HP德赫】此情可待成追忆.rar`,丢弃 `240522-fanst补充资源\【HP德赫】此情可待成追忆.rar`
+- `待分类/死于心碎 Broken Heart by superscar`: 保留 `240410-Fanst补充资源(1)\【HP德赫】死于心碎 Broken Heart by superscar.rar`,丢弃 `240522-fanst补充资源\【HP德赫】死于心碎 Broken Heart by superscar.rar`
+- `待分类/死兆`: 保留 `240410-Fanst补充资源(1)\【HP德赫】死兆.rar`,丢弃 `240522-fanst补充资源\【HP德赫】死兆.rar`
+- `待分类/殇……`: 保留 `240410-Fanst补充资源(1)\【HP德赫】殇…….rar`,丢弃 `240522-fanst补充资源\【HP德赫】殇…….rar`
+- `待分类/永不屈服`: 保留 `240522-fanst补充资源\永不屈服 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】永不屈服 .rar`
+- `待分类/永不屈服`: 保留 `240522-fanst补充资源\永不屈服 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】永不屈服.rar`
+- `待分类/永无休止的星期四`: 保留 `240522-fanst补充资源\永无休止的星期四.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP教授】永无休止的星期四.rar`
+- `待分类/永无休止的星期四`: 保留 `240522-fanst补充资源\永无休止的星期四.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】永无休止的星期四.rar`
+- `待分类/没有人能替代你`: 保留 `240410-Fanst补充资源(1)\【HP德赫】没有人能替代你.rar`,丢弃 `240522-fanst补充资源\【HP德赫】没有人能替代你.rar`
+- `待分类/没有星光的天空`: 保留 `240410-Fanst补充资源(1)\【HP德赫】没有星光的天空.rar`,丢弃 `240522-fanst补充资源\【HP德赫】没有星光的天空.rar`
+- `待分类/流年太短`: 保留 `240410-Fanst补充资源(1)\【HP德赫】流年太短.rar`,丢弃 `240522-fanst补充资源\【HP德赫】流年太短.rar`
+- `待分类/浮光掠影之魔咒十题`: 保留 `240410-Fanst补充资源(1)\【HP德赫】浮光掠影之魔咒十题.rar`,丢弃 `240522-fanst补充资源\【HP德赫】浮光掠影之魔咒十题.rar`
+- `待分类/浮生三季`: 保留 `240410-Fanst补充资源(1)\【HP德赫】浮生三季.rar`,丢弃 `240522-fanst补充资源\【HP德赫】浮生三季.rar`
+- `待分类/海公主`: 保留 `240410-Fanst补充资源(1)\【HP德赫】海公主.rar`,丢弃 `240522-fanst补充资源\【HP德赫】海公主.rar`
+- `待分类/潮起潮落`: 保留 `240410-Fanst补充资源(1)\【HP德赫】潮起潮落.rar`,丢弃 `240522-fanst补充资源\【HP德赫】潮起潮落.rar`
+- `待分类/灰色彩虹`: 保留 `240410-Fanst补充资源(1)\【HP德赫】灰色彩虹.rar`,丢弃 `240522-fanst补充资源\【HP德赫】灰色彩虹.rar`
+- `待分类/灿如秋叶`: 保留 `240410-Fanst补充资源(1)\【HP德赫】灿如秋叶.rar`,丢弃 `240522-fanst补充资源\【HP德赫】灿如秋叶.rar`
+- `待分类/烟雨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】烟雨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】烟雨.rar`
+- `待分类/燃烧`: 保留 `240522-fanst补充资源\燃烧.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】燃烧.rar`
+- `待分类/爱`: 保留 `240410-Fanst补充资源(1)\【HP德赫】爱.rar`,丢弃 `240522-fanst补充资源\【HP德赫】爱.rar`
+- `待分类/爱情灵药`: 保留 `240410-Fanst补充资源(1)\【HP德赫】爱情灵药.rar`,丢弃 `240522-fanst补充资源\【HP德赫】爱情灵药.rar`
+- `待分类/父母之命`: 保留 `240410-Fanst补充资源(1)\【HP德赫】父母之命.rar`,丢弃 `240522-fanst补充资源\【HP德赫】父母之命.rar`
+- `待分类/牙医家的小女巫`: 保留 `240522-fanst补充资源\牙医家的小女巫.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】牙医家的小女巫.rar`
+- `待分类/特殊基因养成监测`: 保留 `240415-Fanst补充资源\【飞机能飞】特殊基因养成监测.rar`,丢弃 `【飞机能飞】特殊基因养成监测.rar`
+- `待分类/猫变`: 保留 `240410-Fanst补充资源(1)\【HP德赫】猫变.rar`,丢弃 `240522-fanst补充资源\【HP德赫】猫变.rar`
+- `待分类/献给罗瑟琳的玫瑰`: 保留 `240415-Fanst补充资源\【罗密欧与朱丽叶】献给罗瑟琳的玫瑰.rar`,丢弃 `【罗密欧与朱丽叶】献给罗瑟琳的玫瑰.rar`
+- `待分类/球形分裂`: 保留 `241022-磕学家补充资源\【HP哈德】球形分裂.txt`,丢弃 `241128-哈皮磕学家\【HP哈德】球形分裂.zip`
+- `待分类/琴弦`: 保留 `240410-Fanst补充资源(1)\【HP德赫】琴弦.rar`,丢弃 `240522-fanst补充资源\【HP德赫】琴弦.rar`
+- `待分类/瓶中沙&最后的天使`: 保留 `240410-Fanst补充资源(1)\【HP德赫】瓶中沙&最后的天使.rar`,丢弃 `240522-fanst补充资源\【HP德赫】瓶中沙&最后的天使.rar`
+- `待分类/甜蜜契约`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】甜蜜契约.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】甜蜜契约.zip`
+- `待分类/甜蜜契约promise me love`: 保留 `240410-Fanst补充资源(1)\【HP德赫】甜蜜契约promise me love.rar`,丢弃 `240522-fanst补充资源\【HP德赫】甜蜜契约promise me love.rar`
+- `待分类/甜蜜欧洲之旅`: 保留 `240410-Fanst补充资源(1)\【HP德赫】甜蜜欧洲之旅.rar`,丢弃 `240522-fanst补充资源\【HP德赫】甜蜜欧洲之旅.rar`
+- `待分类/用我的记忆唤醒你_德赫`: 保留 `240410-Fanst补充资源(1)\【HP德赫】用我的记忆唤醒你_德赫.rar`,丢弃 `240522-fanst补充资源\【HP德赫】用我的记忆唤醒你_德赫.rar`
+- `待分类/白月光`: 保留 `240410-Fanst补充资源(1)\【HP德赫】白月光.rar`,丢弃 `240522-fanst补充资源\【HP德赫】白月光.rar`
+- `待分类/白雪`: 保留 `240410-Fanst补充资源(1)\【HP德赫】白雪.rar`,丢弃 `240522-fanst补充资源\【HP德赫】白雪.rar`
+- `待分类/相对公正`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】相对公正.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】相对公正.rar`
+- `待分类/相对公正`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】相对公正.rar`,丢弃 `【HP伏赫】相对公正.rar`
+- `待分类/短故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】短故事.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】短故事.rar`
+- `待分类/短故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】短故事.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】短故事.rar`
+- `待分类/短故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】短故事.rar`,丢弃 `240522-fanst补充资源\【HP德赫】短故事.rar`
+- `待分类/短故事`: 保留 `240410-Fanst补充资源(1)\【HP德赫】短故事.rar`,丢弃 `【HP伏赫】短故事.rar`
+- `待分类/破晓by冰凉酒`: 保留 `240410-Fanst补充资源(1)\【HP德赫】破晓by冰凉酒.rar`,丢弃 `240522-fanst补充资源\【HP德赫】破晓by冰凉酒.rar`
+- `待分类/硕鼠小德BY_Maya(HP同人)TXT下载`: 保留 `240410-Fanst补充资源(1)\【HP德赫】硕鼠小德BY_Maya(HP同人)TXT下载.rar`,丢弃 `240522-fanst补充资源\【HP德赫】硕鼠小德BY_Maya(HP同人)TXT下载.rar`
+- `待分类/硕鼠小德[D／H]`: 保留 `240410-Fanst补充资源(1)\【HP德赫】硕鼠小德[D／H].rar`,丢弃 `240522-fanst补充资源\【HP德赫】硕鼠小德[D／H].rar`
+- `待分类/礼物`: 保留 `240522-fanst补充资源\【HP德赫】礼物.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】礼物.rar`
+- `待分类/神秘的书签`: 保留 `240410-Fanst补充资源(1)\【HP德赫】神秘的书签.rar`,丢弃 `240522-fanst补充资源\【HP德赫】神秘的书签.rar`
+- `待分类/秋日`: 保留 `240410-Fanst补充资源(1)\【HP德赫】秋日.rar`,丢弃 `240522-fanst补充资源\【HP德赫】秋日.rar`
+- `待分类/秘密`: 保留 `240410-Fanst补充资源(1)\【HP德赫】秘密.rar`,丢弃 `240522-fanst补充资源\【HP德赫】秘密.rar`
+- `待分类/秘密`: 保留 `240410-Fanst补充资源(1)\【HP德赫】秘密.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】秘密.rar`
+- `待分类/空城 [西贡森林番外`: 保留 `240410-Fanst补充资源(1)\【HP德赫】空城 [西贡森林番外.rar`,丢弃 `240522-fanst补充资源\【HP德赫】空城 [西贡森林番外.rar`
+- `待分类/空巷谋杀`: 保留 `240410-Fanst补充资源(1)\【HP德赫】空巷谋杀.rar`,丢弃 `240522-fanst补充资源\【HP德赫】空巷谋杀.rar`
+- `待分类/穿越HP`: 保留 `240522-fanst补充资源\【HP待分类】穿越HP.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创女主】穿越HP.rar`
+- `待分类/穿越HP`: 保留 `240522-fanst补充资源\【HP待分类】穿越HP.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】穿越HP.rar`
+- `待分类/立场`: 保留 `240410-Fanst补充资源(1)\【HP德赫】立场.rar`,丢弃 `240522-fanst补充资源\【HP德赫】立场.rar`
+- `待分类/童养夫斯内普`: 保留 `240920-磕学家补充资源\【HP教授文】童养夫斯内普.rar`,丢弃 `【HP教授文】童养夫斯内普.rar`
+- `待分类/笼中雀`: 保留 `240925-磕学家补充资源\【HP小龙】笼中雀.rar`,丢弃 `【HP小龙】笼中雀.rar`
+- `待分类/篮球场上的约定`: 保留 `240410-Fanst补充资源(1)\【HP德赫】篮球场上的约定.rar`,丢弃 `240522-fanst补充资源\【HP德赫】篮球场上的约定.rar`
+- `待分类/繁星`: 保留 `240410-Fanst补充资源(1)\【HP德赫】繁星.rar`,丢弃 `240522-fanst补充资源\【HP德赫】繁星.rar`
+- `待分类/纠缠`: 保留 `240522-fanst补充资源\【HP待分类】纠缠.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】纠缠.rar`
+- `待分类/纠缠`: 保留 `240522-fanst补充资源\【HP待分类】纠缠.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】纠缠.rar`
+- `待分类/约会`: 保留 `240410-Fanst补充资源(1)\【HP德赫】约会.rar`,丢弃 `240522-fanst补充资源\【HP德赫】约会.rar`
+- `待分类/约翰·斯内普`: 保留 `240920-磕学家补充资源\【HP教授文】约翰·斯内普.rar`,丢弃 `【HP教授文】约翰·斯内普.rar`
+- `待分类/级长包厢`: 保留 `240410-Fanst补充资源(1)\【HP德赫】级长包厢.rar`,丢弃 `240522-fanst补充资源\【HP德赫】级长包厢.rar`
+- `待分类/级长的惩罚`: 保留 `241022-磕学家补充资源\【HP德哈】级长的惩罚.txt`,丢弃 `241128-哈皮磕学家\【HP德哈】级长的惩罚.zip`
+- `待分类/纯白年代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】纯白年代.rar`,丢弃 `240522-fanst补充资源\【HP德赫】纯白年代.rar`
+- `待分类/纯白年代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】纯白年代.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP卢爹】纯白年代.rar`
+- `待分类/纯白年代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】纯白年代.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】纯白年代.rar`
+- `待分类/纯血少爷的白月光`: 保留 `240925-磕学家补充资源\【HP小龙】纯血少爷的白月光.rar`,丢弃 `【HP小龙】纯血少爷的白月光.rar`
+- `待分类/纳威的趴体经历`: 保留 `240410-Fanst补充资源(1)\【HP德赫】纳威的趴体经历.rar`,丢弃 `240522-fanst补充资源\【HP德赫】纳威的趴体经历.rar`
+- `待分类/给你幸福`: 保留 `240522-fanst补充资源\给你幸福.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】给你幸福.rar`
+- `待分类/给我一个拥抱&Merry Christmas`: 保留 `240410-Fanst补充资源(1)\【HP德赫】给我一个拥抱&Merry Christmas.rar`,丢弃 `240522-fanst补充资源\【HP德赫】给我一个拥抱&Merry Christmas.rar`
+- `待分类/绝对自由`: 保留 `240410-Fanst补充资源(1)\【HP德赫】绝对自由.rar`,丢弃 `240522-fanst补充资源\【HP德赫】绝对自由.rar`
+- `待分类/缎带`: 保留 `240410-Fanst补充资源(1)\【HP德赫】缎带.rar`,丢弃 `240522-fanst补充资源\【HP德赫】缎带.rar`
+- `待分类/缎带`: 保留 `240410-Fanst补充资源(1)\【HP德赫】缎带.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】缎带.rar`
+- `待分类/缎带`: 保留 `240410-Fanst补充资源(1)\【HP德赫】缎带.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】缎带.zip`
+- `待分类/罗马尼亚假日 - 作者：童归宁`: 保留 `240410-Fanst补充资源(1)\【HP德赫】罗马尼亚假日 - 作者：童归宁.rar`,丢弃 `240522-fanst补充资源\【HP德赫】罗马尼亚假日 - 作者：童归宁.rar`
+- `待分类/美丽人生(德赫)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】美丽人生(德赫).rar`,丢弃 `240522-fanst补充资源\【HP德赫】美丽人生(德赫).rar`
+- `待分类/美人鱼&哦，梅林！`: 保留 `240410-Fanst补充资源(1)\【HP德赫】美人鱼&哦，梅林！.rar`,丢弃 `240522-fanst补充资源\【HP德赫】美人鱼&哦，梅林！.rar`
+- `待分类/能不能勇敢说爱`: 保留 `240410-Fanst补充资源(1)\【HP德赫】能不能勇敢说爱.rar`,丢弃 `240522-fanst补充资源\【HP德赫】能不能勇敢说爱.rar`
+- `待分类/腐骨`: 保留 `240410-Fanst补充资源(1)\【HP德赫】腐骨.rar`,丢弃 `240522-fanst补充资源\【HP德赫】腐骨.rar`
+- `待分类/致亲爱的老婆大人——德拉科检讨书`: 保留 `240410-Fanst补充资源(1)\【HP德赫】致亲爱的老婆大人——德拉科检讨书.rar`,丢弃 `240522-fanst补充资源\【HP德赫】致亲爱的老婆大人——德拉科检讨书.rar`
+- `待分类/致命吸引`: 保留 `240416-Fanst补充资源(1)\【HP德赫】致命吸引.rar`,丢弃 `240416-Fanst补充资源\【HP德赫】致命吸引.rar`
+- `待分类/致命吸引`: 保留 `240416-Fanst补充资源(1)\【HP德赫】致命吸引.rar`,丢弃 `241014-磕学家补充资源\【HP德赫】致命吸引.rar`
+- `待分类/致命吸引`: 保留 `240416-Fanst补充资源(1)\【HP德赫】致命吸引.rar`,丢弃 `【HP德赫】致命吸引.rar`
+- `待分类/致那终将逝去的青春`: 保留 `240410-Fanst补充资源(1)\【HP德赫】致那终将逝去的青春.rar`,丢弃 `240522-fanst补充资源\【HP德赫】致那终将逝去的青春.rar`
+- `待分类/花开的痕迹`: 保留 `240410-Fanst补充资源(1)\【HP德赫】花开的痕迹.rar`,丢弃 `240522-fanst补充资源\【HP德赫】花开的痕迹.rar`
+- `待分类/花非花`: 保留 `240410-Fanst补充资源(1)\【HP德赫】花非花.rar`,丢弃 `240522-fanst补充资源\【HP德赫】花非花.rar`
+- `待分类/苜&悖`: 保留 `240410-Fanst补充资源(1)\【HP德赫】苜&悖.rar`,丢弃 `240522-fanst补充资源\【HP德赫】苜&悖.rar`
+- `待分类/苹果派补偿之旅 Apple Pie and Other Amends`: 保留 `240410-Fanst补充资源(1)\【HP德赫】苹果派补偿之旅 Apple Pie and Other Amends.rar`,丢弃 `240522-fanst补充资源\【HP德赫】苹果派补偿之旅 Apple Pie and Other Amends.rar`
+- `待分类/荆棘欢愉`: 保留 `241022-磕学家补充资源\【HP卢伏】荆棘欢愉.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP卢伏】荆棘欢愉.rar`
+- `待分类/荆棘欢愉`: 保留 `241022-磕学家补充资源\【HP卢伏】荆棘欢愉.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】荆棘欢愉.rar`
+- `待分类/荆棘欢愉`: 保留 `241022-磕学家补充资源\【HP卢伏】荆棘欢愉.txt`,丢弃 `【HP卢伏】荆棘欢愉.txt`
+- `待分类/莫斯科没有眼泪`: 保留 `240410-Fanst补充资源(1)\【HP德赫】莫斯科没有眼泪.rar`,丢弃 `240522-fanst补充资源\【HP德赫】莫斯科没有眼泪.rar`
+- `待分类/落荒而逃`: 保留 `240410-Fanst补充资源(1)\【HP德赫】落荒而逃.rar`,丢弃 `240522-fanst补充资源\【HP德赫】落荒而逃.rar`
+- `待分类/蓝水晶项链`: 保留 `240410-Fanst补充资源(1)\【HP德赫】蓝水晶项链.rar`,丢弃 `240522-fanst补充资源\【HP德赫】蓝水晶项链.rar`
+- `待分类/虚掩着的门`: 保留 `240410-Fanst补充资源(1)\【HP德赫】虚掩着的门.rar`,丢弃 `240522-fanst补充资源\【HP德赫】虚掩着的门.rar`
+- `待分类/蜜糖年代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】蜜糖年代.rar`,丢弃 `240522-fanst补充资源\【HP德赫】蜜糖年代.rar`
+- `待分类/融化的星 The Melting Stars by attica`: 保留 `240410-Fanst补充资源(1)\【HP德赫】融化的星 The Melting Stars by attica.rar`,丢弃 `240522-fanst补充资源\【HP德赫】融化的星 The Melting Stars by attica.rar`
+- `待分类/血咒[D／H]`: 保留 `240410-Fanst补充资源(1)\【HP德赫】血咒[D／H].rar`,丢弃 `240522-fanst补充资源\【HP德赫】血咒[D／H].rar`
+- `待分类/血祭`: 保留 `240522-fanst补充资源\血祭.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】血祭.rar`
+- `待分类/血统不同如何相爱的方法论`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】血统不同如何相爱的方法论.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】血统不同如何相爱的方法论.zip`
+- `待分类/血色之链-The Crimson Jess`: 保留 `240410-Fanst补充资源(1)\【HP德赫】血色之链-The Crimson Jess.rar`,丢弃 `240522-fanst补充资源\【HP德赫】血色之链-The Crimson Jess.rar`
+- `待分类/西贡森林`: 保留 `240410-Fanst补充资源(1)\【HP德赫】西贡森林.rar`,丢弃 `240522-fanst补充资源\【HP德赫】西贡森林.rar`
+- `待分类/要拿回的与失去的`: 保留 `240410-Fanst补充资源(1)\【HP德赫】要拿回的与失去的.rar`,丢弃 `240522-fanst补充资源\【HP德赫】要拿回的与失去的.rar`
+- `待分类/让我做你的男排吧`: 保留 `240410-Fanst补充资源(1)\【HP德赫】让我做你的男排吧.rar`,丢弃 `240522-fanst补充资源\【HP德赫】让我做你的男排吧.rar`
+- `待分类/让我告别，让我们开始`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】让我告别，让我们开始.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】让我告别，让我们开始.rar`
+- `待分类/让我告别，让我们开始`: 保留 `240416-Fanst补充资源(1)\【HP伏赫】让我告别，让我们开始.rar`,丢弃 `【HP伏赫】让我告别，让我们开始.rar`
+- `待分类/记忆放逐_BY丝诺·苏`: 保留 `240410-Fanst补充资源(1)\【HP德赫】记忆放逐_BY丝诺·苏.rar`,丢弃 `240522-fanst补充资源\【HP德赫】记忆放逐_BY丝诺·苏.rar`
+- `待分类/论继父母的修养（战后）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】论继父母的修养（战后）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】论继父母的修养（战后）.rar`
+- `待分类/论继父母的修养（简体）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】论继父母的修养（简体）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】论继父母的修养（简体）.rar`
+- `待分类/诞生`: 保留 `240410-Fanst补充资源(1)\【HP德赫】诞生.rar`,丢弃 `240522-fanst补充资源\【HP德赫】诞生.rar`
+- `待分类/请你不要忘记&封锁三年的记忆`: 保留 `240410-Fanst补充资源(1)\【HP德赫】请你不要忘记&封锁三年的记忆.rar`,丢弃 `240522-fanst补充资源\【HP德赫】请你不要忘记&封锁三年的记忆.rar`
+- `待分类/请问Malfoy先生`: 保留 `241022-磕学家补充资源\【HP哈德】请问Malfoy先生.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】请问Malfoy先生.rar`
+- `待分类/谁为我哭泣`: 保留 `240410-Fanst补充资源(1)\【HP德赫】谁为我哭泣.rar`,丢弃 `240522-fanst补充资源\【HP德赫】谁为我哭泣.rar`
+- `待分类/象行 Elephant Walk by everythursday`: 保留 `240410-Fanst补充资源(1)\【HP德赫】象行 Elephant Walk by everythursday.rar`,丢弃 `240522-fanst补充资源\【HP德赫】象行 Elephant Walk by everythursday.rar`
+- `待分类/贝蒂的由来 The Origins of Betty by Rizzle`: 保留 `240410-Fanst补充资源(1)\【HP德赫】贝蒂的由来 The Origins of Betty by Rizzle.rar`,丢弃 `240522-fanst补充资源\【HP德赫】贝蒂的由来 The Origins of Betty by Rizzle.rar`
+- `待分类/赌城无事记`: 保留 `240522-fanst补充资源\【HP德赫】赌城无事记.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】赌城无事记.rar`
+- `待分类/赌城无事记`: 保留 `240522-fanst补充资源\【HP德赫】赌城无事记.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】赌城无事记.zip`
+- `待分类/赌城月色`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赌城月色.rar`,丢弃 `240522-fanst补充资源\【HP德赫】赌城月色.rar`
+- `待分类/赎罪lmss`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】赎罪lmss.rar`,丢弃 `240416-Fanst补充资源\【HP伏斯】赎罪lmss.rar`
+- `待分类/赫敏不在的一天（婚后甜宠）`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赫敏不在的一天（婚后甜宠）.rar`,丢弃 `240522-fanst补充资源\【HP德赫】赫敏不在的一天（婚后甜宠）.rar`
+- `待分类/赫敏妈妈和德拉科宝宝`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赫敏妈妈和德拉科宝宝.rar`,丢弃 `240522-fanst补充资源\【HP德赫】赫敏妈妈和德拉科宝宝.rar`
+- `待分类/赫敏的家养小精灵生活`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赫敏的家养小精灵生活.rar`,丢弃 `240522-fanst补充资源\【HP德赫】赫敏的家养小精灵生活.rar`
+- `待分类/赫敏的家养小精灵生活 My Life As a House Elf`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赫敏的家养小精灵生活 My Life As a House Elf .rar`,丢弃 `240522-fanst补充资源\【HP德赫】赫敏的家养小精灵生活 My Life As a House Elf .rar`
+- `待分类/赫敏自传：阿兹卡班（附赠丽塔传记）(略有恶搞)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】赫敏自传：阿兹卡班（附赠丽塔传记）(略有恶搞).rar`,丢弃 `240522-fanst补充资源\【HP德赫】赫敏自传：阿兹卡班（附赠丽塔传记）(略有恶搞).rar`
+- `待分类/距离你，一厘米`: 保留 `240410-Fanst补充资源(1)\【HP德赫】距离你，一厘米.rar`,丢弃 `240522-fanst补充资源\【HP德赫】距离你，一厘米.rar`
+- `待分类/路漫漫`: 保留 `240522-fanst补充资源\【HP待分类】路漫漫.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP待分类】路漫漫.rar`
+- `待分类/路漫漫`: 保留 `240522-fanst补充资源\【HP待分类】路漫漫.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】路漫漫.rar`
+- `待分类/路遇寂寞之歌`: 保留 `240410-Fanst补充资源(1)\【HP德赫】路遇寂寞之歌.rar`,丢弃 `240522-fanst补充资源\【HP德赫】路遇寂寞之歌.rar`
+- `待分类/躺在你的布瑞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】躺在你的布瑞.rar`,丢弃 `240416-Fanst补充资源(1)\【HP伏赫】躺在你的布瑞.rar`
+- `待分类/躺在你的布瑞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】躺在你的布瑞.rar`,丢弃 `240416-Fanst补充资源\【HP伏赫】躺在你的布瑞.rar`
+- `待分类/躺在你的布瑞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】躺在你的布瑞.rar`,丢弃 `240522-fanst补充资源\【HP德赫】躺在你的布瑞.rar`
+- `待分类/躺在你的布瑞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】躺在你的布瑞.rar`,丢弃 `【HP伏赫】躺在你的布瑞.rar`
+- `待分类/辣个温婉明媚的门牙妹`: 保留 `240410-Fanst补充资源(1)\【HP德赫】辣个温婉明媚的门牙妹.rar`,丢弃 `240522-fanst补充资源\【HP德赫】辣个温婉明媚的门牙妹.rar`
+- `待分类/还魂草[接哈七19年后，长篇]`: 保留 `240410-Fanst补充资源(1)\【HP德赫】还魂草[接哈七19年后，长篇].rar`,丢弃 `240522-fanst补充资源\【HP德赫】还魂草[接哈七19年后，长篇].rar`
+- `待分类/这是恶作剧吗？`: 保留 `240410-Fanst补充资源(1)\【HP德赫】这是恶作剧吗？.rar`,丢弃 `240522-fanst补充资源\【HP德赫】这是恶作剧吗？.rar`
+- `待分类/迷失十年`: 保留 `241128-哈皮磕学家\【HP德哈】迷失十年.zip`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】迷失十年.rar`
+- `待分类/迷情剂`: 保留 `240410-Fanst补充资源(1)\【HP德赫】迷情剂.rar`,丢弃 `240522-fanst补充资源\【HP德赫】迷情剂.rar`
+- `待分类/迷途不返`: 保留 `240410-Fanst补充资源(1)\【HP德赫】迷途不返.rar`,丢弃 `240522-fanst补充资源\【HP德赫】迷途不返.rar`
+- `待分类/迷途于失落之森`: 保留 `240410-Fanst补充资源(1)\【HP德赫】迷途于失落之森.rar`,丢弃 `240522-fanst补充资源\【HP德赫】迷途于失落之森.rar`
+- `待分类/追逐逃妻`: 保留 `240410-Fanst补充资源(1)\【HP德赫】追逐逃妻.rar`,丢弃 `240522-fanst补充资源\【HP德赫】追逐逃妻.rar`
+- `待分类/逆时针`: 保留 `240410-Fanst补充资源(1)\【HP德赫】逆时针.rar`,丢弃 `240522-fanst补充资源\【HP德赫】逆时针.rar`
+- `待分类/选择(原、以正义之名)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】选择(原、以正义之名).rar`,丢弃 `240522-fanst补充资源\【HP德赫】选择(原、以正义之名).rar`
+- `待分类/遇见就是永远,一眼便可万年`: 保留 `240410-Fanst补充资源(1)\【HP德赫】遇见就是永远,一眼便可万年.rar`,丢弃 `240522-fanst补充资源\【HP德赫】遇见就是永远,一眼便可万年.rar`
+- `待分类/那个黑头发的女孩作者：河萄`: 保留 `240928-磕学家补充资源\【HP德拉科】那个黑头发的女孩作者：河萄.rar`,丢弃 `【HP德拉科】那个黑头发的女孩作者：河萄.rar`
+- `待分类/那些小小的幸福`: 保留 `240522-fanst补充资源\那些小小的幸福.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】那些小小的幸福.rar`
+- `待分类/重回少女时代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】重回少女时代.rar`,丢弃 `240522-fanst补充资源\【HP德赫】重回少女时代.rar`
+- `待分类/重回少女时代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】重回少女时代.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】重回少女时代.rar`
+- `待分类/重回少女时代`: 保留 `240410-Fanst补充资源(1)\【HP德赫】重回少女时代.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】重回少女时代.zip`
+- `待分类/重生之回档`: 保留 `240410-Fanst补充资源(1)\【HP德赫】重生之回档.rar`,丢弃 `240522-fanst补充资源\【HP德赫】重生之回档.rar`
+- `待分类/重生的教授`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】重生的教授.rar`,丢弃 `240416-Fanst补充资源\【HP伏斯】重生的教授.rar`
+- `待分类/金色银色`: 保留 `240410-Fanst补充资源(1)\【HP德赫】金色银色.rar`,丢弃 `240522-fanst补充资源\【HP德赫】金色银色.rar`
+- `待分类/铂金色的未来`: 保留 `241022-磕学家补充资源\【HP哈德】铂金色的未来.txt`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】铂金色的未来.rar`
+- `待分类/银色契约 Silver Contract`: 保留 `240410-Fanst补充资源(1)\【HP德赫】银色契约 Silver Contract.rar`,丢弃 `240522-fanst补充资源\【HP德赫】银色契约 Silver Contract.rar`
+- `待分类/银色眼睛`: 保留 `240410-Fanst补充资源(1)\【HP德赫】银色眼睛.rar`,丢弃 `240522-fanst补充资源\【HP德赫】银色眼睛.rar`
+- `待分类/银蛇印记`: 保留 `240410-Fanst补充资源(1)\【HP德赫】银蛇印记.rar`,丢弃 `240522-fanst补充资源\【HP德赫】银蛇印记.rar`
+- `待分类/银青传奇`: 保留 `240416-Fanst补充资源(1)\【HP伏斯】银青传奇.rar`,丢弃 `240416-Fanst补充资源\【HP伏斯】银青传奇.rar`
+- `待分类/镣铐之下完整版`: 保留 `240410-Fanst补充资源(1)\【HP德赫】镣铐之下完整版.rar`,丢弃 `240522-fanst补充资源\【HP德赫】镣铐之下完整版.rar`
+- `待分类/问答`: 保留 `240522-fanst补充资源\问答.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】问答.rar`
+- `待分类/陪着你孤单`: 保留 `240410-Fanst补充资源(1)\【HP德赫】陪着你孤单.rar`,丢弃 `240522-fanst补充资源\【HP德赫】陪着你孤单.rar`
+- `待分类/难道，我爱TA&替代品`: 保留 `240410-Fanst补充资源(1)\【HP德赫】难道，我爱TA&替代品.rar`,丢弃 `240522-fanst补充资源\【HP德赫】难道，我爱TA&替代品.rar`
+- `待分类/雨天&Timeless`: 保留 `240410-Fanst补充资源(1)\【HP德赫】雨天&Timeless.rar`,丢弃 `240522-fanst补充资源\【HP德赫】雨天&Timeless.rar`
+- `待分类/霍格沃茨热闹滚滚`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】霍格沃茨热闹滚滚 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】霍格沃茨热闹滚滚.rar`
+- `待分类/霍格沃茨的见习魔药课讲师`: 保留 `240410-Fanst补充资源(1)\【HP德赫】霍格沃茨的见习魔药课讲师.rar`,丢弃 `240522-fanst补充资源\【HP德赫】霍格沃茨的见习魔药课讲师.rar`
+- `待分类/霍格沃茨，一段校史`: 保留 `Fanst资源日更中（先转存再查看\【HP德赫】霍格沃茨，一段校史.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】霍格沃茨，一段校史.zip`
+- `待分类/青骑士的妖精`: 保留 `240410-Fanst补充资源(1)\【HP德赫】青骑士的妖精.rar`,丢弃 `240522-fanst补充资源\【HP德赫】青骑士的妖精.rar`
+- `待分类/静默之夜`: 保留 `240522-fanst补充资源\静默之夜.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】静默之夜.rar`
+- `待分类/风流生活,作者：薰衣草的风`: 保留 `240410-Fanst补充资源(1)\【HP德赫】风流生活,作者：薰衣草的风.rar`,丢弃 `240522-fanst补充资源\【HP德赫】风流生活,作者：薰衣草的风.rar`
+- `待分类/风语者`: 保留 `240523-fanst补充资源\【HP德哈】风语者.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】风语者 .rar`
+- `待分类/风雨兼程`: 保留 `240410-Fanst补充资源(1)\【HP德赫】风雨兼程.rar`,丢弃 `240522-fanst补充资源\【HP德赫】风雨兼程.rar`
+- `待分类/飞入我心深处 by香甜云尼拿`: 保留 `240410-Fanst补充资源(1)\【HP德赫】飞入我心深处 by香甜云尼拿.rar`,丢弃 `240522-fanst补充资源\【HP德赫】飞入我心深处 by香甜云尼拿.rar`
+- `待分类/马尔福一家(德赫和他们的孩子)`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福一家(德赫和他们的孩子).rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福一家(德赫和他们的孩子).rar`
+- `待分类/马尔福三部曲1`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福三部曲1.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福三部曲1.rar`
+- `待分类/马尔福兄妹穿越记`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福兄妹穿越记.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福兄妹穿越记.rar`
+- `待分类/马尔福兄妹穿越记`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福兄妹穿越记.rar`,丢弃 `241014-磕学家补充资源\【HP德赫】马尔福兄妹穿越记.rar`
+- `待分类/马尔福夫妇访谈`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福夫妇访谈.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福夫妇访谈.rar`
+- `待分类/马尔福夫妇访谈 by joeling2`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福夫妇访谈 by joeling2.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福夫妇访谈 by joeling2.rar`
+- `待分类/马尔福小姐`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福小姐.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福小姐.rar`
+- `待分类/马尔福病人`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福病人.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福病人.rar`
+- `待分类/马尔福的幸福`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福的幸福.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福的幸福.rar`
+- `待分类/马尔福的韦斯莱圣诞`: 保留 `240410-Fanst补充资源(1)\【HP德赫】马尔福的韦斯莱圣诞.rar`,丢弃 `240522-fanst补充资源\【HP德赫】马尔福的韦斯莱圣诞.rar`
+- `待分类/魂盾`: 保留 `240410-Fanst补充资源(1)\【HP德赫】魂盾.rar`,丢弃 `240522-fanst补充资源\【HP德赫】魂盾.rar`
+- `待分类/魔法界的生活`: 保留 `240522-fanst补充资源\【HP待分类】魔法界的生活.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP原创女主】魔法界的生活.rar`
+- `待分类/魔法界的生活`: 保留 `240522-fanst补充资源\【HP待分类】魔法界的生活.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】魔法界的生活.rar`
+- `待分类/魔界大盗`: 保留 `240410-Fanst补充资源(1)\【HP德赫】魔界大盗.rar`,丢弃 `240522-fanst补充资源\【HP德赫】魔界大盗.rar`
+- `待分类/鹰之巢`: 保留 `240410-Fanst补充资源(1)\【HP德赫】鹰之巢.rar`,丢弃 `240522-fanst补充资源\【HP德赫】鹰之巢.rar`
+- `待分类/鹰之巢`: 保留 `240410-Fanst补充资源(1)\【HP德赫】鹰之巢.rar`,丢弃 `240928-磕学家补充资源\【HP】鹰之巢.rar`
+- `待分类/鹰之巢`: 保留 `240410-Fanst补充资源(1)\【HP德赫】鹰之巢.rar`,丢弃 `【HP】鹰之巢.rar`
+- `待分类/麻瓜的魔法`: 保留 `240522-fanst补充资源\麻瓜的魔法.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP斯赫】麻瓜的魔法.rar`
+- `待分类/黎明以前`: 保留 `240410-Fanst补充资源(1)\【HP德赫】黎明以前.rar`,丢弃 `240522-fanst补充资源\【HP德赫】黎明以前.rar`
+- `待分类/黑暗中的舞者`: 保留 `240410-Fanst补充资源(1)\【HP德赫】黑暗中的舞者.rar`,丢弃 `240522-fanst补充资源\【HP德赫】黑暗中的舞者.rar`
+- `待分类/龙 勇士 王子`: 保留 `Fanst资源日更中（先转存再查看\【HP德哈】龙 勇士 王子 .rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德哈】龙 勇士 王子.rar`
+- `待分类/龙的新娘`: 保留 `240410-Fanst补充资源(1)\【HP德赫】龙的新娘.rar`,丢弃 `240522-fanst补充资源\【HP德赫】龙的新娘.rar`
+- `待分类/龙的新娘`: 保留 `240410-Fanst补充资源(1)\【HP德赫】龙的新娘.rar`,丢弃 `Fanst资源日更中（先转存再查看\【HP德赫】龙的新娘.rar`
+- `待分类/龙血的十二种用途`: 保留 `240410-Fanst补充资源(1)\【HP德赫】龙血的十二种用途.rar`,丢弃 `240522-fanst补充资源\【HP德赫】龙血的十二种用途.rar`
+- `德赫/all-you-want`: 保留 `【HP德赫】all-you-want.txt`,丢弃 `【HP德赫】all-you-want.zip`
+- `德赫/未知的世界`: 保留 `【HP德赫】未知的世界.epub`,丢弃 `【HP德赫】未知的世界.txt`
+- `德赫/未知的世界`: 保留 `【HP德赫】未知的世界.epub`,丢弃 `【HP德赫】未知的世界.zip`
+- `德赫/雾散之时`: 保留 `【HP德赫】雾散之时.epub`,丢弃 `【HP德赫】雾散之时.txt`
+- `德赫/雾散之时`: 保留 `【HP德赫】雾散之时.epub`,丢弃 `【HP德赫】雾散之时.zip`
+- `柿饼/10年,我们的爱`: 保留 `10年,我们的爱.txt`,丢弃 `【柿饼袁bg】10年,我们的爱.txt`
+- `柿饼/10年,我们的爱`: 保留 `10年,我们的爱.txt`,丢弃 `【柿饼袁高】10年,我们的爱.txt`
+- `柿饼/10年,我们的爱2`: 保留 `10年,我们的爱2.txt`,丢弃 `【柿饼袁高】10年,我们的爱2.txt`
+- `柿饼/A大队快乐暑假之旅`: 保留 `【柿饼袁bg】A大队快乐暑假之旅.txt`,丢弃 `【柿饼袁朗】A大队快乐暑假之旅.txt`
+- `柿饼/A大队快乐暑假之旅`: 保留 `【柿饼袁bg】A大队快乐暑假之旅.txt`,丢弃 `【袁朗】A大队快乐暑假之旅.txt`
+- `柿饼/A大队狙击手`: 保留 `A大队狙击手.txt`,丢弃 `【柿饼】A大队狙击手.txt`
+- `柿饼/A大队狙击手`: 保留 `A大队狙击手.txt`,丢弃 `【柿饼成才】A大队狙击手.txt`
+- `柿饼/A我不想热血高城李靳`: 保留 `A我不想热血高城李靳.txt`,丢弃 `【柿饼】A我不想热血高城李靳.txt`
+- `柿饼/np炙血情`: 保留 `np炙血情.txt`,丢弃 `【柿饼】np炙血情.txt`
+- `柿饼/np陈嘉慕的军绿色人生`: 保留 `np陈嘉慕的军绿色人生.txt`,丢弃 `【柿饼】np陈嘉慕的军绿色人生.txt`
+- `柿饼/七连和老A`: 保留 `【柿饼】七连和老A.txt`,丢弃 `七连和老A.txt`
+- `柿饼/三儿——作者：拾`: 保留 `【柿饼】三儿——作者：拾.txt`,丢弃 `三儿——作者：拾.txt`
+- `柿饼/与子同袍(同人)流花烟雨`: 保留 `【柿饼】与子同袍(同人)流花烟雨.txt`,丢弃 `与子同袍(同人)流花烟雨.txt`
+- `柿饼/云月来`: 保留 `【柿饼】云月来.txt`,丢弃 `云月来.txt`
+- `柿饼/今城蓦然回首`: 保留 `【柿饼】今城蓦然回首.txt`,丢弃 `今城蓦然回首.txt`
+- `柿饼/从开始崛起`: 保留 `【柿饼】从开始崛起.txt`,丢弃 `从开始崛起.txt`
+- `柿饼/从开始的人生`: 保留 `【柿饼】从开始的人生.txt`,丢弃 `从开始的人生.txt`
+- `柿饼/从开始的佛系尖兵`: 保留 `【柿饼】从开始的佛系尖兵.txt`,丢弃 `从开始的佛系尖兵.txt`
+- `柿饼/从开始的征程`: 保留 `【柿饼】从开始的征程.txt`,丢弃 `从开始的征程.txt`
+- `柿饼/从开始的旅行`: 保留 `【柿饼】从开始的旅行.txt`,丢弃 `从开始的旅行.txt`
+- `柿饼/你看,你看,月亮的脸`: 保留 `【柿饼】你看,你看,月亮的脸.txt`,丢弃 `【柿饼高城bg】你看,你看,月亮的脸.txt`
+- `柿饼/你看,你看,月亮的脸`: 保留 `【柿饼】你看,你看,月亮的脸.txt`,丢弃 `你看,你看,月亮的脸.txt`
+- `柿饼/光影`: 保留 `【柿饼】光影.txt`,丢弃 `【柿饼袁bg】光影.txt`
+- `柿饼/光影`: 保留 `【柿饼】光影.txt`,丢弃 `光影.txt`
+- `柿饼/全职军官`: 保留 `【柿饼】全职军官.txt`,丢弃 `【柿饼高城bl】全职军官.txt`
+- `柿饼/全职军官`: 保留 `【柿饼】全职军官.txt`,丢弃 `全职军官.txt`
+- `柿饼/全能指挥员`: 保留 `【柿饼】全能指挥员.txt`,丢弃 `全能指挥员.txt`
+- `柿饼/公子吴哲`: 保留 `【柿饼】公子吴哲.txt`,丢弃 `公子吴哲.txt`
+- `柿饼/兵媚`: 保留 `【柿饼】兵媚.txt`,丢弃 `兵媚.txt`
+- `柿饼/兵媚狼睿`: 保留 `【柿饼】兵媚狼睿.txt`,丢弃 `【柿饼袁bg】兵媚狼睿.txt`
+- `柿饼/兵媚狼睿`: 保留 `【柿饼】兵媚狼睿.txt`,丢弃 `兵媚狼睿.txt`
+- `柿饼/兵媚狼睿2`: 保留 `【柿饼】兵媚狼睿2.txt`,丢弃 `兵媚狼睿2.txt`
+- `柿饼/冒名顶替当兵去派派后花园`: 保留 `【柿饼】冒名顶替当兵去派派后花园.txt`,丢弃 `冒名顶替当兵去派派后花园.txt`
+- `柿饼/军营不相信眼泪`: 保留 `【柿饼】军营不相信眼泪.txt`,丢弃 `军营不相信眼泪.txt`
+- `柿饼/利刃出鞘我大概是当了假兵`: 保留 `【柿饼】利刃出鞘我大概是当了假兵.txt`,丢弃 `利刃出鞘我大概是当了假兵.txt`
+- `柿饼/前世今生`: 保留 `【柿饼】前世今生.txt`,丢弃 `前世今生.txt`
+- `柿饼/匿爱作者：紫袍客`: 保留 `【柿饼】匿爱作者：紫袍客.txt`,丢弃 `匿爱作者：紫袍客.txt`
+- `柿饼/千里因缘马蹄声凌乱`: 保留 `【柿饼】千里因缘马蹄声凌乱.txt`,丢弃 `千里因缘马蹄声凌乱.txt`
+- `柿饼/叶璇`: 保留 `【柿饼】叶璇.txt`,丢弃 `【柿饼高城bg】叶璇.txt`
+- `柿饼/叶璇`: 保留 `【柿饼】叶璇.txt`,丢弃 `叶璇.txt`
+- `柿饼/同人———轮回`: 保留 `【柿饼】同人———轮回.txt`,丢弃 `同人———轮回.txt`
+- `柿饼/吴哲的七里香开了`: 保留 `【柿饼】吴哲的七里香开了.txt`,丢弃 `吴哲的七里香开了.txt`
+- `柿饼/吴哲的幸福生活`: 保留 `【柿饼】吴哲的幸福生活.txt`,丢弃 `吴哲的幸福生活.txt`
+- `柿饼/吴哲：仗策横戈、花样生活`: 保留 `【柿饼】吴哲：仗策横戈、花样生活.txt`,丢弃 `吴哲：仗策横戈、花样生活.txt`
+- `柿饼/哲bg火凤凰`: 保留 `【柿饼】哲bg火凤凰.txt`,丢弃 `哲bg火凤凰.txt`
+- `柿饼/哲人之恋`: 保留 `【柿饼】哲人之恋.txt`,丢弃 `哲人之恋.txt`
+- `柿饼/哲人之恋2`: 保留 `【柿饼】哲人之恋2.txt`,丢弃 `哲人之恋2.txt`
+- `柿饼/哲纵是骑马倚斜桥`: 保留 `【柿饼】哲纵是骑马倚斜桥.txt`,丢弃 `哲纵是骑马倚斜桥.txt`
+- `柿饼/喂死算命的`: 保留 `【柿饼】喂死算命的.txt`,丢弃 `喂死算命的.txt`
+- `柿饼/在A大队混日子的岁月`: 保留 `【柿饼】在A大队混日子的岁月.txt`,丢弃 `【柿饼袁bg】在A大队混日子的岁月.txt`
+- `柿饼/在A大队混日子的岁月`: 保留 `【柿饼】在A大队混日子的岁月.txt`,丢弃 `在A大队混日子的岁月.txt`
+- `柿饼/在A大队混日子的岁月（袁大灰狼的爱情猜想）`: 保留 `【柿饼】在A大队混日子的岁月（袁大灰狼的爱情猜想）.txt`,丢弃 `在A大队混日子的岁月（袁大灰狼的爱情猜想）.txt`
+- `柿饼/在我心中`: 保留 `【柿饼】在我心中.txt`,丢弃 `在我心中.txt`
+- `柿饼/在我心中八一小兵`: 保留 `【柿饼】在我心中八一小兵.txt`,丢弃 `在我心中八一小兵.txt`
+- `柿饼/夏天扭曲的空气`: 保留 `【柿饼】夏天扭曲的空气.txt`,丢弃 `夏天扭曲的空气.txt`
+- `柿饼/夕阳中的清秀佳人`: 保留 `【柿饼】夕阳中的清秀佳人.txt`,丢弃 `夕阳中的清秀佳人.txt`
+- `柿饼/夕阳中的清秀佳人2`: 保留 `【柿饼】夕阳中的清秀佳人2.txt`,丢弃 `夕阳中的清秀佳人2.txt`
+- `柿饼/天气晴好`: 保留 `【柿饼】天气晴好.txt`,丢弃 `天气晴好.txt`
+- `柿饼/奕动我心`: 保留 `【柿饼袁bg】奕动我心.txt`,丢弃 `【柿饼袁朗】奕动我心.txt`
+- `柿饼/奕动我心`: 保留 `【柿饼袁bg】奕动我心.txt`,丢弃 `【袁朗】奕动我心.txt`
+- `柿饼/嫁给袁朗`: 保留 `【柿饼袁bg】嫁给袁朗.txt`,丢弃 `嫁给袁朗.txt`
+- `柿饼/峥嵘`: 保留 `【柿饼】峥嵘.txt`,丢弃 `【柿饼高城bl】峥嵘.txt`
+- `柿饼/峥嵘`: 保留 `【柿饼】峥嵘.txt`,丢弃 `峥嵘.txt`
+- `柿饼/并肩`: 保留 `【柿饼】并肩.txt`,丢弃 `【柿饼袁bg】并肩.txt`
+- `柿饼/并肩`: 保留 `【柿饼】并肩.txt`,丢弃 `并肩.txt`
+- `柿饼/愿君忆我千百世`: 保留 `【柿饼】愿君忆我千百世.txt`,丢弃 `【柿饼高城bg】愿君忆我千百世.txt`
+- `柿饼/愿君忆我千百世`: 保留 `【柿饼】愿君忆我千百世.txt`,丢弃 `愿君忆我千百世.txt`
+- `柿饼/成哲双花故事`: 保留 `【柿饼】成哲双花故事.txt`,丢弃 `成哲双花故事.txt`
+- `柿饼/成才而已`: 保留 `【柿饼】成才而已.txt`,丢弃 `成才而已.txt`
+- `柿饼/成才而已2`: 保留 `【柿饼】成才而已2.txt`,丢弃 `成才而已2.txt`
+- `柿饼/成袁流年暗换`: 保留 `【柿饼】成袁流年暗换.txt`,丢弃 `成袁流年暗换.txt`
+- `柿饼/我不想热血(高城)kinsalin`: 保留 `【柿饼】我不想热血(高城)kinsalin.txt`,丢弃 `我不想热血(高城)kinsalin.txt`
+- `柿饼/我在当特种兵`: 保留 `【柿饼】我在当特种兵.txt`,丢弃 `我在当特种兵.txt`
+- `柿饼/我是一个兵（）话唠陈少言`: 保留 `【柿饼】我是一个兵（）话唠陈少言.txt`,丢弃 `我是一个兵（）话唠陈少言.txt`
+- `柿饼/我是成才`: 保留 `【柿饼】我是成才.txt`,丢弃 `我是成才.txt`
+- `柿饼/我是成才2`: 保留 `【柿饼】我是成才2.txt`,丢弃 `我是成才2.txt`
+- `柿饼/我的爸爸是老A`: 保留 `【柿饼】我的爸爸是老A.txt`,丢弃 `我的爸爸是老A.txt`
+- `柿饼/报告，齐教官`: 保留 `【柿饼齐桓bg】报告，齐教官.txt`,丢弃 `报告，齐教官.txt`
+- `柿饼/拿什么补偿你你的第一次千川`: 保留 `【柿饼】拿什么补偿你你的第一次千川.txt`,丢弃 `拿什么补偿你你的第一次千川.txt`
+- `柿饼/无七连和老A`: 保留 `【柿饼】无七连和老A.txt`,丢弃 `无七连和老A.txt`
+- `柿饼/无与子同袍`: 保留 `【柿饼】无与子同袍.txt`,丢弃 `无与子同袍.txt`
+- `柿饼/无云月来`: 保留 `【柿饼】无云月来.txt`,丢弃 `无云月来.txt`
+- `柿饼/无兵媚`: 保留 `【柿饼】无兵媚.txt`,丢弃 `无兵媚.txt`
+- `柿饼/无冒名顶替当兵去`: 保留 `【柿饼】无冒名顶替当兵去.txt`,丢弃 `无冒名顶替当兵去.txt`
+- `柿饼/无军营不相信眼泪`: 保留 `【柿饼】无军营不相信眼泪.txt`,丢弃 `无军营不相信眼泪.txt`
+- `柿饼/无在我心中`: 保留 `【柿饼】无在我心中.txt`,丢弃 `无在我心中.txt`
+- `柿饼/无我是一个兵话唠陈少言`: 保留 `【柿饼】无我是一个兵话唠陈少言.txt`,丢弃 `无我是一个兵话唠陈少言.txt`
+- `柿饼/无无衣`: 保留 `【柿饼】无无衣.txt`,丢弃 `无无衣.txt`
+- `柿饼/无昨日重现惊鸿一枪`: 保留 `【柿饼】无昨日重现惊鸿一枪.txt`,丢弃 `无昨日重现惊鸿一枪.txt`
+- `柿饼/无熙若绚烂如朝阳`: 保留 `【柿饼】无熙若绚烂如朝阳.txt`,丢弃 `无熙若绚烂如朝阳.txt`
+- `柿饼/无衣`: 保留 `【柿饼】无衣.txt`,丢弃 `无衣.txt`
+- `柿饼/无诛`: 保留 `【柿饼】无诛.txt`,丢弃 `无诛.txt`
+- `柿饼/无轮回`: 保留 `【柿饼】无轮回.txt`,丢弃 `无轮回.txt`
+- `柿饼/旧人归`: 保留 `【柿饼高城bg】旧人归.txt`,丢弃 `【柿饼高城】旧人归.txt`
+- `柿饼/昨日重现惊鸿一枪六道轮回`: 保留 `【柿饼】昨日重现惊鸿一枪六道轮回.txt`,丢弃 `昨日重现惊鸿一枪六道轮回.txt`
+- `柿饼/最可爱的人——老A`: 保留 `【柿饼】最可爱的人——老A.txt`,丢弃 `【柿饼袁bg】最可爱的人——老A.txt`
+- `柿饼/最可爱的人——老A`: 保留 `【柿饼】最可爱的人——老A.txt`,丢弃 `最可爱的人——老A.txt`
+- `柿饼/有风来仪`: 保留 `【柿饼】有风来仪.txt`,丢弃 `【柿饼高城bl】有风来仪.txt`
+- `柿饼/有风来仪`: 保留 `【柿饼】有风来仪.txt`,丢弃 `有风来仪.txt`
+- `柿饼/木棉`: 保留 `【柿饼】木棉.TXT`,丢弃 `【柿饼高城bg】木棉.TXT`
+- `柿饼/木棉`: 保留 `【柿饼】木棉.TXT`,丢弃 `木棉.TXT`
+- `柿饼/木槿花`: 保留 `【柿饼】木槿花.txt`,丢弃 `【柿饼袁bg】木槿花.txt`
+- `柿饼/木槿花`: 保留 `【柿饼】木槿花.txt`,丢弃 `木槿花.txt`
+- `柿饼/梦蝶【柿饼袁许】）`: 保留 `【柿饼】梦蝶【柿饼袁许】）.txt`,丢弃 `梦蝶【柿饼袁许】）.txt`
+- `柿饼/此岸，彼岸`: 保留 `【柿饼】此岸，彼岸.txt`,丢弃 `此岸，彼岸.txt`
+- `柿饼/殊途同归…木浴￡高城`: 保留 `【柿饼】殊途同归…木浴￡高城.txt`,丢弃 `殊途同归…木浴￡高城.txt`
+- `柿饼/没有麻药的爱情`: 保留 `【柿饼】没有麻药的爱情.txt`,丢弃 `【柿饼袁bg】没有麻药的爱情.txt`
+- `柿饼/没有麻药的爱情`: 保留 `【柿饼】没有麻药的爱情.txt`,丢弃 `没有麻药的爱情.txt`
+- `柿饼/海军从开始`: 保留 `【柿饼】海军从开始.txt`,丢弃 `海军从开始.txt`
+- `柿饼/火凤凰`: 保留 `【柿饼】火凤凰.txt`,丢弃 `火凤凰.txt`
+- `柿饼/灿若晨曦`: 保留 `【柿饼】灿若晨曦.txt`,丢弃 `【柿饼袁bg】灿若晨曦.txt`
+- `柿饼/灿若晨曦`: 保留 `【柿饼】灿若晨曦.txt`,丢弃 `灿若晨曦.txt`
+- `柿饼/炙血情`: 保留 `【柿饼】炙血情.txt`,丢弃 `炙血情.txt`
+- `柿饼/焰阳花火`: 保留 `【柿饼袁bg】焰阳花火.txt`,丢弃 `【柿饼袁朗】焰阳花火.txt`
+- `柿饼/焰阳花火`: 保留 `【柿饼袁bg】焰阳花火.txt`,丢弃 `【袁朗】焰阳花火.txt`
+- `柿饼/煳涂护士!佞军官`: 保留 `【柿饼】煳涂护士!佞军官.txt`,丢弃 `【柿饼袁bg】煳涂护士!佞军官.txt`
+- `柿饼/煳涂护士!佞军官`: 保留 `【柿饼】煳涂护士!佞军官.txt`,丢弃 `煳涂护士!佞军官.txt`
+- `柿饼/熙若绚烂如朝阳`: 保留 `【柿饼】熙若绚烂如朝阳.txt`,丢弃 `熙若绚烂如朝阳.txt`
+- `柿饼/特种兵之二次入伍`: 保留 `【柿饼】特种兵之二次入伍.txt`,丢弃 `特种兵之二次入伍.txt`
+- `柿饼/狼来了作者：翠寒烟（JJ10.12完结）`: 保留 `【柿饼】狼来了作者：翠寒烟（JJ10.12完结）.txt`,丢弃 `狼来了作者：翠寒烟（JJ10.12完结）.txt`
+- `柿饼/猛虎和玫瑰作者：千川`: 保留 `【柿饼】猛虎和玫瑰作者：千川.txt`,丢弃 `猛虎和玫瑰作者：千川.txt`
+- `柿饼/甘露行动1`: 保留 `【柿饼】甘露行动1.txt`,丢弃 `甘露行动1.txt`
+- `柿饼/甩着尾巴的狼狗血喵`: 保留 `【柿饼】甩着尾巴的狼狗血喵.txt`,丢弃 `甩着尾巴的狼狗血喵.txt`
+- `柿饼/男人么，就得负责任`: 保留 `【柿饼袁高】男人么，就得负责任.txt`,丢弃 `【柿饼高袁】男人么，就得负责任.txt`
+- `柿饼/相许生死`: 保留 `【柿饼】相许生死.txt`,丢弃 `【柿饼袁哲】相许生死.txt`
+- `柿饼/相许生死`: 保留 `【柿饼】相许生死.txt`,丢弃 `相许生死.txt`
+- `柿饼/空降老A的女人`: 保留 `【柿饼】空降老A的女人.txt`,丢弃 `【柿饼袁bg】空降老A的女人.txt`
+- `柿饼/空降老A的女人`: 保留 `【柿饼】空降老A的女人.txt`,丢弃 `空降老A的女人.txt`
+- `柿饼/紫色星辰`: 保留 `【柿饼】紫色星辰.txt`,丢弃 `【柿饼袁bg】紫色星辰.txt`
+- `柿饼/紫色星辰`: 保留 `【柿饼】紫色星辰.txt`,丢弃 `紫色星辰.txt`
+- `柿饼/纵是骑马倚斜桥(吴哲)`: 保留 `【柿饼】纵是骑马倚斜桥(吴哲).txt`,丢弃 `纵是骑马倚斜桥(吴哲).txt`
+- `柿饼/缘妙不可言`: 保留 `【柿饼】缘妙不可言.txt`,丢弃 `【柿饼袁成】缘妙不可言.txt`
+- `柿饼/缘妙不可言`: 保留 `【柿饼】缘妙不可言.txt`,丢弃 `缘妙不可言.txt`
+- `柿饼/老特新兵`: 保留 `【柿饼】老特新兵.txt`,丢弃 `老特新兵.txt`
+- `柿饼/老虎的爱情`: 保留 `【柿饼】老虎的爱情.txt`,丢弃 `【柿饼高城bg】老虎的爱情.txt`
+- `柿饼/老虎的爱情`: 保留 `【柿饼】老虎的爱情.txt`,丢弃 `老虎的爱情.txt`
+- `柿饼/致命邂逅`: 保留 `【柿饼】致命邂逅.txt`,丢弃 `【柿饼高城bg】致命邂逅.txt`
+- `柿饼/致命邂逅`: 保留 `【柿饼】致命邂逅.txt`,丢弃 `致命邂逅.txt`
+- `柿饼/花开花落`: 保留 `【柿饼】花开花落.txt`,丢弃 `【柿饼袁bg】花开花落.txt`
+- `柿饼/花开花落`: 保留 `【柿饼】花开花落.txt`,丢弃 `花开花落.txt`
+- `柿饼/花开花落2`: 保留 `【柿饼】花开花落2.txt`,丢弃 `花开花落2.txt`
+- `柿饼/莲`: 保留 `【柿饼】莲.txt`,丢弃 `【柿饼袁bg】莲.txt`
+- `柿饼/莲`: 保留 `【柿饼】莲.txt`,丢弃 `莲.txt`
+- `柿饼/蓦然回首`: 保留 `【柿饼】蓦然回首.txt`,丢弃 `蓦然回首.txt`
+- `柿饼/袁bl夏天`: 保留 `【柿饼】袁bl夏天.txt`,丢弃 `袁bl夏天.txt`
+- `柿饼/袁bl天气晴好`: 保留 `【柿饼】袁bl天气晴好.txt`,丢弃 `袁bl天气晴好.txt`
+- `柿饼/袁bl我大概是当了假兵`: 保留 `【柿饼】袁bl我大概是当了假兵.txt`,丢弃 `袁bl我大概是当了假兵.txt`
+- `柿饼/袁bl甩着尾巴的狼`: 保留 `【柿饼】袁bl甩着尾巴的狼.txt`,丢弃 `袁bl甩着尾巴的狼.txt`
+- `柿饼/袁先生总是不开心金推高人气by徐徐图之`: 保留 `【柿饼】袁先生总是不开心金推高人气by徐徐图之.txt`,丢弃 `袁先生总是不开心金推高人气by徐徐图之.txt`
+- `柿饼/袁前世今生`: 保留 `【柿饼】袁前世今生.txt`,丢弃 `袁前世今生.txt`
+- `柿饼/袁家那些事儿`: 保留 `【柿饼】袁家那些事儿.txt`,丢弃 `【柿饼袁bg】袁家那些事儿.txt`
+- `柿饼/袁家那些事儿`: 保留 `【柿饼】袁家那些事儿.txt`,丢弃 `袁家那些事儿.txt`
+- `柿饼/袁朗VS护士`: 保留 `【柿饼袁bg】袁朗VS护士.txt`,丢弃 `袁朗VS护士.txt`
+- `柿饼/装甲老七沦陷战`: 保留 `【柿饼高城bg】装甲老七沦陷战.txt`,丢弃 `【柿饼高城】装甲老七沦陷战.txt`
+- `柿饼/许三多的多余四弟`: 保留 `【柿饼】许三多的多余四弟.txt`,丢弃 `许三多的多余四弟.txt`
+- `柿饼/诛六道轮回`: 保留 `【柿饼】诛六道轮回.txt`,丢弃 `诛六道轮回.txt`
+- `柿饼/话说齐桓`: 保留 `【柿饼】话说齐桓.txt`,丢弃 `话说齐桓.txt`
+- `柿饼/话说齐桓2`: 保留 `【柿饼】话说齐桓2.txt`,丢弃 `话说齐桓2.txt`
+- `柿饼/谁家的孩子BY雷雷更健康(架空【柿饼袁高】生子HE)`: 保留 `【柿饼】谁家的孩子BY雷雷更健康(架空【柿饼袁高】生子HE).txt`,丢弃 `谁家的孩子BY雷雷更健康(架空【柿饼袁高】生子HE).txt`
+- `柿饼/铁【柿饼袁高】袁蝴蝶`: 保留 `【柿饼】铁【柿饼袁高】袁蝴蝶.txt`,丢弃 `铁【柿饼袁高】袁蝴蝶.txt`
+- `柿饼/铁袁十年(完结番外)`: 保留 `【柿饼】铁袁十年(完结番外).txt`,丢弃 `铁袁十年(完结番外).txt`
+- `柿饼/铁袁此岸，彼岸`: 保留 `【柿饼】铁袁此岸，彼岸.txt`,丢弃 `铁袁此岸，彼岸.txt`
+- `柿饼/铁袁流年`: 保留 `【柿饼】铁袁流年.txt`,丢弃 `铁袁流年.txt`
+- `柿饼/铁袁流年 2`: 保留 `【柿饼】铁袁流年 2.txt`,丢弃 `铁袁流年 2.txt`
+- `柿饼/镜`: 保留 `【柿饼】镜.txt`,丢弃 `【柿饼袁哲】镜.txt`
+- `柿饼/镜`: 保留 `【柿饼】镜.txt`,丢弃 `镜.txt`
+- `柿饼/长相思常相守`: 保留 `【柿饼】长相思常相守.txt`,丢弃 `【柿饼袁成】长相思常相守.txt`
+- `柿饼/长相思常相守`: 保留 `【柿饼】长相思常相守.txt`,丢弃 `长相思常相守.txt`
+- `柿饼/陈嘉慕的军绿色人生`: 保留 `【柿饼】陈嘉慕的军绿色人生.txt`,丢弃 `陈嘉慕的军绿色人生.txt`
+- `柿饼/雾里看花()`: 保留 `【柿饼】雾里看花().txt`,丢弃 `雾里看花().txt`
+- `柿饼/雾里看花赵B￡高城`: 保留 `【柿饼】雾里看花赵B￡高城.txt`,丢弃 `雾里看花赵B￡高城.txt`
+- `柿饼/麒麟`: 保留 `【柿饼】麒麟.txt`,丢弃 `麒麟.txt`
+- `柿饼/齐bg报告，齐教官`: 保留 `【柿饼】齐bg报告，齐教官.txt`,丢弃 `齐bg报告，齐教官.txt`
+- `柿饼/齐三丫头来了`: 保留 `【柿饼】齐三丫头来了.txt`,丢弃 `齐三丫头来了.txt`
+- `柿饼/齐哲公子吴哲`: 保留 `【柿饼】齐哲公子吴哲.txt`,丢弃 `齐哲公子吴哲.txt`
+- `柿饼/齐袁如果爱下去作者`: 保留 `【柿饼】齐袁如果爱下去作者.txt`,丢弃 `齐袁如果爱下去作者.txt`
+- `柿饼/齐袁如果爱下去作者：薇楼那喀所斯蝶`: 保留 `【柿饼】齐袁如果爱下去作者：薇楼那喀所斯蝶.txt`,丢弃 `齐袁如果爱下去作者：薇楼那喀所斯蝶.txt`
+
+## 处理备注(多 txt 取舍 / 转码 / 多册拆分等)
+
+- `【HP哈德】B数没有，我是Alpha.zip`: 共 2 个 txt,取最大的(【HP哈德】B数没有，我是Alpha.txt),其余: ._【HP哈德】B数没有，我是Alpha.txt
+- `【HP哈德】不能更糟了.txt` → `不能更糟了.txt`: 转码 gb18030->utf-8
+- `【HP哈德】傲娇与偏见.txt` → `傲娇与偏见.txt`: 转码 gb18030->utf-8
+- `【HP哈德】双面人生 作者：细品.txt` → `双面人生 作者：细品.txt`: 转码 gb18030->utf-8
+- `【HP哈德】拯救马尔福.txt` → `拯救马尔福.txt`: 转码 gb18030->utf-8
+- `【HP哈德】早知如此.txt` → `早知如此.txt`: 转码 gb18030->utf-8
+- `【HP哈德】极光.txt` → `极光.txt`: 转码 gb18030->utf-8
+- `【HP哈德】爱情欺诈师【未完结】.TXT` → `爱情欺诈师.txt`: 转码 gb18030->utf-8
+- `【HP哈德】请问Malfoy先生.txt` → `请问Malfoy先生.txt`: 转码 gb18030->utf-8
+- `【HP哈德】贝比是个礼物.txt` → `贝比是个礼物.txt`: 转码 gb18030->utf-8
+- `【HP哈德】铂金色的未来.txt` → `铂金色的未来.txt`: 转码 gb18030->utf-8
+- `【HP哈德】随波逐流 BY llandu (灵魂转换 穿越时空).txt` → `随波逐流 BY llandu (灵魂转换 穿越时空).txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP斯赫】30天-.epub.rar` → `30天-.epub.txt`: 无 txt,由包内 【HP斯赫】30天-.epub (epub) 转换
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】A Study in Storytelling 执子之笔.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】A Tale of Flamenco.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】Angels and Devils.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】Breath Mints & Battle Scars(机翻).rar` → `Breath Mints & Battle Scars(机翻).txt`: 无 txt,由包内 【HP德赫】Breath Mints & Battle Scars(机翻).docx (docx) 转换
+- `240928-磕学家补充资源\【HP哈德】B数没有，我是Alpha.zip`: 共 2 个 txt,取最大的(【HP哈德】B数没有，我是Alpha.txt),其余: ._【HP哈德】B数没有，我是Alpha.txt
+- `240410-Fanst补充资源(1)\【HP德赫】Di_Shi_San_Ye（第十三夜）.rar` → `Di_Shi_San_Ye（第十三夜）.txt`: 无 txt,由包内 【HP德赫】Di_Shi_San_Ye（第十三夜）.epub (epub) 转换
+- `240522-fanst补充资源\Do Not Go Gentle疤痕诅咒.rar` → `Do Not Go Gentle疤痕诅咒.txt`: 无 txt,由包内 Do Not Go Gentle疤痕诅咒.docx (docx) 转换
+- `240522-fanst补充资源\【HP德赫】Extempore.txt.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】Forgive新结局.rar` → `Forgive新结局.txt`: 无 txt,由包内 【HP德赫】Forgive新结局.docx (docx) 转换
+- `240522-fanst补充资源\【HP西斯】Freedom.txt.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP斯赫】HP穿肠毒药番外（全）-派派小说_派派小说.rar.rar` → `HP穿肠毒药番外（全）-派派小说_派派小说.rar.txt`: [来自嵌套包 【HP斯赫】HP穿肠毒药番外（全）-派派小说_派派小说.rar]
+- `240522-fanst补充资源\【HP德赫】HUNTED_机翻.rar` → `HUNTED_机翻.txt`: 无 txt,由包内 【HP德赫】HUNTED_机翻.docx (docx) 转换
+- `240522-fanst补充资源\Hinge of Fate冥冥天意.docx.rar` → `Hinge of Fate冥冥天意.docx.txt`: 无 txt,由包内 Hinge of Fate冥冥天意.docx (docx) 转换
+- `240522-fanst补充资源\【HP西斯】Honor in the Crevice .rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP德哈】Irresistible Poison.txt` → `Irresistible Poison.txt`: 转码 UTF-16->utf-8
+- `240920-磕学家补充资源\【HP德哈】Light A Fire.zip`: 共 2 个 txt,取最大的(【HP德哈】Light A Fire.txt),其余: ._【HP德哈】Light A Fire.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】Merlin知道.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】Miller_Mallen.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP西斯】Ms.Doggy.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\Never Return.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\Not Only a Granger独自带儿子.rar` → `Not Only a Granger独自带儿子.txt`: 无 txt,由包内 Not Only a Granger独自带儿子.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP德赫】PIECES .rar` → `PIECES.txt`: [来自嵌套包 【HP德赫】PIECES .zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】PIECES .rar`: 共 2 个 txt,取最大的([HP-DHr]PIECES（作者：Kyra4）（翻译者：ArtemisManchu）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】PIECES .zip`: 共 2 个 txt,取最大的([HP-DHr]PIECES（作者：Kyra4）（翻译者：ArtemisManchu）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240410-Fanst补充资源(1)\【HP德赫】Remember.rar` → `Remember.txt`: 无 txt,由包内 【HP德赫】Remember.docx (docx) 转换
+- `240428-fanst补充资源\【HP德哈】Running on Air御风而行  by eleventy7.txt.zip`: 共 2 个 txt,取最大的(【HP德哈】Running on Air御风而行  by eleventy7.txt),其余: ._【HP德哈】Running on Air御风而行  by eleventy7.txt
+- `Shou_Fan_All_You_Want.epub` → `Shou_Fan_All_You_Want.txt`: epub 剥标签转文本
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】Silence All These Years 番外 In the End.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】Simply Irresistible风情万种 .rar` → `Simply Irresistible风情万种.txt`: [来自嵌套包 【HP德赫】Simply Irresistible风情万种 .zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】Simply Irresistible风情万种 .rar`: 共 2 个 txt,取最大的([DHr]Simply Irresistible风情万种（作者：bookworm1993）（翻译者：╭Kurm_Jaz°）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】Simply Irresistible风情万种 .zip`: 共 2 个 txt,取最大的([DHr]Simply Irresistible风情万种（作者：bookworm1993）（翻译者：╭Kurm_Jaz°）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240410-Fanst补充资源(1)\【HP德赫】THIS_LOVE.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】Tears in rain .rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】The Best Anniversary 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】The Bracelet环镯之约.rar` → `The Bracelet环镯之约.txt`: 无 txt,由包内 【HP德赫】The Bracelet环镯之约.docx (docx) 转换
+- `240522-fanst补充资源\【HP德赫】The Chronicle Play历史剧.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `【HP德赫】The Chronicle Play历史剧.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源\【HP德赫】The Flatmate(房客)机翻.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP伏哈】The Gambler赌徒 BY suii.txt` → `The Gambler赌徒 BY suii.txt`: 转码 gb18030->utf-8
+- `240410-Fanst补充资源\【HP德赫】The Good Girl.rar` → `The Good Girl.txt`: 无 txt,由包内 【HP德赫】The Good Girl.epub (epub) 转换
+- `240522-fanst补充资源\The House at Row's Edge被抹杀，继承教授遗产.rar` → `The House at Row's Edge被抹杀，继承教授遗产.txt`: 无 txt,由包内 The House at Row's Edge被抹杀，继承教授遗产.docx (docx) 转换
+- `240522-fanst补充资源\【HP德赫】The Life After Hogwarts .rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】The Revenant 亡灵归来 .rar.rar` → `The Revenant 亡灵归来 .rar.txt`: [来自嵌套包 【HP德赫】The Revenant 亡灵归来 .rar]
+- `Fanst资源日更中（先转存再查看\【HP未知】The Wedding Dat.rar` → `The Wedding Dat.txt`: 无 txt,由包内 【HP未知】The Wedding Dat.docx (docx) 转换
+- `240522-fanst补充资源\The tension and the spark.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP斯赫】TygerTygerbybloodcult_of_freud.doc.rar` → `TygerTygerbybloodcult_of_freud.doc.txt`: 无 txt,由包内 【HP斯赫】TygerTygerbybloodcult_of_freud.doc.docx (docx) 转换
+- `240522-fanst补充资源\【HP西斯】Unexpected.by yatri.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】Y_网友想要的旧版.rar` → `Y_网友想要的旧版.txt`: 无 txt,由包内 【HP德赫】Y_网友想要的旧版.docx (docx) 转换
+- `[DHr]赌城无事记（作者：Decinda）.txt` → `[DHr]赌城无事记（作者：Decinda）.txt`: 转码 UTF-16->utf-8
+- `240928-磕学家补充资源\【HP德赫】all-you-want.zip`: 共 2 个 txt,取最大的(【HP德赫】all-you-want.txt),其余: ._【HP德赫】all-you-want.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】beautiful_within heart .rar` → `beautiful_within heart.txt`: [来自嵌套包 【HP德赫】beautiful_within heart .zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】beautiful_within heart .rar`: 共 2 个 txt,取最大的(beautiful_within heart.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】beautiful_within heart .zip`: 共 2 个 txt,取最大的(beautiful_within heart.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240410-Fanst补充资源(1)\【HP德赫】cassiopia.rar` → `cassiopia.txt`: 无 txt,由包内 【HP德赫】cassiopia.docx (docx) 转换
+- `240410-Fanst补充资源(1)\【HP德赫】decinda德赫.rar`: 共 7 个 txt,取最大的(再见马尔福先生.txt),其余: 赌城无事记.txt, 光与魔法与奥齐 (2).txt, I Knew You Were Trouble.txt, 太聪明.txt, 斯内普.txt
+- `240410-Fanst补充资源\【HP德赫】decinda德赫.rar`: 共 7 个 txt,取最大的(再见马尔福先生.txt),其余: 赌城无事记.txt, 光与魔法与奥齐 (2).txt, I Knew You Were Trouble.txt, 太聪明.txt, 斯内普.txt
+- `【HP德赫】decinda德赫.rar`: 共 7 个 txt,取最大的(再见马尔福先生.txt),其余: 赌城无事记.txt, 光与魔法与奥齐 (2).txt, I Knew You Were Trouble.txt, 太聪明.txt, 斯内普.txt
+- `240522-fanst补充资源\【HP西斯】exchange.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `【HP德赫】far away by joeling2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP斯赫】hp意料之外_派派小说.rar.rar` → `hp意料之外_派派小说.rar.txt`: [来自嵌套包 【HP斯赫】hp意料之外_派派小说.rar]
+- `Fanst资源日更中（先转存再查看\【HP德哈】sexual attraction 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240416-Fanst补充资源(1)\【HP哈赫】the List 清单.rar` → `the List 清单.txt`: 无 txt,由包内 【HP哈赫】the List 清单.docx (docx) 转换
+- `241022-磕学家补充资源\【HP创始人】一段校史.txt` → `一段校史.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】一直很安静 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\七诫.rar` → `七诫.txt`: 无 txt,由包内 七诫.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP德赫】万圣节的诅咒.rar` → `万圣节的诅咒.txt`: [来自嵌套包 【HP德赫】万圣节的诅咒.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】万圣节的诅咒.rar`: 共 2 个 txt,取最大的(HP德赫 万圣节的诅咒.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】万圣节的诅咒.zip`: 共 2 个 txt,取最大的(HP德赫 万圣节的诅咒.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP斯赫】三十天 斯赫.rar` → `三十天 斯赫.txt`: 无 txt,由包内 【HP斯赫】三十天 斯赫.docx (docx) 转换
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】不朽三部曲.rar`: 共 2 个 txt,取最大的(3— My Dear Watson 致吾友.txt),其余: 2— A Noble Life 高尚人生.txt
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】不朽三部曲之三-My Dear Watson 致吾友.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】不能更糟了.txt` → `不能更糟了.txt`: 转码 gb18030->utf-8
+- `240410-Fanst补充资源(1)\【HP德赫】不要温和地走进那个良夜.rar` → `不要温和地走进那个良夜.txt`: 无 txt,由包内 【HP德赫】不要温和地走进那个良夜.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP未知】与堕天使同行 in the house of fallen angels.rar` → `与堕天使同行 in the house of fallen angels.txt`: 无 txt,由包内 【HP未知】与堕天使同行 in the house of fallen angels.docx (docx) 转换
+- `240522-fanst补充资源\【HP德赫】亲子教学课.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】佛罗伦萨的十二封情书.rar` → `佛罗伦萨的十二封情书.txt`: 无 txt,由包内 【HP德赫】佛罗伦萨的十二封情书.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP教授】佩妮的情事.zip.rar` → `佩妮的情事.zip.txt`: [来自嵌套包 【HP教授】佩妮的情事.zip]
+- `Fanst资源日更中（先转存再查看\【HP原创男主】俗套啊俗套.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】傲娇与偏见.txt` → `傲娇与偏见.txt`: 转码 gb18030->utf-8
+- `240522-fanst补充资源\【HP德赫】像天使一样堕落.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】兵临城下.rar` → `兵临城下.txt`: [来自嵌套包 【HP德赫】兵临城下.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】兵临城下.rar`: 共 2 个 txt,取最大的(兵临城下.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】兵临城下.zip`: 共 2 个 txt,取最大的(兵临城下.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240410-Fanst补充资源(1)\【HP德赫】再见1998..rar` → `再见1998..txt`: 无 txt,由包内 【HP德赫】再见1998..docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP斯赫】十宗罪.rar` → `十宗罪.txt`: 无 txt,由包内 【HP斯赫】十宗罪.epub (epub) 转换
+- `Fanst资源日更中（先转存再查看\【HP斯赫】十宗罪-.rar` → `十宗罪-.txt`: 无 txt,由包内 【HP斯赫】十宗罪-.epub (epub) 转换
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】原著的真相系列 by七宝画团扇.rar`: 共 9 个 txt,取最大的(3— 猎犬寻踪.txt),其余: 8—伤痛与婚礼.txt, 4— 旧情人.txt, 7— 传记作家的回归.txt, 6— 回归的致意.txt, 1— 我最好朋友的妻子.txt
+- `240522-fanst补充资源\双重人生.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】双面人生 作者：细品.txt` → `双面人生 作者：细品.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】名扬四海（密码：MYSH）.zip`: 7z 报错(退出码 255,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP卢伏】命运尽头.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】在劫难逃.rar` → `在劫难逃.txt`: [来自嵌套包 【HP德赫】在劫难逃.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】在劫难逃.rar`: 共 2 个 txt,取最大的(在劫难逃「德赫」.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】在劫难逃.zip`: 共 2 个 txt,取最大的(在劫难逃「德赫」.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【真人-马龙】地主家的儿媳妇.rar` → `地主家的儿媳妇.txt`: [来自嵌套包 【真人-马龙】地主家的儿媳妇.zip]
+- `Fanst资源日更中（先转存再查看\【真人-马龙】地主家的儿媳妇.rar`: 共 2 个 txt,取最大的([马龙乒乓]地主家的儿媳妇.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【真人-马龙】地主家的儿媳妇.zip`: 共 2 个 txt,取最大的([马龙乒乓]地主家的儿媳妇.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `241022-磕学家补充资源\【HP德哈】如果哈利波特不是童话.txt` → `如果哈利波特不是童话.txt`: 转码 gb18030->utf-8
+- `240522-fanst补充资源\【HP西斯】婚礼进行时 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】宿忘.rar`: 共 2 个 txt,取最大的(馋馋 宿忘.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】宿忘.zip`: 共 2 个 txt,取最大的(馋馋 宿忘.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】巴黎永忆.rar` → `巴黎永忆.txt`: [来自嵌套包 【HP德赫】巴黎永忆.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】巴黎永忆.rar`: 共 2 个 txt,取最大的(巴黎永忆-We'll Always Have Paris.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】巴黎永忆.zip`: 共 2 个 txt,取最大的(巴黎永忆-We'll Always Have Paris.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】幸存者.rar` → `幸存者.txt`: [来自嵌套包 【HP德赫】幸存者.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】幸存者.rar`: 共 2 个 txt,取最大的([HP-DHr]幸存者 《The Survivors 》（作者：jennie_628）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】幸存者.zip`: 共 2 个 txt,取最大的([HP-DHr]幸存者 《The Survivors 》（作者：jennie_628）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240522-fanst补充资源\当代魔药制作.rar` → `当代魔药制作.txt`: 无 txt,由包内 当代魔药制作.docx (docx) 转换
+- `240522-fanst补充资源\意料之外.rar.rar` → `意料之外.rar.txt`: [来自嵌套包 意料之外.rar]
+- `Fanst资源日更中（先转存再查看\【HP德哈】愛不是用說的.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【博君一肖】我就喜欢你凡尔赛的样子+AFaD番外1(体校计算机大神校草x娱乐圈顶流) by昕心心.txt` → `我就喜欢你凡尔赛的样子+AFaD番外1(体校计算机大神校草x娱乐圈顶流) by昕心心.txt`: 转码 UTF-16->utf-8
+- `240522-fanst补充资源\【HP德赫】拍卖会.rar` → `拍卖会.txt`: 无 txt,由包内 【HP德赫】拍卖会.epub (epub) 转换
+- `241022-磕学家补充资源\【HP哈德】拯救马尔福.txt` → `拯救马尔福.txt`: 转码 gb18030->utf-8
+- `241022-磕学家补充资源\【HP哈德】拯救马尔福(1).txt` → `拯救马尔福(1).txt`: 转码 gb18030->utf-8
+- `240410-Fanst补充资源(1)\【HP德赫】斯科皮的单独家长会.rar` → `斯科皮的单独家长会.txt`: 无 txt,由包内 【HP德赫】斯科皮的单独家长会.docx (docx) 转换
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】无罪之人.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】早知如此.txt` → `早知如此.txt`: 转码 gb18030->utf-8
+- `240428-fanst补充资源\【HP德哈】暴雨夜（含番外2篇）.txt.zip`: 共 2 个 txt,取最大的(【HP德哈】暴雨夜（含番外2篇）.txt),其余: ._【HP德哈】暴雨夜（含番外2篇）.txt
+- `240410-Fanst补充资源(1)\【HP德赫】未成年不可以进的禁书区part2.rar` → `未成年不可以进的禁书区part2.txt`: 无 txt,由包内 【HP德赫】未成年不可以进的禁书区part2.docx (docx) 转换
+- `241022-磕学家补充资源\【HP德哈】未来回归 (哈利重生文）.txt` → `未来回归 (哈利重生文）.txt`: 转码 gb18030->utf-8
+- `240925-磕学家补充资源\【HP德赫】未知的世界.zip`: 共 2 个 txt,取最大的(【HP德赫】未知的世界.txt),其余: ._【HP德赫】未知的世界.txt
+- `241022-磕学家补充资源\【HP哈德】极光.txt` → `极光.txt`: 转码 gb18030->utf-8
+- `240522-fanst补充资源\【HP德赫】格兰芬多公主和斯莱特林王子_德赫.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】梅林啊，你恨我！.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】梅林，你恨我.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】梦 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】梦想.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】棕色誘惑.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】棕色誘惑 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】欲纵故擒 Resistance.rar` → `欲纵故擒 Resistance.txt`: 无 txt,由包内 【HP德赫】欲纵故擒 Resistance.docx (docx) 转换
+- `241128-哈皮磕学家\【HP德哈】死亡尽头.zip`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】死兆.rar` → `死兆.txt`: 无 txt,由包内 【HP德赫】死兆.docx (docx) 转换
+- `241022-磕学家补充资源\【HP德哈】残缺的字母(1).txt` → `残缺的字母(1).txt`: 转码 UTF-16->utf-8
+- `240425-Fanst补充资源(1)\【HP德哈】江河梦里人合集.zip`: 共 10 个 txt,取最大的(【德哈】暴雨夜——长篇（含番外2篇）.txt),其余: 江河梦里人德哈中短篇集合.txt, 巴黎幻梦应如是by江河梦里人.txt, from the dust  BY江河梦里人.txt, 昨日重见 BY 江河梦里人.txt, 伤心仲夏by江河梦里人.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】流水 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】浮生三季.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】深夜的访客 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】游戏-Hospital(小护士篇) 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】爱上你......（下部完结）.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP德哈】爱上自闭症男孩.txt` → `爱上自闭症男孩.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】爱得五十问.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】爱情欺诈师【未完结】.TXT` → `爱情欺诈师.txt`: 转码 gb18030->utf-8
+- `240522-fanst补充资源\【HP德赫】爱情灵药.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】爱若流火.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】父母之命.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】独生子 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】甜蜜契约.rar` → `甜蜜契约.txt`: [来自嵌套包 【HP德赫】甜蜜契约.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】甜蜜契约.rar`: 共 2 个 txt,取最大的([HP-DHr]甜蜜契约 Promise Me Love （作者：JodieLove）（翻译者：smile小雨windy）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】甜蜜契约.zip`: 共 2 个 txt,取最大的([HP-DHr]甜蜜契约 Promise Me Love （作者：JodieLove）（翻译者：smile小雨windy）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】生命之债.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】生日礼物.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】白色婚礼.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240920-磕学家补充资源\【HP德哈】盲区.zip`: 共 2 个 txt,取最大的(【HP德哈】盲区.txt),其余: ._【HP德哈】盲区.txt
+- `240410-Fanst补充资源(1)\【福尔摩斯-福华】真爱三部曲.rar`: 共 2 个 txt,取最大的(1— Greater Love 爱莫大焉.txt),其余: 3— Tiger, tiger 伏虎记.txt
+- `【HP伏赫】短故事.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241128-哈皮磕学家\【HP德哈】碎片黄金.zip`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】空巷谋杀.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\穿肠毒药番外.rar.rar` → `穿肠毒药番外.rar.txt`: [来自嵌套包 穿肠毒药番外.rar]
+- `Fanst资源日更中（先转存再查看\【HP德哈】童言 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】童话之德哈版.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】绑架.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】续TD后的Draco和Harry的夫妻访问.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】缎带.rar`: 共 2 个 txt,取最大的(缎带.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】缎带.zip`: 共 2 个 txt,取最大的(缎带.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】肥皂劇 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】能不能.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】能解释一下吗？.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】英雄的泊雪葬禮.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】英雄？不..是美味糖果熊.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】苹果派补偿之旅 Apple Pie and Other Amends.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】茶会.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP卢伏】荆棘欢愉.txt` → `荆棘欢愉.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】草莓慕斯.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `【HP格邓】荣光尽头.zip`: 共 2 个 txt,取最大的(【HP格邓】荣光尽头.txt),其余: ._【HP格邓】荣光尽头.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】蝴蝶之吻.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】血统不同如何相爱的方法论.rar` → `血统不同如何相爱的方法论.txt`: [来自嵌套包 【HP德赫】血统不同如何相爱的方法论.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】血统不同如何相爱的方法论.rar`: 共 2 个 txt,取最大的(《血统不同如何相爱的方法论[德赫]》.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】血统不同如何相爱的方法论.zip`: 共 2 个 txt,取最大的(《血统不同如何相爱的方法论[德赫]》.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】记忆.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】论继父母的修养（战后）.rar` → `论继父母的修养（战后）.txt`: 无 txt,由包内 【HP德赫】论继父母的修养（战后）.docx (docx) 转换
+- `241022-磕学家补充资源\【HP哈德】请问Malfoy先生.txt` → `请问Malfoy先生.txt`: 转码 gb18030->utf-8
+- `241022-磕学家补充资源\【HP哈德】贝比是个礼物.txt` → `贝比是个礼物.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德赫】赌城无事记.rar`: 共 2 个 txt,取最大的([DHr]赌城无事记（作者：Decinda）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】赌城无事记.zip`: 共 2 个 txt,取最大的([DHr]赌城无事记（作者：Decinda）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `240522-fanst补充资源\【HP德赫】躺在你的布瑞.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】这只是个意外.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】迟来的情人节礼物.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】迷情剂.rar` → `迷情剂.txt`: 无 txt,由包内 【HP德赫】迷情剂.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP德哈】追.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】逆转偶发事件小组.zip`: 共 2 个 txt,取最大的(逆转偶发事件小组.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】逆转偶发事件小组.zip.rar` → `逆转偶发事件小组.zip.txt`: [来自嵌套包 【HP德赫】逆转偶发事件小组.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】逆转偶发事件小组.zip.rar`: 共 2 个 txt,取最大的(逆转偶发事件小组.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】金发的你.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】铂金色的未来.txt` → `铂金色的未来.txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】铂金色的未来.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】铂金蓝色的温柔.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240416-Fanst补充资源(1)\【HP伏斯】银青传奇.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】镜子的反面.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】镣铐之下完整版.rar` → `镣铐之下完整版.txt`: 无 txt,由包内 【HP德赫】镣铐之下完整版.epub (epub) 转换
+- `Fanst资源日更中（先转存再查看\【HP德哈】长梦千年.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】门·钥·匙 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】陷阱 2.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241022-磕学家补充资源\【HP哈德】随波逐流 BY llandu (灵魂转换 穿越时空).txt` → `随波逐流 BY llandu (灵魂转换 穿越时空).txt`: 转码 gb18030->utf-8
+- `Fanst资源日更中（先转存再查看\【HP德哈】障眼法.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】雨天&Timeless.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240925-磕学家补充资源\【HP德赫】雾散之时.zip`: 共 2 个 txt,取最大的(【HP德赫】雾散之时.txt),其余: ._【HP德赫】雾散之时.txt
+- `Fanst资源日更中（先转存再查看\【HP德哈】霍格沃茨热闹滚滚 .rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\霍格沃茨的幽灵.rar` → `霍格沃茨的幽灵.txt`: 无 txt,由包内 霍格沃茨的幽灵.epub (epub) 转换
+- `Fanst资源日更中（先转存再查看\【HP斯赫】霍格沃茨的爱情故事.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】霍格沃茨的见习魔药课讲师.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德赫】霍格沃茨，一段校史.rar` → `霍格沃茨，一段校史.txt`: [来自嵌套包 【HP德赫】霍格沃茨，一段校史.zip]
+- `Fanst资源日更中（先转存再查看\【HP德赫】霍格沃茨，一段校史.rar`: 共 2 个 txt,取最大的([HP-DHr]霍格沃茨，一段校史（作者：卫LOVE庄）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP德赫】霍格沃茨，一段校史.zip`: 共 2 个 txt,取最大的([HP-DHr]霍格沃茨，一段校史（作者：卫LOVE庄）.txt),其余: 微信搜索【xranzhao】关注公众号.txt
+- `Fanst资源日更中（先转存再查看\【HP斯赫】静默之夜.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `Fanst资源日更中（先转存再查看\【HP德哈】题目什么的都是浮云啊.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】风流生活,作者：薰衣草的风.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】风雨兼程.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `241128-哈皮磕学家\【HP小龙】马尔福是我的.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】马尔福病人.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\高级魔药.rar` → `高级魔药.txt`: 无 txt,由包内 高级魔药.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP双子】魁地奇情事全文 番外密码230707.zip`: 7z 报错(退出码 255,包可能损坏)但仍提取到内容,正文可能不完整
+- `240522-fanst补充资源\【HP德赫】魂盾.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】魔界大盗.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `240410-Fanst补充资源(1)\【HP德赫】鹰之巢.rar` → `鹰之巢.txt`: 无 txt,由包内 【HP德赫】鹰之巢.docx (docx) 转换
+- `Fanst资源日更中（先转存再查看\【HP斯赫】麻瓜的魔法.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `【HP德哈】Irresistible Poison.txt` → `Irresistible Poison.txt`: 转码 UTF-16->utf-8
+- `【HP德哈】Light A Fire.zip`: 共 2 个 txt,取最大的(【HP德哈】Light A Fire.txt),其余: ._【HP德哈】Light A Fire.txt
+- `【HP德哈】不能让你看见花开.zip`: 共 2 个 txt,取最大的([德哈] 不能让你看见花开  BY 文葵.txt),其余: ._[德哈] 不能让你看见花开  BY 文葵.txt
+- `【HP德哈】如果哈利波特不是童话.txt` → `如果哈利波特不是童话.txt`: 转码 gb18030->utf-8
+- `【HP德哈】未来回归 (哈利重生文）.txt` → `未来回归 (哈利重生文）.txt`: 转码 gb18030->utf-8
+- `【HP德哈】残缺的字母(1).txt` → `残缺的字母(1).txt`: 转码 UTF-16->utf-8
+- `【HP德哈】爱上自闭症男孩.txt` → `爱上自闭症男孩.txt`: 转码 gb18030->utf-8
+- `【HP德哈】盲区.zip`: 共 2 个 txt,取最大的(【HP德哈】盲区.txt),其余: ._【HP德哈】盲区.txt
+- `【HP德罗】纯白年代.rar`: 7z 报错(退出码 2,包可能损坏)但仍提取到内容,正文可能不完整
+- `【HP德哈】论领带的多种用法（高H）.zip`: 共 2 个 txt,取最大的(【德哈PWP】论领带的多种用法（高H）.txt),其余: ._【德哈PWP】论领带的多种用法（高H）.txt
+- `【HP德赫】PIECES-微信搜索wxfanst更多优质同人小说.txt` → `PIECES-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `【HP德赫】Simply Irresistible风情万种-微信搜索wxfanst更多优质同人小说.txt` → `Simply Irresistible风情万种-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `【HP德赫】The Revenant 亡灵归来-微信搜索wxfanst更多优质同人小说.txt` → `The Revenant 亡灵归来-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `【HP德赫】all you want.epub` → `all you want.txt`: epub 剥标签转文本
+- `【HP德赫】all-you-want.zip`: 共 2 个 txt,取最大的(【HP德赫】all-you-want.txt),其余: ._【HP德赫】all-you-want.txt
+- `【HP德赫】beautiful-within-heart-微信搜索wxfanst更多优质同人小说.txt` → `beautiful-within-heart-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】万圣节的诅咒-微信搜索wxfanst更多优质同人小说.txt` → `万圣节的诅咒-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】兵临城下-微信搜索wxfanst更多优质同人小说.txt` → `兵临城下-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】宿忘-微信搜索wxfanst更多优质同人小说.txt` → `宿忘-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】巴黎永忆-We'll Always Have Paris-微信搜索wxfanst更多优质同人小说.txt` → `巴黎永忆-We'll Always Have Paris-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】幸存者-The Survivors-微信搜索wxfanst更多优质同人小说.txt` → `幸存者-The Survivors-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `【HP德赫】未知的世界.epub` → `未知的世界.txt`: epub 剥标签转文本
+- `【HP德赫】未知的世界.zip`: 共 2 个 txt,取最大的(【HP德赫】未知的世界.txt),其余: ._【HP德赫】未知的世界.txt
+- `【HP德赫】甜蜜契约 Promise Me Love-微信搜索wxfanst更多优质同人小说.txt` → `甜蜜契约 Promise Me Love-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `【HP德赫】缎带-微信搜索wxfanst更多优质同人小说.txt` → `缎带-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】重回少女时代-微信搜索wxfanst更多优质同人小说.txt` → `重回少女时代-微信搜索wxfanst更多优质同人小说.txt`: 转码 gb18030->utf-8
+- `【HP德赫】雾散之时.epub` → `雾散之时.txt`: epub 剥标签转文本
+- `【HP德赫】雾散之时.zip`: 共 2 个 txt,取最大的(【HP德赫】雾散之时.txt),其余: ._【HP德赫】雾散之时.txt
+- `【HP德赫】霍格沃茨，一段校史-微信搜索wxfanst更多优质同人小说.txt` → `霍格沃茨，一段校史-微信搜索wxfanst更多优质同人小说.txt`: 转码 UTF-16->utf-8
+- `(HP同人)经典斯赫文HEART OVER MIND.txt` → `(HP同人)经典斯赫文HEART OVER MIND.txt`: 转码 GB2312(有损)->utf-8
+- `30天.epub` → `30天.txt`: epub 剥标签转文本
+- `赫敏的学徒生涯\中文版\Copy64 [HP]赫敏的学徒生涯+one+day+like+this.txt` → `Copy64 [HP]赫敏的学徒生涯+one+day+like+this.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】Desire愿望.txt` → `Desire愿望.txt`: 转码 gb18030->utf-8
+- `冥冥天意\英文版\Hinge of Fate - Ramos.epub` → `Hinge of Fate - Ramos.txt`: epub 剥标签转文本
+- `赫敏的学徒生涯\英文版\One Day Like This - Hannah-1888.epub` → `One Day Like This - Hannah-1888.txt`: epub 剥标签转文本
+- `双重人生\Second Life.epub` → `Second Life.txt`: epub 剥标签转文本
+- `【HP 斯赫】The tension and the spark.txt` → `The tension and the spark.txt`: 转码 gb18030->utf-8
+- `The_Sun_is_Often_Out.txt` → `The_Sun_is_Often_Out.txt`: 转码 gb18030->utf-8
+- `[HP]血夜传说.txt` → `[HP]血夜传说.txt`: 转码 gb18030->utf-8
+- `[HP]赫敏的学徒生涯+one+day+like+this.txt` → `[HP]赫敏的学徒生涯+one+day+like+this.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】kitten.txt` → `kitten.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】slowly，close to you.txt` → `slowly，close to you.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】三生奇缘.txt` → `三生奇缘.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】似水流年.txt` → `似水流年.txt`: 转码 gb18030->utf-8
+- `十宗罪.epub` → `十宗罪.txt`: epub 剥标签转文本
+- `双重人生(斯赫 HP ).txt` → `双重人生(斯赫 HP ).txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】天外有天.txt` → `天外有天.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】守护.txt` → `守护.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】替身.txt` → `替身.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】永不屈服 .txt` → `永不屈服.txt`: 转码 gb18030->utf-8
+- `【HP 斯赫】牙医家的小女巫.txt` → `牙医家的小女巫.txt`: 转码 UTF-16->utf-8
+- `【HP 斯赫】给你幸福.txt` → `给你幸福.txt`: 转码 gb18030->utf-8
+- `遗愿.txt` → `遗愿.txt`: 转码 gb18030->utf-8
+- `10年,我们的爱2.txt` → `10年,我们的爱2.txt`: 转码 UTF-8-SIG(有损)->utf-8
+- `【柿饼高袁】5.txt` → `5.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】A大队快乐暑假之旅.txt` → `A大队快乐暑假之旅.txt`: 转码 gb18030->utf-8
+- `A大队狙击手.txt` → `A大队狙击手.txt`: 转码 gb18030->utf-8
+- `A我不想热血高城李靳.txt` → `A我不想热血高城李靳.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】Don'twakemeupwhenyougoaway.txt` → `Don'twakemeupwhenyougoaway.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】MoonCrying.txt` → `MoonCrying.txt`: 转码 gb18030->utf-8
+- `【柿饼袁朗】VS护士.txt` → `VS护士.txt`: 转码 gb18030->utf-8
+- `【柿饼袁朗】VS护士2.txt` → `VS护士2.txt`: 转码 gb18030->utf-8
+- `np炙血情.txt` → `np炙血情.txt`: 转码 gb18030->utf-8
+- `np陈嘉慕的军绿色人生.txt` → `np陈嘉慕的军绿色人生.txt`: 转码 gb18030->utf-8
+- `【柿饼】七连和老A.txt` → `七连和老A.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】三儿.txt` → `三儿.txt`: 转码 gb18030->utf-8
+- `【柿饼】三儿——作者：拾.txt` → `三儿——作者：拾.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】三十六计.txt` → `三十六计.txt`: 转码 gb18030->utf-8
+- `【柿饼】与子同袍(同人)流花烟雨.txt` → `与子同袍(同人)流花烟雨.txt`: 转码 utf-8(有损)->utf-8
+- `【柿饼】从开始的征程.txt` → `从开始的征程.txt`: 转码 gb18030->utf-8
+- `【柿饼】你看,你看,月亮的脸.txt` → `你看,你看,月亮的脸.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】依靠咱爸咱妈.txt` → `依靠咱爸咱妈.txt`: 转码 gb18030->utf-8
+- `【柿饼】公子吴哲.txt` → `公子吴哲.txt`: 转码 gb18030->utf-8
+- `【柿饼】兵媚.txt` → `兵媚.txt`: 转码 gb18030->utf-8
+- `【柿饼】兵媚狼睿.txt` → `兵媚狼睿.txt`: 转码 gb18030->utf-8
+- `【柿饼】兵媚狼睿2.txt` → `兵媚狼睿2.txt`: 转码 gb18030->utf-8
+- `【柿饼】冒名顶替当兵去派派后花园.txt` → `冒名顶替当兵去派派后花园.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】军婚.txt` → `军婚.txt`: 转码 gb18030->utf-8
+- `【柿饼】军营不相信眼泪.txt` → `军营不相信眼泪.txt`: 转码 gb18030->utf-8
+- `【柿饼】利刃出鞘我大概是当了假兵.txt` → `利刃出鞘我大概是当了假兵.txt`: 转码 gb18030->utf-8
+- `【柿饼】前世今生.txt` → `前世今生.txt`: 转码 gb18030->utf-8
+- `【柿饼袁朗】前传猎人.txt` → `前传猎人.txt`: 转码 gb18030->utf-8
+- `【柿饼袁朗】前传猎人2.txt` → `前传猎人2.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】匿爱.txt` → `匿爱.txt`: 转码 gb18030->utf-8
+- `【柿饼】匿爱作者：紫袍客.txt` → `匿爱作者：紫袍客.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】十二年.txt` → `十二年.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】千日志(完).txt` → `千日志(完).txt`: 转码 gb18030->utf-8
+- `【柿饼】千里因缘马蹄声凌乱.txt` → `千里因缘马蹄声凌乱.txt`: 转码 gb18030->utf-8
+- `【柿饼成哲】双花故事.txt` → `双花故事.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】口是心非END.txt` → `口是心非END.txt`: 转码 gb18030->utf-8
+- `【柿饼】叶璇.txt` → `叶璇.txt`: 转码 gb18030->utf-8
+- `【柿饼】同人———轮回.txt` → `同人———轮回.txt`: 转码 gb18030->utf-8
+- `【柿饼】吴哲的幸福生活.txt` → `吴哲的幸福生活.txt`: 转码 gb18030->utf-8
+- `【柿饼】吴哲：仗策横戈、花样生活.txt` → `吴哲：仗策横戈、花样生活.txt`: 转码 gb18030->utf-8
+- `【柿饼】哲bg火凤凰.txt` → `哲bg火凤凰.txt`: 转码 gb18030->utf-8
+- `【柿饼】哲人之恋.txt` → `哲人之恋.txt`: 转码 gb18030->utf-8
+- `【柿饼】哲人之恋2.txt` → `哲人之恋2.txt`: 转码 gb18030->utf-8
+- `【柿饼】哲纵是骑马倚斜桥.txt` → `哲纵是骑马倚斜桥.txt`: 转码 gb18030->utf-8
+- `【柿饼】喂死算命的.txt` → `喂死算命的.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】四季歌.txt` → `四季歌.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】四季歌作者：仟之墨.txt` → `四季歌作者：仟之墨.txt`: 转码 gb18030->utf-8
+- `【柿饼】在A大队混日子的岁月.txt` → `在A大队混日子的岁月.txt`: 转码 gb18030->utf-8
+- `【柿饼】在A大队混日子的岁月（袁大灰狼的爱情猜想）.txt` → `在A大队混日子的岁月（袁大灰狼的爱情猜想）.txt`: 转码 gb18030->utf-8
+- `【柿饼】在我心中.txt` → `在我心中.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】地火.txt` → `地火.txt`: 转码 gb18030->utf-8
+- `城bg你看,你看,月亮的脸.txt` → `城bg你看,你看,月亮的脸.txt`: 转码 gb18030->utf-8
+- `城bg叶璇.txt` → `城bg叶璇.txt`: 转码 gb18030->utf-8
+- `城bg愿君忆我千百世.txt` → `城bg愿君忆我千百世.txt`: 转码 gb18030->utf-8
+- `城bg我不想热血.txt` → `城bg我不想热血.txt`: 转码 gb18030->utf-8
+- `城bg木棉.TXT` → `城bg木棉.txt`: 转码 gb18030->utf-8
+- `城bg殊途同归.txt` → `城bg殊途同归.txt`: 转码 gb18030->utf-8
+- `城bg老虎的爱情.txt` → `城bg老虎的爱情.txt`: 转码 gb18030->utf-8
+- `城bg致命邂逅.txt` → `城bg致命邂逅.txt`: 转码 gb18030->utf-8
+- `城bg装甲老七沦陷战.txt` → `城bg装甲老七沦陷战.txt`: 转码 gb18030->utf-8
+- `城bg雾里看花.txt` → `城bg雾里看花.txt`: 转码 gb18030->utf-8
+- `城bl有风来仪.txt` → `城bl有风来仪.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】城里的月光.txt` → `城里的月光.txt`: 转码 gb18030->utf-8
+- `【柿饼】夕阳中的清秀佳人.txt` → `夕阳中的清秀佳人.txt`: 转码 gb18030->utf-8
+- `【柿饼】夕阳中的清秀佳人2.txt` → `夕阳中的清秀佳人2.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】大话穿越.txt` → `大话穿越.txt`: 转码 gb18030->utf-8
+- `【柿饼】天气晴好.txt` → `天气晴好.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】契阔.txt` → `契阔.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】奕动我心.txt` → `奕动我心.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】如果这是爱.txt` → `如果这是爱.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】如果这是爱2.txt` → `如果这是爱2.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】如花美眷.txt` → `如花美眷.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】如花美眷 2.txt` → `如花美眷 2.txt`: 转码 gb18030->utf-8
+- `【柿饼】嫁给【柿饼袁朗】.txt` → `嫁给.txt`: 转码 gb18030->utf-8
+- `【柿饼】嫁给【柿饼袁朗】作者：写着玩的.txt` → `嫁给【柿饼袁朗】作者：写着玩的.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】嫁给袁朗.txt` → `嫁给袁朗.txt`: 转码 gb18030->utf-8
+- `嫁给袁朗作者：写着玩的.txt` → `嫁给袁朗作者：写着玩的.txt`: 转码 gb18030->utf-8
+- `【柿饼】完结往事如烟【柿饼袁朗】旧事作者：萨日朗TXT下载.txt` → `完结往事如烟【柿饼袁朗】旧事作者：萨日朗TXT下载.txt`: 转码 gb18030->utf-8
+- `完结往事如烟袁朗旧事作者：萨日朗TXT下载.txt` → `完结往事如烟袁朗旧事作者：萨日朗TXT下载.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】家的24个家教.txt` → `家的24个家教.txt`: 转码 gb18030->utf-8
+- `【柿饼袁哲】少校的特种兵生涯.txt` → `少校的特种兵生涯.txt`: 转码 gb18030->utf-8
+- `【柿饼】并肩.txt` → `并肩.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】幸福就是平平澹澹.txt` → `幸福就是平平澹澹.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】幸福就是平平澹澹 2.txt` → `幸福就是平平澹澹 2.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】往事如烟袁朗旧事.txt` → `往事如烟袁朗旧事.txt`: 转码 gb18030->utf-8
+- `【柿饼】心如止水by包子小妖(【柿饼袁朗】x关御有包子出没温馨he).txt` → `心如止水by包子小妖(【柿饼袁朗】x关御有包子出没温馨he).txt`: 转码 gb18030->utf-8
+- `心如止水by包子小妖(袁朗x关御有包子出没温馨he).txt` → `心如止水by包子小妖(袁朗x关御有包子出没温馨he).txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】情人扣.txt` → `情人扣.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】情人扣 2.txt` → `情人扣 2.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】感情生活.txt` → `感情生活.txt`: 转码 gb18030->utf-8
+- `【柿饼】愿君忆我千百世.txt` → `愿君忆我千百世.txt`: 转码 gb18030->utf-8
+- `【柿饼】成哲双花故事.txt` → `成哲双花故事.txt`: 转码 gb18030->utf-8
+- `成才中心【柿饼袁成】硝烟深处.txt` → `成才中心【柿饼袁成】硝烟深处.txt`: 转码 gb18030->utf-8
+- `【柿饼】成袁流年暗换.txt` → `成袁流年暗换.txt`: 转码 gb18030->utf-8
+- `【柿饼高城bg】我不想热血.txt` → `我不想热血.txt`: 转码 gb18030->utf-8
+- `【柿饼】我不想热血(高城)kinsalin.txt` → `我不想热血(高城)kinsalin.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】我不是许木木.txt` → `我不是许木木.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】我主江湖.txt` → `我主江湖.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】我和僵尸有个约会.txt` → `我和僵尸有个约会.txt`: 转码 gb18030->utf-8
+- `【柿饼】我在当特种兵.txt` → `我在当特种兵.txt`: 转码 gb18030->utf-8
+- `【柿饼】我是一个兵（）话唠陈少言.txt` → `我是一个兵（）话唠陈少言.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】我的命舍给你了.txt` → `我的命舍给你了.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】我的命舍给你了 2.txt` → `我的命舍给你了 2.txt`: 转码 gb18030->utf-8
+- `【柿饼】我的爸爸是老A.txt` → `我的爸爸是老A.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】手风琴.txt` → `手风琴.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】拿什么补偿你你的第一次.txt` → `拿什么补偿你你的第一次.txt`: 转码 gb18030->utf-8
+- `【柿饼】拿什么补偿你你的第一次千川.txt` → `拿什么补偿你你的第一次千川.txt`: 转码 gb18030->utf-8
+- `【柿饼】无七连和老A.txt` → `无七连和老A.txt`: 转码 gb18030->utf-8
+- `【柿饼】无兵媚.txt` → `无兵媚.txt`: 转码 gb18030->utf-8
+- `【柿饼】无冒名顶替当兵去.txt` → `无冒名顶替当兵去.txt`: 转码 gb18030->utf-8
+- `【柿饼】无军营不相信眼泪.txt` → `无军营不相信眼泪.txt`: 转码 gb18030->utf-8
+- `【柿饼】无我是一个兵话唠陈少言.txt` → `无我是一个兵话唠陈少言.txt`: 转码 gb18030->utf-8
+- `【柿饼】无无衣.txt` → `无无衣.txt`: 转码 gb18030->utf-8
+- `【柿饼】无熙若绚烂如朝阳.txt` → `无熙若绚烂如朝阳.txt`: 转码 gb18030->utf-8
+- `【柿饼】无衣.txt` → `无衣.txt`: 转码 gb18030->utf-8
+- `【柿饼】无轮回.txt` → `无轮回.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】无限A01.txt` → `无限A01.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】日子和你.txt` → `日子和你.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】暗恋END.txt` → `暗恋END.txt`: 转码 gb18030->utf-8
+- `【柿饼】最可爱的人——老A.txt` → `最可爱的人——老A.txt`: 转码 gb18030->utf-8
+- `【柿饼】有风来仪.txt` → `有风来仪.txt`: 转码 gb18030->utf-8
+- `【柿饼】木棉.TXT` → `木棉.txt`: 转码 gb18030->utf-8
+- `【柿饼】木槿花.txt` → `木槿花.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】架空劫数.txt` → `架空劫数.txt`: 转码 UTF-16->utf-8
+- `【柿饼】此岸，彼岸.txt` → `此岸，彼岸.txt`: 转码 gb18030->utf-8
+- `【柿饼高城bg】殊途同归.txt` → `殊途同归.txt`: 转码 gb18030->utf-8
+- `【柿饼】殊途同归…木浴￡高城.txt` → `殊途同归…木浴￡高城.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】水仙与木头.txt` → `水仙与木头.txt`: 转码 gb18030->utf-8
+- `【柿饼】没有麻药的爱情.txt` → `没有麻药的爱情.txt`: 转码 gb18030->utf-8
+- `【柿饼袁成】流年暗换.txt` → `流年暗换.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】海市蜃楼.txt` → `海市蜃楼.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】溯.txt` → `溯.txt`: 转码 gb18030->utf-8
+- `【柿饼】火凤凰.txt` → `火凤凰.txt`: 转码 gb18030->utf-8
+- `【柿饼】灿若晨曦.txt` → `灿若晨曦.txt`: 转码 gb18030->utf-8
+- `【柿饼】炙血情.txt` → `炙血情.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】焰阳花火.txt` → `焰阳花火.txt`: 转码 gb18030->utf-8
+- `【柿饼】煳涂护士!佞军官.txt` → `煳涂护士!佞军官.txt`: 转码 gb18030->utf-8
+- `【柿饼】熙若绚烂如朝阳.txt` → `熙若绚烂如朝阳.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】爱似碘酊.txt` → `爱似碘酊.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】爱重来.txt` → `爱重来.txt`: 转码 gb18030->utf-8
+- `【柿饼】特种兵之二次入伍.txt` → `特种兵之二次入伍.txt`: 转码 gb18030->utf-8
+- `【柿饼袁哲】狼来了.txt` → `狼来了.txt`: 转码 gb18030->utf-8
+- `【柿饼袁哲】狼来了 2.txt` → `狼来了 2.txt`: 转码 gb18030->utf-8
+- `【柿饼】狼来了作者：翠寒烟（JJ10.12完结）.txt` → `狼来了作者：翠寒烟（JJ10.12完结）.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】猛虎和玫瑰.txt` → `猛虎和玫瑰.txt`: 转码 gb18030->utf-8
+- `【柿饼】猛虎和玫瑰作者：千川.txt` → `猛虎和玫瑰作者：千川.txt`: 转码 gb18030->utf-8
+- `【柿饼】甘露行动1.txt` → `甘露行动1.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】甜蜜生活,爱情万岁.txt` → `甜蜜生活,爱情万岁.txt`: 转码 gb18030->utf-8
+- `【柿饼】甩着尾巴的狼狗血喵.txt` → `甩着尾巴的狼狗血喵.txt`: 转码 gb18030->utf-8
+- `【柿饼袁哲】相许十年.txt` → `相许十年.txt`: 转码 gb18030->utf-8
+- `【柿饼袁成】硝烟深处.txt` → `硝烟深处.txt`: 转码 gb18030->utf-8
+- `【柿饼】空降老A的女人.txt` → `空降老A的女人.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】简单任务.txt` → `简单任务.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】简单任务 2.txt` → `简单任务 2.txt`: 转码 gb18030->utf-8
+- `【柿饼】紫色星辰.txt` → `紫色星辰.txt`: 转码 gb18030->utf-8
+- `【柿饼】纵是骑马倚斜桥(吴哲).txt` → `纵是骑马倚斜桥(吴哲).txt`: 转码 gb18030->utf-8
+- `【柿饼】缘妙不可言.txt` → `缘妙不可言.txt`: 转码 gb18030->utf-8
+- `【柿饼】老虎的爱情.txt` → `老虎的爱情.txt`: 转码 gb18030->utf-8
+- `【柿饼袁许】背后三米的距离.txt` → `背后三米的距离.txt`: 转码 gb18030->utf-8
+- `【柿饼】致命邂逅.txt` → `致命邂逅.txt`: 转码 gb18030->utf-8
+- `【柿饼】花开花落.txt` → `花开花落.txt`: 转码 gb18030->utf-8
+- `【柿饼】花开花落2.txt` → `花开花落2.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】荣耀行动.txt` → `荣耀行动.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】虎小七和豹小袁的故事.txt` → `虎小七和豹小袁的故事.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁bl天气晴好.txt` → `袁bl天气晴好.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁bl我大概是当了假兵.txt` → `袁bl我大概是当了假兵.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁bl甩着尾巴的狼.txt` → `袁bl甩着尾巴的狼.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁先生总是不开心金推高人气by徐徐图之.txt` → `袁先生总是不开心金推高人气by徐徐图之.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁前世今生.txt` → `袁前世今生.txt`: 转码 gb18030->utf-8
+- `【柿饼】袁家那些事儿.txt` → `袁家那些事儿.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】袁朗VS护士.txt` → `袁朗VS护士.txt`: 转码 gb18030->utf-8
+- `【柿饼袁bg】袁朗VS护士 2.txt` → `袁朗VS护士 2.txt`: 转码 gb18030->utf-8
+- `袁朗VS护士2.txt` → `袁朗VS护士2.txt`: 转码 gb18030->utf-8
+- `袁朗前传猎人.txt` → `袁朗前传猎人.txt`: 转码 gb18030->utf-8
+- `袁朗前传猎人2.txt` → `袁朗前传猎人2.txt`: 转码 gb18030->utf-8
+- `【柿饼高城bg】装甲老七沦陷战.txt` → `装甲老七沦陷战.txt`: 转码 gb18030->utf-8
+- `【柿饼】许三多的多余四弟.txt` → `许三多的多余四弟.txt`: 转码 gb18030->utf-8
+- `【柿饼】话说齐桓.txt` → `话说齐桓.txt`: 转码 gb18030->utf-8
+- `【柿饼】话说齐桓2.txt` → `话说齐桓2.txt`: 转码 gb18030->utf-8
+- `【柿饼袁高】谁与共.txt` → `谁与共.txt`: 转码 UTF-16->utf-8
+- `【柿饼袁高】谁与共(完).txt` → `谁与共(完).txt`: 转码 UTF-16->utf-8
+- `【柿饼】谁家的孩子BY雷雷更健康(架空【柿饼袁高】生子HE).txt` → `谁家的孩子BY雷雷更健康(架空【柿饼袁高】生子HE).txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】醉落魄.txt` → `醉落魄.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】醉落魄2.txt` → `醉落魄2.txt`: 转码 gb18030->utf-8
+- `【柿饼】铁【柿饼袁高】袁蝴蝶.txt` → `铁【柿饼袁高】袁蝴蝶.txt`: 转码 gb18030->utf-8
+- `【柿饼】铁袁十年(完结番外).txt` → `铁袁十年(完结番外).txt`: 转码 gb18030->utf-8
+- `【柿饼】铁袁此岸，彼岸.txt` → `铁袁此岸，彼岸.txt`: 转码 gb18030->utf-8
+- `【柿饼】铁袁流年.txt` → `铁袁流年.txt`: 转码 gb18030->utf-8
+- `【柿饼】铁袁流年 2.txt` → `铁袁流年 2.txt`: 转码 gb18030->utf-8
+- `【柿饼】长相思常相守.txt` → `长相思常相守.txt`: 转码 gb18030->utf-8
+- `【柿饼】陈嘉慕的军绿色人生.txt` → `陈嘉慕的军绿色人生.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】雪狼湖传说.txt` → `雪狼湖传说.txt`: 转码 gb18030->utf-8
+- `【柿饼高城bg】雾里看花.txt` → `雾里看花.txt`: 转码 gb18030->utf-8
+- `【柿饼】雾里看花().txt` → `雾里看花().txt`: 转码 gb18030->utf-8
+- `【柿饼】雾里看花赵B￡高城.txt` → `雾里看花赵B￡高城.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】青梅竹马欢喜冤家.txt` → `青梅竹马欢喜冤家.txt`: 转码 gb18030->utf-8
+- `【柿饼高袁】非常假期.txt` → `非常假期.txt`: 转码 gb18030->utf-8
+- `【柿饼】齐三丫头来了.txt` → `齐三丫头来了.txt`: 转码 gb18030->utf-8
+- `【柿饼】齐哲公子吴哲.txt` → `齐哲公子吴哲.txt`: 转码 gb18030->utf-8
+- `【柿饼】齐袁如果爱下去作者.txt` → `齐袁如果爱下去作者.txt`: 转码 gb18030->utf-8
+- `【柿饼】齐袁如果爱下去作者：薇楼那喀所斯蝶.txt` → `齐袁如果爱下去作者：薇楼那喀所斯蝶.txt`: 转码 gb18030->utf-8
