@@ -84,7 +84,7 @@ input:focus, textarea:focus, select:focus { border-color: var(--sky); }
 .toast { position: fixed; top: 60px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 8px 18px; border-radius: 20px; font-size: 13px; z-index: 100; display: none; }
 
 /* Option list (title / attribute selector) */
-.option-list { display: flex; flex-direction: column; gap: 8px; }
+.option-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
 .option-row { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; background: #fff; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; }
 .option-row input[type="radio"] { width: auto !important; margin-top: 3px; flex-shrink: 0; }
 .option-row .option-text { font-size: 14px; line-height: 1.6; color: var(--fg); flex: 1; min-width: 0; }

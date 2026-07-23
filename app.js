@@ -499,25 +499,28 @@ function showTitleSelector() {
 
 async function generateAttributeOptions() {
   if (!state.readReport) return;
-  $('#main').innerHTML = `<div class="loading"><div class="loading-spinner"></div><p>正在生成人物属性候选...</p></div>`;
+  $('#main').innerHTML = `<div class="loading"><div class="loading-spinner"></div><p>正在生成人物属性候选...<br>大概 20-40 秒</p></div>`;
   const prompt = `根据以下阅读报告，为这篇 HP 同人文生成 3 个人物属性描述候选。
 
 要求：
 - 每个候选用一句短语概括两个核心人物，格式如：「铁腕政治家救世主哈利 × 落魄斯莱特林王子德拉科」
 - 突出角色设定和 CP 张力，有画面感
-- 只输出 3 行，每行前面加编号 1-3，不要多余解释
+- 输出格式：每行一个候选，前面加编号 1. 2. 3.，不要额外解释文字
 
 阅读报告：\n${state.readReport}`;
   try {
     const res = await deepSeekChat(CONFIG.WRITE_MODEL, prompt, 2000, 120000);
     state.attributeOptions = parseNumberedList(res);
     if (!state.attributeOptions.length) {
-      // 解析失败降级：把整个返回当一条
       state.attributeOptions = [res.trim().split('\n').filter(Boolean).slice(0, 3).join('\n') || res.trim()];
     }
-    // 如果还为空，给一个兜底
     if (!state.attributeOptions.length) {
       state.attributeOptions = ['从阅读报告提取的属性'];
+    }
+    // 如果只有一个占了全宽文本，拆分一下
+    if (state.attributeOptions.length === 1 && state.attributeOptions[0].length > 60) {
+      const parts = state.attributeOptions[0].split(/[;；\n]/).filter(s => s.trim().length > 3);
+      if (parts.length >= 2) state.attributeOptions = parts;
     }
     showAttributeSelector();
   } catch (e) {
