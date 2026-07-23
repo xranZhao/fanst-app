@@ -333,6 +333,10 @@ async function deepSeekChat(model, content, maxTokens=4000, timeoutMs=120000) {
       clearTimeout(timer);
       if (!res.ok) {
         const txt = await res.text();
+        // 429 限频 / 503 服务繁忙 不重试直接返回错误提示
+        if (res.status === 429 || res.status === 503) {
+          throw new Error(`服务繁忙 (${res.status})，请稍后重试。`);
+        }
         throw new Error(`HTTP ${res.status}: ${txt.slice(0, 200)}`);
       }
       const data = await res.json();
@@ -342,6 +346,10 @@ async function deepSeekChat(model, content, maxTokens=4000, timeoutMs=120000) {
       return data.choices[0].message.content;
     } catch (e) {
       lastError = e;
+      // 用户取消/并发冲突等不重试
+      if (e.message?.includes('服务繁忙') || e.name === 'CanceledError') {
+        throw e;
+      }
       const isNetwork = e.name === 'TypeError' || e.name === 'AbortError' || e.message?.includes('Failed to fetch');
       const reason = e.name === 'AbortError' ? '请求超时' : (isNetwork ? '网络连接失败' : e.message);
       console.error(`deepSeekChat 第 ${attempt}/${MAX_RETRIES} 次失败`, e);
