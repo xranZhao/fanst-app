@@ -757,8 +757,7 @@ function copyText(text) {
 function renderMagazineInline(md, overrideTitle) {
   // 从 markdown 提取字段；标题优先用外部传入（selectedTitle）
   const lines = md.split('\n').map(s => s.trim()).filter(Boolean);
-  const titleMatch = md.match(/^#\s*(.+)/m) || md.match(/\*\*(.+?)\*\*/);
-  const title = overrideTitle || (titleMatch ? titleMatch[1] : '推文标题');
+  const title = overrideTitle || '推文标题';
   // 解析字段：作者、分级、属性、CP、标签
   const author = md.match(/作者\s*[:：]\s*(.+)/)?.[1] || '未知';
   const rating = md.match(/分级\s*[:：]\s*(.+)/)?.[1] || '';
