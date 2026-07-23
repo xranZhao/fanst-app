@@ -615,6 +615,9 @@ ${styleGuide}
     const res = await deepSeekChat(CONFIG.WRITE_MODEL, prompt, 6000, 180000);
     state.draftMd = res;
     state.finalMd = res;
+    // 去掉 AI 可能偷偷加的大标题
+    state.draftMd = state.draftMd.replace(/^#\s*.+\n+/m, '');
+    state.finalMd = state.draftMd;
     showRevise();
   } catch (e) {
     $('#main').innerHTML = `<div class="loading">初稿失败：${e.message}</div><button class="btn btn-primary btn-block" onclick="showAttributeSelector()">重试</button>`;
