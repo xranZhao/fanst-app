@@ -776,7 +776,8 @@ function renderMagazineInline(md, overrideTitle) {
   labels.forEach((label, i) => {
     const sec = sections.find(s => s.startsWith(label) || s.includes(label));
     if (sec) {
-      const body = sec.replace(new RegExp(`^${label}\\s*`), '').trim();
+      // 去掉可能的 ### 前缀再匹配 label
+      const body = sec.replace(/^###\s*/, '').replace(new RegExp(`^${label}\\s*`), '').trim();
       sectionHtml += renderSection(String(i).padStart(2,'0'), label, body);
     }
   });
