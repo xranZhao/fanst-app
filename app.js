@@ -504,6 +504,10 @@ async function generateAttributeOptions() {
       // 解析失败降级：把整个返回当一条
       state.attributeOptions = [res.trim().split('\n').filter(Boolean).slice(0, 3).join('\n') || res.trim()];
     }
+    // 如果还为空，给一个兜底
+    if (!state.attributeOptions.length) {
+      state.attributeOptions = ['从阅读报告提取的属性'];
+    }
     showAttributeSelector();
   } catch (e) {
     $('#main').innerHTML = `<div class="loading">属性生成失败：${e.message}</div><button class="btn btn-primary btn-block" onclick="showTitleSelector()">重试</button>`;
