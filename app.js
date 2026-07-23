@@ -401,7 +401,13 @@ function renderMarkdown(md) {
   let inList = false;
   lines.forEach(line => {
     let l = line.trim();
-    if (!l) { html += '<br>'; return; }
+    if (!l) { return; }
+    // horizontal rule: keep it compact
+    if (/^[-*_]{3,}$/.test(l)) {
+      if (inList) { html += '</ul>'; inList = false; }
+      html += '<hr style="border:none;border-top:1px solid #e5dfe2;margin:8px 0;">';
+      return;
+    }
     // heading
     const h = l.match(/^(#{1,3})\s+(.+)/);
     if (h) {
@@ -586,6 +592,11 @@ async function generateDraft() {
 - **标签**：[自由生成 3-6 个贴合的标签，如 战后、正剧向、相互救赎]
 
 ${sections}
+
+注意：
+- 00 章节的正文必须原样输出以下两行（不可修改一字）：
+【小说在哪看】请看这篇：小说阅读途径 →
+【已推小说合集】请看这篇：麻瓜请看这！我这有3000+哈利波特同人文 →
 
 阅读报告（仅供参考，不要复述细节）：
 \n${state.readReport}
