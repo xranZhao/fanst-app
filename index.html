@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>磕学家推文APP</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div><h1>磕学家推文APP</h1><div class="sub" id="header-sub">Fanst 推文杂志</div></div>
+      <button class="btn btn-ghost" id="btn-settings" style="padding:6px 10px;font-size:13px;">设置</button>
+    </header>
+    <main id="main"></main>
+    <nav class="app-nav" id="nav">
+      <button data-tab="library" class="active"><span class="icon">📚</span><span>书库</span></button>
+      <button data-tab="upload"><span class="icon">⬆️</span><span>上传</span></button>
+      <button data-tab="articles"><span class="icon">📝</span><span>成品</span></button>
+    </nav>
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <script src="https://gosspublic.alicdn.com/aliyun-oss-sdk-6.20.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js?v=5"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js?v=5').catch(e => console.error('SW fail', e));
+    }
+  </script>
+</body>
+</html>

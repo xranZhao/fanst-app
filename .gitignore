@@ -1,0 +1,8 @@
+.env
+library/
+node_modules/
+__pycache__/
+*.pyc
+index-lite.json
+summary.json
+index-*.json
