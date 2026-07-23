@@ -699,9 +699,11 @@ async function aiRevise() {
 当前初稿：\n${current}`;
   try {
     const res = await deepSeekChat(CONFIG.WRITE_MODEL, prompt, 6000, 180000);
-    state.editingMd = res;
-    state.draftMd = res;
-    state.finalMd = res;
+    // 去掉 AI 可能偷偷加的大标题
+    let revised = res.replace(/^#\s*.+\n+/m, '');
+    state.editingMd = revised;
+    state.draftMd = revised;
+    state.finalMd = revised;
     if (state.previewMode) {
       switchEditorTab(true);
     } else {
