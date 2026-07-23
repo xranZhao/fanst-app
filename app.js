@@ -101,7 +101,7 @@ async function switchCp(cp) {
   }
   // 如果这个 CP 还没加载过，就按需拉取
   try {
-    const filename = CONFIG.OSS_INDEX_PREFIX + encodeURIComponent(cp) + '.json';
+    const filename = CONFIG.OSS_INDEX_PREFIX + cp + '.json';
     const idx = JSON.parse(await ossGet(filename));
     state.cpCache[cp] = idx;
     state.books = idx;
