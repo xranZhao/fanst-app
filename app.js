@@ -573,9 +573,9 @@ async function generateDraft() {
   const attr = state.selectedAttribute || '待补充';
   const prompt = `请根据以下信息，按「杂志风推文」结构写初稿，直接输出 Markdown。
 
-固定信息卡格式（必须严格遵循）：
+注意：不要输出标题行（标题会单独展示），直接从正文信息卡开始。
 
-## ${title}
+固定信息卡格式（必须严格遵循）：
 
 **基本信息卡**
 - **原作**：《${b.title}》${b.titleEn ? ' / ' + b.titleEn : ''}
@@ -627,8 +627,14 @@ async function seedStyleGuide() {
 function showRevise() {
   state.previewMode = false;
   state.editingMd = state.draftMd || '';
+  const title = state.selectedTitle || (state.currentBook?.title || '推文标题');
   $('#main').innerHTML = `
     <div class="screen" style="padding-bottom:120px;">
+      <div class="title-card">
+        <div class="title-label">文章标题</div>
+        <div class="title-value">${escapeHtml(title)}</div>
+        <button class="btn btn-ghost btn-block" id="btn-copy-title-revise" style="margin-top:8px;">复制标题</button>
+      </div>
       <div class="chat-bubble ai">这是初稿。你可以直接编辑 Markdown，也可以告诉我改哪里。点击下方切换可预览渲染效果。</div>
       <div class="editor-tabs">
         <button class="editor-tab active" id="tab-edit" type="button">编辑</button>
@@ -645,6 +651,7 @@ function showRevise() {
       <button class="btn btn-pink btn-block" id="btn-finalize" style="margin-bottom:10px;">定稿并渲染</button>
       <button class="btn btn-ghost btn-block" onclick="showAttributeSelector()">返回改属性</button>
     </div>`;
+  $('#btn-copy-title-revise').onclick = () => copyText(title);
   $('#btn-ai-revise').onclick = aiRevise;
   $('#btn-finalize').onclick = () => {
     state.finalMd = $('#md-editor').value;
