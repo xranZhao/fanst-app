@@ -450,10 +450,10 @@ function parseNumberedList(md) {
 function showTitleSelector() {
   $('#main').innerHTML = `
     <div class="screen">
-      <h3 style="margin-top:0;">选择文章标题</h3>
+      <h3 style="margin-top:0;margin-bottom:12px;">选择文章标题</h3>
       <div class="option-list" id="title-options">
         ${state.titleOptions.map((t, i) => `
-          <label class="option-row">
+          <label class="option-row" style="word-break:break-word;">
             <input type="radio" name="title" value="${escapeHtml(t)}" ${i === 0 ? 'checked' : ''}>
             <span class="option-text">${escapeHtml(t)}</span>
           </label>
@@ -670,7 +670,9 @@ function showFinal() {
       <div class="preview-wrap" id="preview-box">${html}</div>
       <button class="btn btn-primary btn-block" id="btn-copy" style="margin-bottom:10px;">一键复制全文（去订阅号助手粘贴）</button>
       <button class="btn btn-ghost btn-block" id="btn-edit" style="margin-bottom:10px;">返回修改文字</button>
-      <button class="btn btn-pink btn-block" id="btn-publish">保存为成品并发布</button>
+      <button class="btn btn-pink btn-block" id="btn-publish" style="margin-bottom:12px;">保存为成品并发布</button>
+      <button class="btn btn-ghost btn-block" style="margin-top:4px;" onclick="navTo('library')">返回书库</button>
+    </div>`;
     </div>`;
   $('#btn-copy').onclick = () => copyHtml($('#preview-box'));
   $('#btn-copy-title').onclick = () => copyText($('#article-title').textContent);
