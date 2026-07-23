@@ -443,13 +443,17 @@ async function generateTitleOptions(verdict) {
 function parseNumberedList(md) {
   // 解析 1. / 1、/ 1) / **1.** 等编号列表；兼容 AI 返回带 markdown 格式的行
   let lines = md.split('\n').map(l => l.trim()).filter(Boolean);
-  // 如果每行都被编号包裹，直接去编号
   lines = lines.map(l => {
     return l.replace(/^\d+[\.、)）\s]+/, '').replace(/^[-*]\s+/, '').replace(/^\*\*\d+[\.、)）\s]*\*\*\s*/, '').trim();
-  }).filter(l => l.length > 2);
-  // 如果过滤后一条不剩，把原始文本按非空行当候选（降级）
+  }).filter(l => {
+    if (l.length <= 2) return false;
+    // 过滤引导语
+    if (/^(以下|以上|根据|注意|备注|说明|示例|提示|好的|这是|以下列)/.test(l)) return false;
+    return true;
+  });
+  // 降级：过滤后为空，把所有非空行当候选
   if (!lines.length) {
-    lines = md.split('\n').map(l => l.trim()).filter(Boolean).filter(l => l.length > 2);
+    lines = md.split('\n').map(l => l.trim()).filter(Boolean).filter(l => l.length > 2 && !/^(以下|以上|根据|注意|备注|说明|示例|提示|好的|这是)/.test(l));
   }
   return lines;
 }
