@@ -759,7 +759,7 @@ function renderMagazineInline(md, overrideTitle) {
   const tags = (md.match(/标签\s*[:：]\s*(.+)/)?.[1] || '').split(/[,，\/]/).map(s => s.trim()).filter(Boolean);
 
   // 分章节
-  const sections = md.split(/\n##\s+/).slice(1);
+  const sections = md.split(/\n###\s+/).slice(1);
   const renderSection = (n, label, body) => {
     const bodyHtml = simpleMarkdownToHtml(body);
     return `<section style="padding:28px 16px;border-top:1px solid #e5dfe2;">
