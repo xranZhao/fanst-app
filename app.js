@@ -618,6 +618,8 @@ ${styleGuide}
     state.finalMd = res;
     // 去掉 AI 可能偷偷加的大标题
     state.draftMd = state.draftMd.replace(/^#\s*.+\n+/m, '');
+    // 强制用 ### 格式（AI 有时用 ##）
+    state.draftMd = '\n' + md.replace(/^##\s+/gm, '### ');
     state.finalMd = state.draftMd;
     showRevise();
   } catch (e) {
