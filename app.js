@@ -673,7 +673,6 @@ function showFinal() {
       <button class="btn btn-pink btn-block" id="btn-publish" style="margin-bottom:12px;">保存为成品并发布</button>
       <button class="btn btn-ghost btn-block" style="margin-top:4px;" onclick="navTo('library')">返回书库</button>
     </div>`;
-    </div>`;
   $('#btn-copy').onclick = () => copyHtml($('#preview-box'));
   $('#btn-copy-title').onclick = () => copyText($('#article-title').textContent);
   $('#btn-edit').onclick = showRevise;
