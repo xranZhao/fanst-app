@@ -441,10 +441,17 @@ async function generateTitleOptions(verdict) {
 }
 
 function parseNumberedList(md) {
-  // 解析 1. / 1、/ 1) 等编号列表
-  return md.split('\n').map(l => l.trim()).filter(Boolean).map(l => {
-    return l.replace(/^\d+[\.、)\]\s]+/, '').replace(/^[-*]\s+/, '').trim();
-  }).filter(l => l.length > 3);
+  // 解析 1. / 1、/ 1) / **1.** 等编号列表；兼容 AI 返回带 markdown 格式的行
+  let lines = md.split('\n').map(l => l.trim()).filter(Boolean);
+  // 如果每行都被编号包裹，直接去编号
+  lines = lines.map(l => {
+    return l.replace(/^\d+[\.、)）\s]+/, '').replace(/^[-*]\s+/, '').replace(/^\*\*\d+[\.、)）\s]*\*\*\s*/, '').trim();
+  }).filter(l => l.length > 2);
+  // 如果过滤后一条不剩，把原始文本按非空行当候选（降级）
+  if (!lines.length) {
+    lines = md.split('\n').map(l => l.trim()).filter(Boolean).filter(l => l.length > 2);
+  }
+  return lines;
 }
 
 function showTitleSelector() {
@@ -489,6 +496,10 @@ async function generateAttributeOptions() {
   try {
     const res = await deepSeekChat(CONFIG.WRITE_MODEL, prompt, 2000, 120000);
     state.attributeOptions = parseNumberedList(res);
+    if (!state.attributeOptions.length) {
+      // 解析失败降级：把整个返回当一条
+      state.attributeOptions = [res.trim().split('\n').filter(Boolean).slice(0, 3).join('\n') || res.trim()];
+    }
     showAttributeSelector();
   } catch (e) {
     $('#main').innerHTML = `<div class="loading">属性生成失败：${e.message}</div><button class="btn btn-primary btn-block" onclick="showTitleSelector()">重试</button>`;
