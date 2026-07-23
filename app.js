@@ -442,6 +442,9 @@ async function generateTitleOptions(verdict) {
   try {
     const res = await deepSeekChat(CONFIG.WRITE_MODEL, prompt, 2000, 120000);
     state.titleOptions = parseNumberedList(res);
+    if (!state.titleOptions.length) {
+      state.titleOptions = [res.trim().split('\n').filter(Boolean).slice(0, 5).join('\n') || res.trim()];
+    }
     showTitleSelector();
   } catch (e) {
     $('#main').innerHTML = `<div class="loading">标题生成失败：${e.message}</div><button class="btn btn-primary btn-block" onclick="showReadingReport()">重试</button>`;
