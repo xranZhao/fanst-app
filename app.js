@@ -788,7 +788,6 @@ function renderMagazineInline(md, overrideTitle) {
       </div>
       <div style="height:3px;background:#3B82C5;opacity:0.7;font-size:0;line-height:0;">&nbsp;</div>
       <section style="background:#ffffff;padding:20px 16px;">
-        <h1 style="font-family:'Noto Serif SC','Songti SC','SimSun',serif;font-size:26px;font-weight:700;line-height:1.35;color:#1a1a1a;margin:0 0 20px;">${escapeHtml(title)}</h1>
         ${author ? rowHtml('作者', author) : ''}
         ${rating ? rowHtml('分级', rating, true) : ''}
         ${attr ? rowHtml('属性', attr) : ''}
